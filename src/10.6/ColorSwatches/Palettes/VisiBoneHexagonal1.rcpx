@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE palette PUBLIC "-//Kreative//DTD ResplendentColor 1.0//EN" "http://www.kreativekorp.com/dtd/rcpx.dtd">
+<palette name="VisiBone Hexagonal #1"
+         orientation="square"
+         hwidth="401" hheight= "93"
+         swidth="201" sheight="185"
+         vwidth="101" vheight="369">
+	<colors ordered="unordered">
+		<rgb r=  "0" g=  "0" b=  "0" name="Black"                 />
+		<rgb r=  "0" g=  "0" b= "51" name="Obscure Weak Blue"     />
+		<rgb r=  "0" g=  "0" b="102" name="Obscure Dull Blue"     />
+		<rgb r=  "0" g=  "0" b="153" name="Dark Faded Blue"       />
+		<rgb r=  "0" g=  "0" b="204" name="Dark Hard Blue"        />
+		<rgb r=  "0" g=  "0" b="255" name="Blue"                  />
+		<rgb r=  "0" g= "51" b=  "0" name="Obscure Weak Green"    />
+		<rgb r=  "0" g= "51" b= "51" name="Obscure Weak Cyan"     />
+		<rgb r=  "0" g= "51" b="102" name="Obscure Dull Azure"    />
+		<rgb r=  "0" g= "51" b="153" name="Dark Azure-Blue"       />
+		<rgb r=  "0" g= "51" b="204" name="Dark Blue-Azure"       />
+		<rgb r=  "0" g= "51" b="255" name="Blue-Blue-Azure"       />
+		<rgb r=  "0" g="102" b=  "0" name="Obscure Dull Green"    />
+		<rgb r=  "0" g="102" b= "51" name="Obscure Dull Teal"     />
+		<rgb r=  "0" g="102" b="102" name="Obscure Dull Cyan"     />
+		<rgb r=  "0" g="102" b="153" name="Dark Azure-Cyan"       />
+		<rgb r=  "0" g="102" b="204" name="Dark Hard Azure"       />
+		<rgb r=  "0" g="102" b="255" name="Azure-Azure-Blue"      />
+		<rgb r=  "0" g="153" b=  "0" name="Dark Faded Green"      />
+		<rgb r=  "0" g="153" b= "51" name="Dark Teal-Green"       />
+		<rgb r=  "0" g="153" b="102" name="Dark Teal-Cyan"        />
+		<rgb r=  "0" g="153" b="153" name="Dark Faded Cyan"       />
+		<rgb r=  "0" g="153" b="204" name="Dark Cyan-Azure"       />
+		<rgb r=  "0" g="153" b="255" name="Azure-Azure-Cyan"      />
+		<rgb r=  "0" g="204" b=  "0" name="Dark Hard Green"       />
+		<rgb r=  "0" g="204" b= "51" name="Dark Green-Teal"       />
+		<rgb r=  "0" g="204" b="102" name="Dark Hard Teal"        />
+		<rgb r=  "0" g="204" b="153" name="Dark Cyan-Teal"        />
+		<rgb r=  "0" g="204" b="204" name="Dark Hard Cyan"        />
+		<rgb r=  "0" g="204" b="255" name="Cyan-Cyan-Azure"       />
+		<rgb r=  "0" g="255" b=  "0" name="Green"                 />
+		<rgb r=  "0" g="255" b= "51" name="Green-Green-Teal"      />
+		<rgb r=  "0" g="255" b="102" name="Teal-Teal-Green"       />
+		<rgb r=  "0" g="255" b="153" name="Teal-Teal-Cyan"        />
+		<rgb r=  "0" g="255" b="204" name="Cyan-Cyan-Teal"        />
+		<rgb r=  "0" g="255" b="255" name="Cyan"                  />
+		<rgb r= "51" g=  "0" b=  "0" name="Obscure Weak Red"      />
+		<rgb r= "51" g=  "0" b= "51" name="Obscure Weak Magenta"  />
+		<rgb r= "51" g=  "0" b="102" name="Obscure Dull Violet"   />
+		<rgb r= "51" g=  "0" b="153" name="Dark Violet-Blue"      />
+		<rgb r= "51" g=  "0" b="204" name="Dark Blue-Violet"      />
+		<rgb r= "51" g=  "0" b="255" name="Blue-Blue-Violet"      />
+		<rgb r= "51" g= "51" b=  "0" name="Obscure Weak Yellow"   />
+		<rgb r= "51" g= "51" b= "51" name="Obscure Gray"          />
+		<rgb r= "51" g= "51" b="102" name="Dark Weak Blue"        />
+		<rgb r= "51" g= "51" b="153" name="Dark Dull Blue"        />
+		<rgb r= "51" g= "51" b="204" name="Medium Faded Blue"     />
+		<rgb r= "51" g= "51" b="255" name="Light Hard Blue"       />
+		<rgb r= "51" g="102" b=  "0" name="Obscure Dull Spring"   />
+		<rgb r= "51" g="102" b= "51" name="Dark Weak Green"       />
+		<rgb r= "51" g="102" b="102" name="Dark Weak Cyan"        />
+		<rgb r= "51" g="102" b="153" name="Dark Dull Azure"       />
+		<rgb r= "51" g="102" b="204" name="Medium Azure-Blue"     />
+		<rgb r= "51" g="102" b="255" name="Light Blue-Azure"      />
+		<rgb r= "51" g="153" b=  "0" name="Dark Spring-Green"     />
+		<rgb r= "51" g="153" b= "51" name="Dark Dull Green"       />
+		<rgb r= "51" g="153" b="102" name="Dark Dull Teal"        />
+		<rgb r= "51" g="153" b="153" name="Dark Dull Cyan"        />
+		<rgb r= "51" g="153" b="204" name="Medium Azure-Cyan"     />
+		<rgb r= "51" g="153" b="255" name="Light Hard Azure"      />
+		<rgb r= "51" g="204" b=  "0" name="Dark Green-Spring"     />
+		<rgb r= "51" g="204" b= "51" name="Medium Faded Green"    />
+		<rgb r= "51" g="204" b="102" name="Medium Teal-Green"     />
+		<rgb r= "51" g="204" b="153" name="Medium Teal-Cyan"      />
+		<rgb r= "51" g="204" b="204" name="Medium Faded Cyan"     />
+		<rgb r= "51" g="204" b="255" name="Light Cyan-Azure"      />
+		<rgb r= "51" g="255" b=  "0" name="Green-Green-Spring"    />
+		<rgb r= "51" g="255" b= "51" name="Light Hard Green"      />
+		<rgb r= "51" g="255" b="102" name="Light Green-Teal"      />
+		<rgb r= "51" g="255" b="153" name="Light Hard Teal"       />
+		<rgb r= "51" g="255" b="204" name="Light Cyan-Teal"       />
+		<rgb r= "51" g="255" b="255" name="Light Hard Cyan"       />
+		<rgb r="102" g=  "0" b=  "0" name="Obscure Dark Red"      />
+		<rgb r="102" g=  "0" b= "51" name="Obscure Dark Pink"     />
+		<rgb r="102" g=  "0" b="102" name="Obscure Dark Magenta"  />
+		<rgb r="102" g=  "0" b="153" name="Dark Violet-Magenta"   />
+		<rgb r="102" g=  "0" b="204" name="Dark Hard Violet"      />
+		<rgb r="102" g=  "0" b="255" name="Violet-Violet-Blue"    />
+		<rgb r="102" g= "51" b=  "0" name="Obscure Dark Orange"   />
+		<rgb r="102" g= "51" b= "51" name="Dark Weak Red"         />
+		<rgb r="102" g= "51" b="102" name="Dark Weak Magenta"     />
+		<rgb r="102" g= "51" b="153" name="Dark Dull Violet"      />
+		<rgb r="102" g= "51" b="204" name="Medium Violet-Blue"    />
+		<rgb r="102" g= "51" b="255" name="Light Blue-Violet"     />
+		<rgb r="102" g="102" b=  "0" name="Obscure Dark Yellow"   />
+		<rgb r="102" g="102" b= "51" name="Dark Weak Yellow"      />
+		<rgb r="102" g="102" b="102" name="Dark Gray"             />
+		<rgb r="102" g="102" b="153" name="Medium Weak Blue"      />
+		<rgb r="102" g="102" b="204" name="Light Dull Blue"       />
+		<rgb r="102" g="102" b="255" name="Light Faded Blue"      />
+		<rgb r="102" g="153" b=  "0" name="Dark Spring-Yellow"    />
+		<rgb r="102" g="153" b= "51" name="Dark Dull Spring"      />
+		<rgb r="102" g="153" b="102" name="Medium Weak Green"     />
+		<rgb r="102" g="153" b="153" name="Medium Weak Cyan"      />
+		<rgb r="102" g="153" b="204" name="Light Dull Azure"      />
+		<rgb r="102" g="153" b="255" name="Light Azure-Blue"      />
+		<rgb r="102" g="204" b=  "0" name="Dark Hard Spring"      />
+		<rgb r="102" g="204" b= "51" name="Medium Spring-Green"   />
+		<rgb r="102" g="204" b="102" name="Light Dull Green"      />
+		<rgb r="102" g="204" b="153" name="Light Dull Teal"       />
+		<rgb r="102" g="204" b="204" name="Light Dull Cyan"       />
+		<rgb r="102" g="204" b="255" name="Light Azure-Cyan"      />
+		<rgb r="102" g="255" b=  "0" name="Spring-Spring-Green"   />
+		<rgb r="102" g="255" b= "51" name="Light Green-Spring"    />
+		<rgb r="102" g="255" b="102" name="Light Faded Green"     />
+		<rgb r="102" g="255" b="153" name="Light Teal-Green"      />
+		<rgb r="102" g="255" b="204" name="Light Teal-Cyan"       />
+		<rgb r="102" g="255" b="255" name="Light Faded Cyan"      />
+		<rgb r="153" g=  "0" b=  "0" name="Dark Faded Red"        />
+		<rgb r="153" g=  "0" b= "51" name="Dark Pink-Red"         />
+		<rgb r="153" g=  "0" b="102" name="Dark Pink-Magenta"     />
+		<rgb r="153" g=  "0" b="153" name="Dark Faded Magenta"    />
+		<rgb r="153" g=  "0" b="204" name="Dark Magenta-Violet"   />
+		<rgb r="153" g=  "0" b="255" name="Violet-Violet-Magenta" />
+		<rgb r="153" g= "51" b=  "0" name="Dark Orange-Red"       />
+		<rgb r="153" g= "51" b= "51" name="Dark Dull Red"         />
+		<rgb r="153" g= "51" b="102" name="Dark Dull Purple"      />
+		<rgb r="153" g= "51" b="153" name="Dark Dull Magenta"     />
+		<rgb r="153" g= "51" b="204" name="Medium Violet-Magenta" />
+		<rgb r="153" g= "51" b="255" name="Light Hard Violet"     />
+		<rgb r="153" g="102" b=  "0" name="Dark Orange-Yellow"    />
+		<rgb r="153" g="102" b= "51" name="Dark Dull Orange"      />
+		<rgb r="153" g="102" b="102" name="Medium Weak Red"       />
+		<rgb r="153" g="102" b="153" name="Medium Weak Magenta"   />
+		<rgb r="153" g="102" b="204" name="Light Dull Violet"     />
+		<rgb r="153" g="102" b="255" name="Light Violet-Blue"     />
+		<rgb r="153" g="153" b=  "0" name="Dark Faded Yellow"     />
+		<rgb r="153" g="153" b= "51" name="Dark Dull Yellow"      />
+		<rgb r="153" g="153" b="102" name="Medium Weak Yellow"    />
+		<rgb r="153" g="153" b="153" name="Light Gray"            />
+		<rgb r="153" g="153" b="204" name="Light Weak Blue"       />
+		<rgb r="153" g="153" b="255" name="Pale Dull Blue"        />
+		<rgb r="153" g="204" b=  "0" name="Dark Yellow Spring"    />
+		<rgb r="153" g="204" b= "51" name="Medium Spring Yellow"  />
+		<rgb r="153" g="204" b="102" name="Light Dull Spring"     />
+		<rgb r="153" g="204" b="153" name="Light Weak Green"      />
+		<rgb r="153" g="204" b="204" name="Light Weak Cyan"       />
+		<rgb r="153" g="204" b="255" name="Pale Dull Azure"       />
+		<rgb r="153" g="255" b=  "0" name="Spring-Spring-Yellow"  />
+		<rgb r="153" g="255" b= "51" name="Light Hard Spring"     />
+		<rgb r="153" g="255" b="102" name="Light Spring-Green"    />
+		<rgb r="153" g="255" b="153" name="Pale Dull Green"       />
+		<rgb r="153" g="255" b="204" name="Pale Dull Teal"        />
+		<rgb r="153" g="255" b="255" name="Pale Dull Cyan"        />
+		<rgb r="204" g=  "0" b=  "0" name="Dark Hard Red"         />
+		<rgb r="204" g=  "0" b= "51" name="Dark Red-Pink"         />
+		<rgb r="204" g=  "0" b="102" name="Dark Hard Pink"        />
+		<rgb r="204" g=  "0" b="153" name="Dark Magenta-Pink"     />
+		<rgb r="204" g=  "0" b="204" name="Dark Hard Magenta"     />
+		<rgb r="204" g=  "0" b="255" name="Magenta-Magenta-Violet"/>
+		<rgb r="204" g= "51" b=  "0" name="Dark Red-Orange"       />
+		<rgb r="204" g= "51" b= "51" name="Medium Faded Red"      />
+		<rgb r="204" g= "51" b="102" name="Medium Pink-Red"       />
+		<rgb r="204" g= "51" b="153" name="Medium Pink-Magenta"   />
+		<rgb r="204" g= "51" b="204" name="Medium Faded Magenta"  />
+		<rgb r="204" g= "51" b="255" name="Light Magenta-Violet"  />
+		<rgb r="204" g="102" b=  "0" name="Dark Hard Orange"      />
+		<rgb r="204" g="102" b= "51" name="Medium Orange Red"     />
+		<rgb r="204" g="102" b="102" name="Light Dull Red"        />
+		<rgb r="204" g="102" b="153" name="Light Dull Pink"       />
+		<rgb r="204" g="102" b="204" name="Light Dull Magenta"    />
+		<rgb r="204" g="102" b="255" name="Light Violet-Magenta"  />
+		<rgb r="204" g="153" b=  "0" name="Dark Yellow-Orange"    />
+		<rgb r="204" g="153" b= "51" name="Medium Orange-Yellow"  />
+		<rgb r="204" g="153" b="102" name="Light Dull Orange"     />
+		<rgb r="204" g="153" b="153" name="Light Weak Red"        />
+		<rgb r="204" g="153" b="204" name="Light Weak Magenta"    />
+		<rgb r="204" g="153" b="255" name="Pale Dull Violet"      />
+		<rgb r="204" g="204" b=  "0" name="Dark Hard Yellow"      />
+		<rgb r="204" g="204" b= "51" name="Medium Faded Yellow"   />
+		<rgb r="204" g="204" b="102" name="Light Dull Yellow"     />
+		<rgb r="204" g="204" b="153" name="Light Weak Yellow"     />
+		<rgb r="204" g="204" b="204" name="Pale Gray"             />
+		<rgb r="204" g="204" b="255" name="Pale Weak Blue"        />
+		<rgb r="204" g="255" b=  "0" name="Yellow-Yellow-Spring"  />
+		<rgb r="204" g="255" b= "51" name="Light Yellow-Spring"   />
+		<rgb r="204" g="255" b="102" name="Light Spring-Yellow"   />
+		<rgb r="204" g="255" b="153" name="Pale Dull Spring"      />
+		<rgb r="204" g="255" b="204" name="Pale Weak Green"       />
+		<rgb r="204" g="255" b="255" name="Pale Weak Cyan"        />
+		<rgb r="255" g=  "0" b=  "0" name="Red"                   />
+		<rgb r="255" g=  "0" b= "51" name="Red-Red-Pink"          />
+		<rgb r="255" g=  "0" b="102" name="Pale Pink-Red"         />
+		<rgb r="255" g=  "0" b="153" name="Pink-Pink-Magenta"     />
+		<rgb r="255" g=  "0" b="204" name="Magenta-Magenta-Pink"  />
+		<rgb r="255" g=  "0" b="255" name="Magenta"               />
+		<rgb r="255" g= "51" b=  "0" name="Red-Red-Orange"        />
+		<rgb r="255" g= "51" b= "51" name="Light Hard Red"        />
+		<rgb r="255" g= "51" b="102" name="Light Red-Pink"        />
+		<rgb r="255" g= "51" b="153" name="Light Hard Pink"       />
+		<rgb r="255" g= "51" b="204" name="Light Magenta-Pink"    />
+		<rgb r="255" g= "51" b="255" name="Light Hard Magenta"    />
+		<rgb r="255" g="102" b=  "0" name="Orange-Orange-Red"     />
+		<rgb r="255" g="102" b= "51" name="Light Red-Orange"      />
+		<rgb r="255" g="102" b="102" name="Light Faded Red"       />
+		<rgb r="255" g="102" b="153" name="Light Pink-Red"        />
+		<rgb r="255" g="102" b="204" name="Light Pink-Magenta"    />
+		<rgb r="255" g="102" b="255" name="Light Faded Magenta"   />
+		<rgb r="255" g="153" b=  "0" name="Orange-Orange-Yellow"  />
+		<rgb r="255" g="153" b= "51" name="Light Hard Orange"     />
+		<rgb r="255" g="153" b="102" name="Light Orange-Red"      />
+		<rgb r="255" g="153" b="153" name="Pale Dull Red"         />
+		<rgb r="255" g="153" b="204" name="Pale Dull Pink"        />
+		<rgb r="255" g="153" b="255" name="Pale Dull Magenta"     />
+		<rgb r="255" g="204" b=  "0" name="Yellow-Yellow-Orange"  />
+		<rgb r="255" g="204" b= "51" name="Light Yellow-Orange"   />
+		<rgb r="255" g="204" b="102" name="Light Orange-Yellow"   />
+		<rgb r="255" g="204" b="153" name="Pale Dull Orange"      />
+		<rgb r="255" g="204" b="204" name="Pale Weak Red"         />
+		<rgb r="255" g="204" b="255" name="Pale Weak Magenta"     />
+		<rgb r="255" g="255" b=  "0" name="Yellow"                />
+		<rgb r="255" g="255" b= "51" name="Light Hard Yellow"     />
+		<rgb r="255" g="255" b="102" name="Light Faded Yellow"    />
+		<rgb r="255" g="255" b="153" name="Pale Dull Yellow"      />
+		<rgb r="255" g="255" b="204" name="Pale Weak Yellow"      />
+		<rgb r="255" g="255" b="255" name="White"                 />
+	</colors>
+	<layout>
+		<polygonal cols="150" rows="184">
+			<!-- OrangeCap -->
+			<rect x="63" y=  "0" w="6" h="8" i="204"/>
+			<rect x="69" y=  "0" w="6" h="8" i="198"/>
+			<rect x="75" y=  "0" w="6" h="8" i="192"/>
+			<rect x="81" y=  "0" w="6" h="8" i="186"/>
+			<rect x="63" y=  "8" w="6" h="8" i="162"/>
+			<rect x="69" y=  "8" w="6" h="8" i="120"/>
+			<rect x="75" y=  "8" w="6" h="8" i="114"/>
+			<rect x="81" y=  "8" w="6" h="8" i="150"/>
+			<rect x="63" y= "16" w="6" h="8" i="205"/>
+			<rect x="69" y= "16" w="6" h="8" i="163"/>
+			<rect x="75" y= "16" w="6" h="8" i="157"/>
+			<rect x="81" y= "16" w="6" h="8" i="193"/>
+			<rect x="69" y= "24" w="6" h="8" i="206"/>
+			<rect x="75" y= "24" w="6" h="8" i="200"/>
+			<!-- Orange -->
+			<rect x="69" y= "36" w="6" h="8" i= "78"/>
+			<rect x="69" y= "44" w="6" h="8" i="121"/>
+			<rect x="69" y= "52" w="6" h="8" i="164"/>
+			<rect x="69" y= "60" w="6" h="8" i="207"/>
+			<rect x="75" y= "44" w="6" h="8" i="156"/>
+			<rect x="75" y= "52" w="6" h="8" i="199"/>
+			<!-- Azure -->
+			<rect x="75" y="116" w="6" h="8" i="137"/>
+			<rect x="75" y="124" w="6" h="8" i= "94"/>
+			<rect x="75" y="132" w="6" h="8" i= "51"/>
+			<rect x="75" y="140" w="6" h="8" i=  "8"/>
+			<rect x="69" y="124" w="6" h="8" i= "59"/>
+			<rect x="69" y="132" w="6" h="8" i= "16"/>
+			<!-- AzureCap -->
+			<rect x="69" y="152" w="6" h="8" i="101"/>
+			<rect x="75" y="152" w="6" h="8" i= "95"/>
+			<rect x="63" y="160" w="6" h="8" i= "65"/>
+			<rect x="69" y="160" w="6" h="8" i= "58"/>
+			<rect x="75" y="160" w="6" h="8" i= "52"/>
+			<rect x="81" y="160" w="6" h="8" i= "53"/>
+			<rect x="63" y="168" w="6" h="8" i= "22"/>
+			<rect x="69" y="168" w="6" h="8" i= "15"/>
+			<rect x="75" y="168" w="6" h="8" i=  "9"/>
+			<rect x="81" y="168" w="6" h="8" i= "10"/>
+			<rect x="63" y="176" w="6" h="8" i= "29"/>
+			<rect x="69" y="176" w="6" h="8" i= "23"/>
+			<rect x="75" y="176" w="6" h="8" i= "17"/>
+			<rect x="81" y="176" w="6" h="8" i= "11"/>
+			<!-- SpringCap -->
+			<poly p=" 12  34  18  38  15  44   9  40" i="174"/>
+			<poly p=" 18  38  24  42  21  48  15  44" i="132"/>
+			<poly p=" 24  42  30  46  27  52  21  48" i="175"/>
+			<poly p="  9  40  15  44  12  50   6  46" i="138"/>
+			<poly p=" 15  44  21  48  18  54  12  50" i= "90"/>
+			<poly p=" 21  48  27  52  24  58  18  54" i="133"/>
+			<poly p=" 27  52  33  56  30  62  24  58" i="176"/>
+			<poly p="  6  46  12  50   9  56   3  52" i="102"/>
+			<poly p=" 12  50  18  54  15  60   9  56" i= "54"/>
+			<poly p=" 18  54  24  58  21  64  15  60" i= "97"/>
+			<poly p=" 24  58  30  62  27  68  21  64" i="140"/>
+			<poly p="  3  52   9  56   6  62   0  58" i= "66"/>
+			<poly p="  9  56  15  60  12  66   6  62" i= "60"/>
+			<poly p=" 15  60  21  64  18  70  12  66" i="103"/>
+			<!-- Spring -->
+			<poly p=" 33  64  39  68  36  74  30  70" i= "48"/>
+			<poly p=" 39  68  45  72  42  78  36  74" i= "91"/>
+			<poly p=" 45  72  51  76  48  82  42  78" i="134"/>
+			<poly p=" 51  76  57  80  54  86  48  82" i="177"/>
+			<poly p=" 42  62  48  66  45  72  39  68" i= "96"/>
+			<poly p=" 48  66  54  70  51  76  45  72" i="139"/>
+			<!-- Violet -->
+			<poly p=" 93 104  96  98 102 102  99 108" i="167"/>
+			<poly p=" 99 108 102 102 108 106 105 112" i="124"/>
+			<poly p="105 112 108 106 114 110 111 116" i= "81"/>
+			<poly p="111 116 114 110 120 114 117 120" i= "38"/>
+			<poly p=" 96 114  99 108 105 112 102 118" i="119"/>
+			<poly p="102 118 105 112 111 116 108 122" i= "76"/>
+			<!-- VioletCap -->
+			<poly p="129 120 132 114 138 118 135 124" i="155"/>
+			<poly p="135 124 138 118 144 122 141 128" i="112"/>
+			<poly p="141 128 144 122 150 126 147 132" i="149"/>
+			<poly p="120 122 123 116 129 120 126 126" i="161"/>
+			<poly p="126 126 129 120 135 124 132 130" i="118"/>
+			<poly p="132 130 135 124 141 128 138 134" i= "75"/>
+			<poly p="138 134 141 128 147 132 144 138" i="113"/>
+			<poly p="117 128 120 122 126 126 123 132" i="125"/>
+			<poly p="123 132 126 126 132 130 129 136" i= "82"/>
+			<poly p="129 136 132 130 138 134 135 140" i= "39"/>
+			<poly p="135 140 138 134 144 138 141 144" i= "77"/>
+			<poly p="120 138 123 132 129 136 126 142" i= "83"/>
+			<poly p="126 142 129 136 135 140 132 146" i= "40"/>
+			<poly p="132 146 135 140 141 144 138 150" i= "41"/>
+			<!-- TealCap -->
+			<poly p="  3 132   0 126   6 122   9 128" i= "31"/>
+			<poly p="  9 128   6 122  12 118  15 124" i= "25"/>
+			<poly p=" 15 124  12 118  18 114  21 120" i= "68"/>
+			<poly p="  6 138   3 132   9 128  12 134" i= "32"/>
+			<poly p=" 12 134   9 128  15 124  18 130" i= "19"/>
+			<poly p=" 18 130  15 124  21 120  24 126" i= "62"/>
+			<poly p=" 24 126  21 120  27 116  30 122" i="105"/>
+			<poly p="  9 144   6 138  12 134  15 140" i= "33"/>
+			<poly p=" 15 140  12 134  18 130  21 136" i= "20"/>
+			<poly p=" 21 136  18 130  24 126  27 132" i= "63"/>
+			<poly p=" 27 132  24 126  30 122  33 128" i="106"/>
+			<poly p=" 12 150   9 144  15 140  18 146" i= "34"/>
+			<poly p=" 18 146  15 140  21 136  24 142" i= "27"/>
+			<poly p=" 24 142  21 136  27 132  30 138" i= "70"/>
+			<!-- Teal -->
+			<poly p=" 36 126  33 120  39 116  42 122" i= "13"/>
+			<poly p=" 42 122  39 116  45 112  48 118" i= "56"/>
+			<poly p=" 48 118  45 112  51 108  54 114" i= "99"/>
+			<poly p=" 54 114  51 108  57 104  60 110" i="142"/>
+			<poly p=" 39 116  36 110  42 106  45 112" i= "26"/>
+			<poly p=" 45 112  42 106  48 102  51 108" i= "69"/>
+			<!-- Pink -->
+			<poly p=" 90  74  96  70  99  76  93  80" i="202"/>
+			<poly p=" 96  70 102  66 105  72  99  76" i="159"/>
+			<poly p="102  66 108  62 111  68 105  72" i="116"/>
+			<poly p="108  62 114  58 117  64 111  68" i= "73"/>
+			<poly p=" 99  76 105  72 108  78 102  82" i="189"/>
+			<poly p="105  72 111  68 114  74 108  78" i="146"/>
+			<!-- PinkCap -->
+			<poly p="120  46 126  42 129  48 123  52" i="188"/>
+			<poly p="126  42 132  38 135  44 129  48" i="145"/>
+			<poly p="132  38 138  34 141  40 135  44" i="181"/>
+			<poly p="117  56 123  52 126  58 120  62" i="195"/>
+			<poly p="123  52 129  48 132  54 126  58" i="152"/>
+			<poly p="129  48 135  44 138  50 132  54" i="109"/>
+			<poly p="135  44 141  40 144  46 138  50" i="182"/>
+			<poly p="120  62 126  58 129  64 123  68" i="196"/>
+			<poly p="126  58 132  54 135  60 129  64" i="153"/>
+			<poly p="132  54 138  50 141  56 135  60" i="110"/>
+			<poly p="138  50 144  46 147  52 141  56" i="183"/>
+			<poly p="129  64 135  60 138  66 132  70" i="190"/>
+			<poly p="135  60 141  56 144  62 138  66" i="147"/>
+			<poly p="141  56 147  52 150  58 144  62" i="184"/>
+			<!-- Red -->
+			<hex cx= "87" cy= "36" w="8" h="8" i= "36"/>
+			<hex cx= "87" cy= "44" w="8" h="8" i= "79"/>
+			<hex cx= "87" cy= "52" w="8" h="8" i="122"/>
+			<hex cx= "87" cy= "60" w="8" h="8" i="165"/>
+			<hex cx= "87" cy= "68" w="8" h="8" i="208"/>
+			<hex cx= "93" cy= "40" w="8" h="8" i= "72"/>
+			<hex cx= "93" cy= "48" w="8" h="8" i="115"/>
+			<hex cx= "93" cy= "56" w="8" h="8" i="158"/>
+			<hex cx= "93" cy= "64" w="8" h="8" i="201"/>
+			<hex cx= "99" cy= "44" w="8" h="8" i="108"/>
+			<hex cx= "99" cy= "52" w="8" h="8" i="151"/>
+			<hex cx= "99" cy= "60" w="8" h="8" i="194"/>
+			<hex cx="105" cy= "48" w="8" h="8" i="144"/>
+			<hex cx="105" cy= "56" w="8" h="8" i="187"/>
+			<hex cx="111" cy= "52" w="8" h="8" i="180"/>
+			<!-- Green -->
+			<hex cx= "27" cy= "76" w="8" h="8" i= "30"/>
+			<hex cx= "27" cy= "84" w="8" h="8" i= "24"/>
+			<hex cx= "27" cy= "92" w="8" h="8" i= "18"/>
+			<hex cx= "27" cy="100" w="8" h="8" i= "12"/>
+			<hex cx= "27" cy="108" w="8" h="8" i=  "6"/>
+			<hex cx= "33" cy= "80" w="8" h="8" i= "67"/>
+			<hex cx= "33" cy= "88" w="8" h="8" i= "61"/>
+			<hex cx= "33" cy= "96" w="8" h="8" i= "55"/>
+			<hex cx= "33" cy="104" w="8" h="8" i= "49"/>
+			<hex cx= "39" cy= "84" w="8" h="8" i="104"/>
+			<hex cx= "39" cy= "92" w="8" h="8" i= "98"/>
+			<hex cx= "39" cy="100" w="8" h="8" i= "92"/>
+			<hex cx= "45" cy= "88" w="8" h="8" i="141"/>
+			<hex cx= "45" cy= "96" w="8" h="8" i="135"/>
+			<hex cx= "51" cy= "92" w="8" h="8" i="178"/>
+			<!-- Blue -->
+			<hex cx= "87" cy="116" w="8" h="8" i="173"/>
+			<hex cx= "87" cy="124" w="8" h="8" i="131"/>
+			<hex cx= "87" cy="132" w="8" h="8" i= "89"/>
+			<hex cx= "87" cy="140" w="8" h="8" i= "47"/>
+			<hex cx= "87" cy="148" w="8" h="8" i=  "5"/>
+			<hex cx= "93" cy="120" w="8" h="8" i="130"/>
+			<hex cx= "93" cy="128" w="8" h="8" i= "88"/>
+			<hex cx= "93" cy="136" w="8" h="8" i= "46"/>
+			<hex cx= "93" cy="144" w="8" h="8" i=  "4"/>
+			<hex cx= "99" cy="124" w="8" h="8" i= "87"/>
+			<hex cx= "99" cy="132" w="8" h="8" i= "45"/>
+			<hex cx= "99" cy="140" w="8" h="8" i=  "3"/>
+			<hex cx="105" cy="128" w="8" h="8" i= "44"/>
+			<hex cx="105" cy="136" w="8" h="8" i=  "2"/>
+			<hex cx="111" cy="132" w="8" h="8" i=  "1"/>
+			<!-- Yellow -->
+			<hex cx= "39" cy= "52" w="8" h="8" i= "42"/>
+			<hex cx= "45" cy= "48" w="8" h="8" i= "84"/>
+			<hex cx= "45" cy= "56" w="8" h="8" i= "85"/>
+			<hex cx= "51" cy= "44" w="8" h="8" i="126"/>
+			<hex cx= "51" cy= "52" w="8" h="8" i="127"/>
+			<hex cx= "51" cy= "60" w="8" h="8" i="128"/>
+			<hex cx= "57" cy= "40" w="8" h="8" i="168"/>
+			<hex cx= "57" cy= "48" w="8" h="8" i="169"/>
+			<hex cx= "57" cy= "56" w="8" h="8" i="170"/>
+			<hex cx= "57" cy= "64" w="8" h="8" i="171"/>
+			<hex cx= "63" cy= "36" w="8" h="8" i="210"/>
+			<hex cx= "63" cy= "44" w="8" h="8" i="211"/>
+			<hex cx= "63" cy= "52" w="8" h="8" i="212"/>
+			<hex cx= "63" cy= "60" w="8" h="8" i="213"/>
+			<hex cx= "63" cy= "68" w="8" h="8" i="214"/>
+			<!-- Cyan -->
+			<hex cx= "39" cy="132" w="8" h="8" i= "35"/>
+			<hex cx= "45" cy="128" w="8" h="8" i= "71"/>
+			<hex cx= "45" cy="136" w="8" h="8" i= "28"/>
+			<hex cx= "51" cy="124" w="8" h="8" i="107"/>
+			<hex cx= "51" cy="132" w="8" h="8" i= "64"/>
+			<hex cx= "51" cy="140" w="8" h="8" i= "21"/>
+			<hex cx= "57" cy="120" w="8" h="8" i="143"/>
+			<hex cx= "57" cy="128" w="8" h="8" i="100"/>
+			<hex cx= "57" cy="136" w="8" h="8" i= "57"/>
+			<hex cx= "57" cy="144" w="8" h="8" i= "14"/>
+			<hex cx= "63" cy="116" w="8" h="8" i="179"/>
+			<hex cx= "63" cy="124" w="8" h="8" i="136"/>
+			<hex cx= "63" cy="132" w="8" h="8" i= "93"/>
+			<hex cx= "63" cy="140" w="8" h="8" i= "50"/>
+			<hex cx= "63" cy="148" w="8" h="8" i=  "7"/>
+			<!-- Magenta -->
+			<hex cx= "99" cy= "92" w="8" h="8" i="209"/>
+			<hex cx="105" cy= "88" w="8" h="8" i="166"/>
+			<hex cx="105" cy= "96" w="8" h="8" i="203"/>
+			<hex cx="111" cy= "84" w="8" h="8" i="123"/>
+			<hex cx="111" cy= "92" w="8" h="8" i="160"/>
+			<hex cx="111" cy="100" w="8" h="8" i="197"/>
+			<hex cx="117" cy= "80" w="8" h="8" i= "80"/>
+			<hex cx="117" cy= "88" w="8" h="8" i="117"/>
+			<hex cx="117" cy= "96" w="8" h="8" i="154"/>
+			<hex cx="117" cy="104" w="8" h="8" i="191"/>
+			<hex cx="123" cy= "76" w="8" h="8" i= "37"/>
+			<hex cx="123" cy= "84" w="8" h="8" i= "74"/>
+			<hex cx="123" cy= "92" w="8" h="8" i="111"/>
+			<hex cx="123" cy="100" w="8" h="8" i="148"/>
+			<hex cx="123" cy="108" w="8" h="8" i="185"/>
+			<!-- Gray -->
+			<tri bcx="83" bcy= "92" dir="d" w="16" h="16" i=  "0"/>
+			<tri bcx="75" bcy="108" dir="u" w="16" h="16" i= "43"/>
+			<tri bcx="67" bcy= "92" dir="d" w="16" h="16" i= "86"/>
+			<tri bcx="67" bcy= "92" dir="u" w="16" h="16" i="129"/>
+			<tri bcx="75" bcy= "76" dir="d" w="16" h="16" i="172"/>
+			<tri bcx="83" bcy= "92" dir="u" w="16" h="16" i="215"/>
+			<!-- Process -->
+			<tri bcx=  "0"   bcy= "92" dir="r" w="16" h="16" i= "30"/>
+			<tri bcx="150"   bcy= "92" dir="l" w="16" h="16" i="185"/>
+			<tri bcx="104.5" bcy= "25" dir="r" w="16" h="16" i="180"/>
+			<tri bcx= "45.5" bcy= "25" dir="l" w="16" h="16" i="210"/>
+			<tri bcx= "45.5" bcy="159" dir="l" w="16" h="16" i= "35"/>
+			<tri bcx="104.5" bcy="159" dir="r" w="16" h="16" i=  "5"/>
+		</polygonal>
+	</layout>
+</palette>

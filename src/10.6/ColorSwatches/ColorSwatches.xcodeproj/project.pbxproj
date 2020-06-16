@@ -1,0 +1,1753 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04029E4D2494D32100FB865B /* 002CubicProcess.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029C7D2494D32000FB865B /* 002CubicProcess.rcpx */; };
+		04029E4E2494D32100FB865B /* 003Cubic.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029C7E2494D32000FB865B /* 003Cubic.rcpx */; };
+		04029E4F2494D32100FB865B /* 004Cubic.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029C7F2494D32000FB865B /* 004Cubic.rcpx */; };
+		04029E502494D32100FB865B /* 005Cubic.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029C802494D32000FB865B /* 005Cubic.rcpx */; };
+		04029E512494D32100FB865B /* 006CubicWebSafe.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029C812494D32000FB865B /* 006CubicWebSafe.rcpx */; };
+		04029E552494D32100FB865B /* 102ConicProcess.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029C852494D32000FB865B /* 102ConicProcess.rcpx */; };
+		04029E562494D32100FB865B /* 103Conic.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029C862494D32000FB865B /* 103Conic.rcpx */; };
+		04029E572494D32100FB865B /* 104Conic.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029C872494D32000FB865B /* 104Conic.rcpx */; };
+		04029E582494D32100FB865B /* 105Conic.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029C882494D32000FB865B /* 105Conic.rcpx */; };
+		04029E592494D32100FB865B /* 106ConicWebSafe.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029C892494D32000FB865B /* 106ConicWebSafe.rcpx */; };
+		04029E5D2494D32100FB865B /* A64.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029C8D2494D32000FB865B /* A64.rcpx */; };
+		04029E5E2494D32100FB865B /* AAP16.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029C8E2494D32000FB865B /* AAP16.rcpx */; };
+		04029E5F2494D32100FB865B /* AAP64.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029C8F2494D32000FB865B /* AAP64.rcpx */; };
+		04029E602494D32100FB865B /* Acorn2Bit.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029C902494D32000FB865B /* Acorn2Bit.rcpx */; };
+		04029E612494D32100FB865B /* Acorn4Bit.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029C912494D32000FB865B /* Acorn4Bit.rcpx */; };
+		04029E622494D32100FB865B /* Acorn8Bit.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029C922494D32000FB865B /* Acorn8Bit.rcpx */; };
+		04029E632494D32100FB865B /* AcornReorganized.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029C932494D32000FB865B /* AcornReorganized.rcpx */; };
+		04029E642494D32100FB865B /* AddColor.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029C942494D32000FB865B /* AddColor.rcpx */; };
+		04029E652494D32100FB865B /* AndrewKensler16.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029C952494D32000FB865B /* AndrewKensler16.rcpx */; };
+		04029E662494D32100FB865B /* AndrewKensler32.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029C962494D32000FB865B /* AndrewKensler32.rcpx */; };
+		04029E672494D32100FB865B /* AndrewKensler54.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029C972494D32000FB865B /* AndrewKensler54.rcpx */; };
+		04029E682494D32100FB865B /* ANSI4Bit~CMD.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029C982494D32000FB865B /* ANSI4Bit~CMD.rcpx */; };
+		04029E692494D32100FB865B /* ANSI4Bit~mIRC.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029C992494D32000FB865B /* ANSI4Bit~mIRC.rcpx */; };
+		04029E6A2494D32100FB865B /* ANSI4Bit~PuTTY.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029C9A2494D32000FB865B /* ANSI4Bit~PuTTY.rcpx */; };
+		04029E6B2494D32100FB865B /* ANSI4Bit~Terminal.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029C9B2494D32000FB865B /* ANSI4Bit~Terminal.rcpx */; };
+		04029E6C2494D32100FB865B /* ANSI4Bit~Ubuntu.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029C9C2494D32000FB865B /* ANSI4Bit~Ubuntu.rcpx */; };
+		04029E6D2494D32100FB865B /* ANSI4Bit~VGA.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029C9D2494D32000FB865B /* ANSI4Bit~VGA.rcpx */; };
+		04029E6E2494D32100FB865B /* ANSI4Bit~xterm.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029C9E2494D32000FB865B /* ANSI4Bit~xterm.rcpx */; };
+		04029E6F2494D32100FB865B /* ANSI8Bit~CMD.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029C9F2494D32000FB865B /* ANSI8Bit~CMD.rcpx */; };
+		04029E702494D32100FB865B /* ANSI8Bit~mIRC.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029CA02494D32000FB865B /* ANSI8Bit~mIRC.rcpx */; };
+		04029E712494D32100FB865B /* ANSI8Bit~PuTTY.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029CA12494D32000FB865B /* ANSI8Bit~PuTTY.rcpx */; };
+		04029E722494D32100FB865B /* ANSI8Bit~Terminal.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029CA22494D32000FB865B /* ANSI8Bit~Terminal.rcpx */; };
+		04029E732494D32100FB865B /* ANSI8Bit~Ubuntu.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029CA32494D32000FB865B /* ANSI8Bit~Ubuntu.rcpx */; };
+		04029E742494D32100FB865B /* ANSI8Bit~VGA.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029CA42494D32000FB865B /* ANSI8Bit~VGA.rcpx */; };
+		04029E752494D32100FB865B /* ANSI8Bit~xterm.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029CA52494D32000FB865B /* ANSI8Bit~xterm.rcpx */; };
+		04029E762494D32100FB865B /* AppleIconColors.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029CA62494D32000FB865B /* AppleIconColors.rcpx */; };
+		04029E772494D32100FB865B /* AppleII~ApplePC.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029CA72494D32000FB865B /* AppleII~ApplePC.rcpx */; };
+		04029E782494D32100FB865B /* AppleII~Bettencourt.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029CA82494D32000FB865B /* AppleII~Bettencourt.rcpx */; };
+		04029E792494D32100FB865B /* AppleII~Munafo.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029CA92494D32000FB865B /* AppleII~Munafo.rcpx */; };
+		04029E7A2494D32100FB865B /* AppleII~Ticmanis~SMPTE1979.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029CAA2494D32000FB865B /* AppleII~Ticmanis~SMPTE1979.rcpx */; };
+		04029E7B2494D32100FB865B /* AppleII~Ticmanis~sRGB.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029CAB2494D32000FB865B /* AppleII~Ticmanis~sRGB.rcpx */; };
+		04029E7C2494D32100FB865B /* AppleII~Wikipedia.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029CAC2494D32000FB865B /* AppleII~Wikipedia.rcpx */; };
+		04029E7D2494D32100FB865B /* AppleWorks.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029CAD2494D32000FB865B /* AppleWorks.rcpx */; };
+		04029E7E2494D32100FB865B /* AppleWorks~16Colors.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029CAE2494D32000FB865B /* AppleWorks~16Colors.rcpx */; };
+		04029E7F2494D32100FB865B /* AppleWorks~240Grays&16Colors.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029CAF2494D32000FB865B /* AppleWorks~240Grays&16Colors.rcpx */; };
+		04029E802494D32100FB865B /* AppleWorks~BrightColors.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029CB02494D32000FB865B /* AppleWorks~BrightColors.rcpx */; };
+		04029E812494D32100FB865B /* AppleWorks~CyanToBlue.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029CB12494D32000FB865B /* AppleWorks~CyanToBlue.rcpx */; };
+		04029E822494D32100FB865B /* AppleWorks~EarthTones.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029CB22494D32000FB865B /* AppleWorks~EarthTones.rcpx */; };
+		04029E832494D32100FB865B /* AppleWorks~MidTones.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029CB32494D32000FB865B /* AppleWorks~MidTones.rcpx */; };
+		04029E842494D32100FB865B /* AppleWorks~PastelColors.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029CB42494D32000FB865B /* AppleWorks~PastelColors.rcpx */; };
+		04029E852494D32100FB865B /* AppleWorks~Presentation.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029CB52494D32000FB865B /* AppleWorks~Presentation.rcpx */; };
+		04029E862494D32100FB865B /* AppleWorks~RedToYellow.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029CB62494D32000FB865B /* AppleWorks~RedToYellow.rcpx */; };
+		04029E872494D32100FB865B /* AppleWorks~VioletToMagenta.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029CB72494D32000FB865B /* AppleWorks~VioletToMagenta.rcpx */; };
+		04029E882494D32100FB865B /* AppleWorks~VividColors.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029CB82494D32000FB865B /* AppleWorks~VividColors.rcpx */; };
+		04029E892494D32100FB865B /* AppleWorks~YellowGreen&GreenBlue.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029CB92494D32000FB865B /* AppleWorks~YellowGreen&GreenBlue.rcpx */; };
+		04029E8A2494D32100FB865B /* Arne16.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029CBA2494D32000FB865B /* Arne16.rcpx */; };
+		04029E8B2494D32100FB865B /* Arne32.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029CBB2494D32000FB865B /* Arne32.rcpx */; };
+		04029E8C2494D32100FB865B /* ARQ04.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029CBC2494D32000FB865B /* ARQ04.rcpx */; };
+		04029E8D2494D32100FB865B /* ARQ16.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029CBD2494D32000FB865B /* ARQ16.rcpx */; };
+		04029E8E2494D32100FB865B /* AutoCAD.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029CBE2494D32000FB865B /* AutoCAD.rcpx */; };
+		04029ECA2494D32100FB865B /* Black&White~BlackFirst.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029CFA2494D32000FB865B /* Black&White~BlackFirst.rcpx */; };
+		04029ECB2494D32100FB865B /* Black&White~WhiteFirst.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029CFB2494D32000FB865B /* Black&White~WhiteFirst.rcpx */; };
+		04029ECC2494D32100FB865B /* BlackBodyMC150.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029CFC2494D32000FB865B /* BlackBodyMC150.rcpx */; };
+		04029ECD2494D32100FB865B /* BlackBodyMCContinuous.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029CFD2494D32000FB865B /* BlackBodyMCContinuous.rcpx */; };
+		04029ECE2494D32100FB865B /* BlackBodyPS256.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029CFE2494D32000FB865B /* BlackBodyPS256.rcpx */; };
+		04029ECF2494D32100FB865B /* BlackBodyPSContinuous.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029CFF2494D32000FB865B /* BlackBodyPSContinuous.rcpx */; };
+		04029ED02494D32100FB865B /* CGA~Genuine.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D002494D32000FB865B /* CGA~Genuine.rcpx */; };
+		04029ED12494D32100FB865B /* CGA~Imitation.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D012494D32000FB865B /* CGA~Imitation.rcpx */; };
+		04029ED22494D32100FB865B /* CGA~Windows.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D022494D32000FB865B /* CGA~Windows.rcpx */; };
+		04029ED32494D32100FB865B /* CGArne.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D032494D32000FB865B /* CGArne.rcpx */; };
+		04029ED42494D32100FB865B /* CGArne~CGAOrder.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D042494D32000FB865B /* CGArne~CGAOrder.rcpx */; };
+		04029ED52494D32100FB865B /* Chip16.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D052494D32000FB865B /* Chip16.rcpx */; };
+		04029ED62494D32100FB865B /* ClarisWorks.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D062494D32000FB865B /* ClarisWorks.rcpx */; };
+		04029ED72494D32100FB865B /* ColorIt~EarthTones.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D072494D32000FB865B /* ColorIt~EarthTones.rcpx */; };
+		04029ED82494D32100FB865B /* ColorIt~FleshTones.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D082494D32000FB865B /* ColorIt~FleshTones.rcpx */; };
+		04029ED92494D32100FB865B /* ColorIt~PastelHues.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D092494D32000FB865B /* ColorIt~PastelHues.rcpx */; };
+		04029EDA2494D32100FB865B /* ColorIt~VividHues.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D0A2494D32000FB865B /* ColorIt~VividHues.rcpx */; };
+		04029EDB2494D32100FB865B /* CommanderX16~4Bit.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D0B2494D32000FB865B /* CommanderX16~4Bit.rcpx */; };
+		04029EDC2494D32100FB865B /* CommanderX16~8Bit.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D0C2494D32000FB865B /* CommanderX16~8Bit.rcpx */; };
+		04029EDD2494D32100FB865B /* CommanderX16~8Bit~WebSafe.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D0D2494D32000FB865B /* CommanderX16~8Bit~WebSafe.rcpx */; };
+		04029EDE2494D32100FB865B /* Commodore16.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D0E2494D32000FB865B /* Commodore16.rcpx */; };
+		04029EDF2494D32100FB865B /* Commodore64~GraphicConverter.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D0F2494D32000FB865B /* Commodore64~GraphicConverter.rcpx */; };
+		04029EE02494D32100FB865B /* Commodore64~Wikipedia.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D102494D32000FB865B /* Commodore64~Wikipedia.rcpx */; };
+		04029EE12494D32100FB865B /* CommodoreVIC20~Wikipedia.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D112494D32000FB865B /* CommodoreVIC20~Wikipedia.rcpx */; };
+		04029EE22494D32100FB865B /* CopperTech.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D122494D32000FB865B /* CopperTech.rcpx */; };
+		04029EE32494D32100FB865B /* CPCBoy.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D132494D32000FB865B /* CPCBoy.rcpx */; };
+		04029EE42494D32100FB865B /* CSS.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D142494D32000FB865B /* CSS.rcpx */; };
+		04029EE52494D32100FB865B /* CTIANTSC247Desaturated.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D152494D32000FB865B /* CTIANTSC247Desaturated.rcpx */; };
+		04029EE62494D32100FB865B /* CTIANTSC247Saturated.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D162494D32000FB865B /* CTIANTSC247Saturated.rcpx */; };
+		04029EE72494D32100FB865B /* CTIANTSC257Desaturated.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D172494D32000FB865B /* CTIANTSC257Desaturated.rcpx */; };
+		04029EE82494D32100FB865B /* CTIANTSC257Saturated.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D182494D32000FB865B /* CTIANTSC257Saturated.rcpx */; };
+		04029EE92494D32100FB865B /* CTIANTSC267Desaturated.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D192494D32000FB865B /* CTIANTSC267Desaturated.rcpx */; };
+		04029EEA2494D32100FB865B /* CTIANTSC267Saturated.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D1A2494D32000FB865B /* CTIANTSC267Saturated.rcpx */; };
+		04029EEB2494D32100FB865B /* CTIANTSC277Desaturated.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D1B2494D32000FB865B /* CTIANTSC277Desaturated.rcpx */; };
+		04029EEC2494D32100FB865B /* CTIANTSC277Saturated.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D1C2494D32000FB865B /* CTIANTSC277Saturated.rcpx */; };
+		04029EED2494D32100FB865B /* CTIAPAL247Desaturated.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D1D2494D32000FB865B /* CTIAPAL247Desaturated.rcpx */; };
+		04029EEE2494D32100FB865B /* CTIAPAL247Saturated.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D1E2494D32000FB865B /* CTIAPAL247Saturated.rcpx */; };
+		04029EEF2494D32100FB865B /* CTIAPAL257Desaturated.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D1F2494D32000FB865B /* CTIAPAL257Desaturated.rcpx */; };
+		04029EF02494D32100FB865B /* CTIAPAL257Saturated.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D202494D32000FB865B /* CTIAPAL257Saturated.rcpx */; };
+		04029EF12494D32100FB865B /* CTIAPAL267Desaturated.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D212494D32000FB865B /* CTIAPAL267Desaturated.rcpx */; };
+		04029EF22494D32100FB865B /* CTIAPAL267Saturated.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D222494D32000FB865B /* CTIAPAL267Saturated.rcpx */; };
+		04029EF32494D32100FB865B /* CTIAPAL277Desaturated.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D232494D32000FB865B /* CTIAPAL277Desaturated.rcpx */; };
+		04029EF42494D32100FB865B /* CTIAPAL277Saturated.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D242494D32000FB865B /* CTIAPAL277Saturated.rcpx */; };
+		04029EF52494D32100FB865B /* CubeSides.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D252494D32000FB865B /* CubeSides.rcpx */; };
+		04029EF62494D32100FB865B /* DawnBringer08.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D262494D32000FB865B /* DawnBringer08.rcpx */; };
+		04029EF72494D32100FB865B /* DawnBringer16.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D272494D32000FB865B /* DawnBringer16.rcpx */; };
+		04029EF82494D32100FB865B /* DawnBringer32.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D282494D32000FB865B /* DawnBringer32.rcpx */; };
+		04029EF92494D32100FB865B /* DStudio.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D292494D32000FB865B /* DStudio.rcpx */; };
+		04029EFA2494D32100FB865B /* EGA.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D2A2494D32000FB865B /* EGA.rcpx */; };
+		04029EFB2494D32100FB865B /* EN04.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D2B2494D32000FB865B /* EN04.rcpx */; };
+		04029EFC2494D32100FB865B /* Endesga08.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D2C2494D32000FB865B /* Endesga08.rcpx */; };
+		04029EFD2494D32100FB865B /* Endesga16.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D2D2494D32000FB865B /* Endesga16.rcpx */; };
+		04029EFE2494D32100FB865B /* Endesga32.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D2E2494D32000FB865B /* Endesga32.rcpx */; };
+		04029EFF2494D32100FB865B /* Endesga36.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D2F2494D32000FB865B /* Endesga36.rcpx */; };
+		04029F002494D32100FB865B /* Endesga64.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D302494D32000FB865B /* Endesga64.rcpx */; };
+		04029F012494D32100FB865B /* EndesgaSoft16.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D312494D32000FB865B /* EndesgaSoft16.rcpx */; };
+		04029F022494D32100FB865B /* ENOS16.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D322494D32000FB865B /* ENOS16.rcpx */; };
+		04029F032494D32100FB865B /* ErogeCopper.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D332494D32000FB865B /* ErogeCopper.rcpx */; };
+		04029F042494D32100FB865B /* FalseColorSpectrum.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D342494D32000FB865B /* FalseColorSpectrum.rcpx */; };
+		04029F052494D32100FB865B /* Famicube.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D352494D32000FB865B /* Famicube.rcpx */; };
+		04029F062494D32100FB865B /* Felice.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D362494D32000FB865B /* Felice.rcpx */; };
+		04029F072494D32100FB865B /* GIMP~Bears.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D372494D32000FB865B /* GIMP~Bears.rcpx */; };
+		04029F082494D32100FB865B /* GIMP~Bgold.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D382494D32000FB865B /* GIMP~Bgold.rcpx */; };
+		04029F092494D32100FB865B /* GIMP~Blues.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D392494D32000FB865B /* GIMP~Blues.rcpx */; };
+		04029F0A2494D32100FB865B /* GIMP~Borders.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D3A2494D32000FB865B /* GIMP~Borders.rcpx */; };
+		04029F0B2494D32100FB865B /* GIMP~Browns&Yellows.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D3B2494D32000FB865B /* GIMP~Browns&Yellows.rcpx */; };
+		04029F0C2494D32100FB865B /* GIMP~Caramel.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D3C2494D32000FB865B /* GIMP~Caramel.rcpx */; };
+		04029F0D2494D32100FB865B /* GIMP~Cascade.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D3D2494D32000FB865B /* GIMP~Cascade.rcpx */; };
+		04029F0E2494D32100FB865B /* GIMP~China.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D3E2494D32000FB865B /* GIMP~China.rcpx */; };
+		04029F0F2494D32100FB865B /* GIMP~Coldfire.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D3F2494D32000FB865B /* GIMP~Coldfire.rcpx */; };
+		04029F102494D32100FB865B /* GIMP~CoolColors.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D402494D32000FB865B /* GIMP~CoolColors.rcpx */; };
+		04029F112494D32100FB865B /* GIMP~Cranes.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D412494D32000FB865B /* GIMP~Cranes.rcpx */; };
+		04029F122494D32100FB865B /* GIMP~DarkPastels.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D422494D32000FB865B /* GIMP~DarkPastels.rcpx */; };
+		04029F132494D32100FB865B /* GIMP~Default.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D432494D32000FB865B /* GIMP~Default.rcpx */; };
+		04029F142494D32100FB865B /* GIMP~Ega.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D442494D32000FB865B /* GIMP~Ega.rcpx */; };
+		04029F152494D32100FB865B /* GIMP~Firecode.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D452494D32000FB865B /* GIMP~Firecode.rcpx */; };
+		04029F162494D32100FB865B /* GIMP~Gold.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D462494D32000FB865B /* GIMP~Gold.rcpx */; };
+		04029F172494D32100FB865B /* GIMP~Grayblue.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D472494D32000FB865B /* GIMP~Grayblue.rcpx */; };
+		04029F182494D32100FB865B /* GIMP~Grays.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D482494D32000FB865B /* GIMP~Grays.rcpx */; };
+		04029F192494D32100FB865B /* GIMP~GrayViolet.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D492494D32000FB865B /* GIMP~GrayViolet.rcpx */; };
+		04029F1A2494D32100FB865B /* GIMP~Greens.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D4A2494D32000FB865B /* GIMP~Greens.rcpx */; };
+		04029F1B2494D32100FB865B /* GIMP~Hilite.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D4B2494D32000FB865B /* GIMP~Hilite.rcpx */; };
+		04029F1C2494D32100FB865B /* GIMP~Khaki.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D4C2494D32000FB865B /* GIMP~Khaki.rcpx */; };
+		04029F1D2494D32100FB865B /* GIMP~Lights.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D4D2494D32000FB865B /* GIMP~Lights.rcpx */; };
+		04029F1E2494D32100FB865B /* GIMP~Muted.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D4E2494D32000FB865B /* GIMP~Muted.rcpx */; };
+		04029F1F2494D32100FB865B /* GIMP~NamedColors.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D4F2494D32000FB865B /* GIMP~NamedColors.rcpx */; };
+		04029F202494D32100FB865B /* GIMP~News3.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D502494D32000FB865B /* GIMP~News3.rcpx */; };
+		04029F212494D32100FB865B /* GIMP~Op2.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D512494D32000FB865B /* GIMP~Op2.rcpx */; };
+		04029F222494D32100FB865B /* GIMP~Paintjet.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D522494D32000FB865B /* GIMP~Paintjet.rcpx */; };
+		04029F232494D32100FB865B /* GIMP~Pastels.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D532494D32000FB865B /* GIMP~Pastels.rcpx */; };
+		04029F242494D32100FB865B /* GIMP~Plasma.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D542494D32000FB865B /* GIMP~Plasma.rcpx */; };
+		04029F252494D32100FB865B /* GIMP~Reds.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D552494D32000FB865B /* GIMP~Reds.rcpx */; };
+		04029F262494D32100FB865B /* GIMP~Reds&Purples.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D562494D32000FB865B /* GIMP~Reds&Purples.rcpx */; };
+		04029F272494D32100FB865B /* GIMP~Royal.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D572494D32000FB865B /* GIMP~Royal.rcpx */; };
+		04029F282494D32100FB865B /* GIMP~Tango.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D582494D32000FB865B /* GIMP~Tango.rcpx */; };
+		04029F292494D32100FB865B /* GIMP~Topographic.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D592494D32000FB865B /* GIMP~Topographic.rcpx */; };
+		04029F2A2494D32100FB865B /* GIMP~Volcano.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D5A2494D32000FB865B /* GIMP~Volcano.rcpx */; };
+		04029F2B2494D32100FB865B /* GIMP~WarmColors.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D5B2494D32000FB865B /* GIMP~WarmColors.rcpx */; };
+		04029F2C2494D32100FB865B /* Gmail.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D5C2494D32000FB865B /* Gmail.rcpx */; };
+		04029F2D2494D32100FB865B /* Gmail~Extended.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D5D2494D32000FB865B /* Gmail~Extended.rcpx */; };
+		04029F2E2494D32100FB865B /* GoogleCalendar~Newer.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D5E2494D32000FB865B /* GoogleCalendar~Newer.rcpx */; };
+		04029F2F2494D32100FB865B /* GoogleCalendar~Older.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D5F2494D32000FB865B /* GoogleCalendar~Older.rcpx */; };
+		04029F302494D32100FB865B /* GoogleDocs.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D602494D32000FB865B /* GoogleDocs.rcpx */; };
+		04029F312494D32100FB865B /* Grayscale2Bit~BlackFirst.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D612494D32000FB865B /* Grayscale2Bit~BlackFirst.rcpx */; };
+		04029F322494D32100FB865B /* Grayscale2Bit~WhiteFirst.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D622494D32000FB865B /* Grayscale2Bit~WhiteFirst.rcpx */; };
+		04029F332494D32100FB865B /* Grayscale4Bit~BlackFirst.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D632494D32000FB865B /* Grayscale4Bit~BlackFirst.rcpx */; };
+		04029F342494D32100FB865B /* Grayscale4Bit~WhiteFirst.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D642494D32000FB865B /* Grayscale4Bit~WhiteFirst.rcpx */; };
+		04029F352494D32100FB865B /* Grayscale6Bit~BlackFirst.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D652494D32000FB865B /* Grayscale6Bit~BlackFirst.rcpx */; };
+		04029F362494D32100FB865B /* Grayscale6Bit~WhiteFirst.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D662494D32000FB865B /* Grayscale6Bit~WhiteFirst.rcpx */; };
+		04029F372494D32100FB865B /* Grayscale8Bit~BlackFirst.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D672494D32000FB865B /* Grayscale8Bit~BlackFirst.rcpx */; };
+		04029F382494D32100FB865B /* Grayscale8Bit~WhiteFirst.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D682494D32000FB865B /* Grayscale8Bit~WhiteFirst.rcpx */; };
+		04029F392494D32100FB865B /* Grayscales.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D692494D32000FB865B /* Grayscales.rcpx */; };
+		04029F3A2494D32100FB865B /* GTIANTSC.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D6A2494D32000FB865B /* GTIANTSC.rcpx */; };
+		04029F3B2494D32100FB865B /* GTIAPAL.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D6B2494D32000FB865B /* GTIAPAL.rcpx */; };
+		04029F3C2494D32100FB865B /* HEPT32.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D6C2494D32000FB865B /* HEPT32.rcpx */; };
+		04029F3D2494D32100FB865B /* HiMom.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D6D2494D32000FB865B /* HiMom.rcpx */; };
+		04029F3E2494D32100FB865B /* HTML.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D6E2494D32000FB865B /* HTML.rcpx */; };
+		04029F3F2494D32100FB865B /* Iconographer.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D6F2494D32000FB865B /* Iconographer.rcpx */; };
+		04029F402494D32100FB865B /* ImageWriterII.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D702494D32000FB865B /* ImageWriterII.rcpx */; };
+		04029F412494D32100FB865B /* JavaDefaultIndexed.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D712494D32000FB865B /* JavaDefaultIndexed.rcpx */; };
+		04029F422494D32100FB865B /* JavaSwing.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D722494D32000FB865B /* JavaSwing.rcpx */; };
+		04029F432494D32100FB865B /* JMPJapaneseMachinePalette.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D732494D32000FB865B /* JMPJapaneseMachinePalette.rcpx */; };
+		04029F442494D32100FB865B /* KDE.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D742494D32000FB865B /* KDE.rcpx */; };
+		04029F452494D32100FB865B /* KidPix16Colors.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D752494D32000FB865B /* KidPix16Colors.rcpx */; };
+		04029F462494D32100FB865B /* KidPix36Colors.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D762494D32000FB865B /* KidPix36Colors.rcpx */; };
+		04029F472494D32100FB865B /* KidPixDisplay16.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D772494D32000FB865B /* KidPixDisplay16.rcpx */; };
+		04029F482494D32100FB865B /* KidPixImageWriterII.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D782494D32000FB865B /* KidPixImageWriterII.rcpx */; };
+		04029F492494D32100FB865B /* KidPixStudio.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D792494D32000FB865B /* KidPixStudio.rcpx */; };
+		04029F4A2494D32100FB865B /* MacOS2Bit.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D7A2494D32000FB865B /* MacOS2Bit.rcpx */; };
+		04029F4B2494D32100FB865B /* MacOS4Bit.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D7B2494D32000FB865B /* MacOS4Bit.rcpx */; };
+		04029F4C2494D32100FB865B /* MacOS4Bit~CGAOrder.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D7C2494D32000FB865B /* MacOS4Bit~CGAOrder.rcpx */; };
+		04029F4D2494D32100FB865B /* MacOS8Bit.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D7D2494D32000FB865B /* MacOS8Bit.rcpx */; };
+		04029F4E2494D32100FB865B /* MacOSClassicCrayons.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D7E2494D32000FB865B /* MacOSClassicCrayons.rcpx */; };
+		04029F4F2494D32100FB865B /* MacOSXBasic.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D7F2494D32000FB865B /* MacOSXBasic.rcpx */; };
+		04029F502494D32100FB865B /* MacOSXCrayons.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D802494D32000FB865B /* MacOSXCrayons.rcpx */; };
+		04029F512494D32100FB865B /* MagicalMonsterKinds.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D812494D32000FB865B /* MagicalMonsterKinds.rcpx */; };
+		04029F522494D32100FB865B /* MarioPaint.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D822494D32000FB865B /* MarioPaint.rcpx */; };
+		04029F532494D32100FB865B /* MaterialDesign.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D832494D32000FB865B /* MaterialDesign.rcpx */; };
+		04029F542494D32100FB865B /* MaterialDesign~Raw.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D842494D32000FB865B /* MaterialDesign~Raw.rcpx */; };
+		04029F552494D32100FB865B /* MikaCity~MCCE.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D852494D32000FB865B /* MikaCity~MCCE.rcpx */; };
+		04029F562494D32100FB865B /* MonochromeP1.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D862494D32000FB865B /* MonochromeP1.rcpx */; };
+		04029F572494D32100FB865B /* MonochromeP1~2Bit.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D872494D32000FB865B /* MonochromeP1~2Bit.rcpx */; };
+		04029F582494D32100FB865B /* MonochromeP1~4Bit.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D882494D32000FB865B /* MonochromeP1~4Bit.rcpx */; };
+		04029F592494D32100FB865B /* MonochromeP1~6Bit.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D892494D32000FB865B /* MonochromeP1~6Bit.rcpx */; };
+		04029F5A2494D32100FB865B /* MonochromeP1~8Bit.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D8A2494D32000FB865B /* MonochromeP1~8Bit.rcpx */; };
+		04029F5B2494D32100FB865B /* MonochromeP2.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D8B2494D32000FB865B /* MonochromeP2.rcpx */; };
+		04029F5C2494D32100FB865B /* MonochromeP2~2Bit.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D8C2494D32000FB865B /* MonochromeP2~2Bit.rcpx */; };
+		04029F5D2494D32100FB865B /* MonochromeP2~4Bit.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D8D2494D32000FB865B /* MonochromeP2~4Bit.rcpx */; };
+		04029F5E2494D32100FB865B /* MonochromeP2~6Bit.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D8E2494D32000FB865B /* MonochromeP2~6Bit.rcpx */; };
+		04029F5F2494D32100FB865B /* MonochromeP2~8Bit.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D8F2494D32000FB865B /* MonochromeP2~8Bit.rcpx */; };
+		04029F602494D32100FB865B /* MonochromeP3.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D902494D32000FB865B /* MonochromeP3.rcpx */; };
+		04029F612494D32100FB865B /* MonochromeP3~2Bit.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D912494D32000FB865B /* MonochromeP3~2Bit.rcpx */; };
+		04029F622494D32100FB865B /* MonochromeP3~4Bit.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D922494D32000FB865B /* MonochromeP3~4Bit.rcpx */; };
+		04029F632494D32100FB865B /* MonochromeP3~6Bit.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D932494D32000FB865B /* MonochromeP3~6Bit.rcpx */; };
+		04029F642494D32100FB865B /* MonochromeP3~8Bit.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D942494D32000FB865B /* MonochromeP3~8Bit.rcpx */; };
+		04029F652494D32100FB865B /* MSPaint.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D952494D32000FB865B /* MSPaint.rcpx */; };
+		04029F662494D32100FB865B /* MSPaint~Extended.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D962494D32000FB865B /* MSPaint~Extended.rcpx */; };
+		04029F672494D32100FB865B /* MSPaint~Vista.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D972494D32000FB865B /* MSPaint~Vista.rcpx */; };
+		04029F682494D32100FB865B /* MSPaint~Windows7.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D982494D32000FB865B /* MSPaint~Windows7.rcpx */; };
+		04029F692494D32100FB865B /* MSX.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D992494D32000FB865B /* MSX.rcpx */; };
+		04029F6A2494D32100FB865B /* MSX2.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D9A2494D32000FB865B /* MSX2.rcpx */; };
+		04029F6B2494D32100FB865B /* NES~Nesdev~2C02.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D9B2494D32000FB865B /* NES~Nesdev~2C02.rcpx */; };
+		04029F6C2494D32100FB865B /* NES~Nesdev~2C03.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D9C2494D32000FB865B /* NES~Nesdev~2C03.rcpx */; };
+		04029F6D2494D32100FB865B /* NES~Nesdev~2C04.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D9D2494D32000FB865B /* NES~Nesdev~2C04.rcpx */; };
+		04029F6E2494D32100FB865B /* NES~Nesdev~RP2C04~0001.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D9E2494D32000FB865B /* NES~Nesdev~RP2C04~0001.rcpx */; };
+		04029F6F2494D32100FB865B /* NES~Nesdev~RP2C04~0002.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029D9F2494D32000FB865B /* NES~Nesdev~RP2C04~0002.rcpx */; };
+		04029F702494D32100FB865B /* NES~Nesdev~RP2C04~0003.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029DA02494D32000FB865B /* NES~Nesdev~RP2C04~0003.rcpx */; };
+		04029F712494D32100FB865B /* NES~Nesdev~RP2C04~0004.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029DA12494D32000FB865B /* NES~Nesdev~RP2C04~0004.rcpx */; };
+		04029F722494D32100FB865B /* NES~Tersigni.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029DA22494D32000FB865B /* NES~Tersigni.rcpx */; };
+		04029F732494D32100FB865B /* NES~Wikipedia.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029DA32494D32000FB865B /* NES~Wikipedia.rcpx */; };
+		04029F742494D32100FB865B /* Netscape.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029DA42494D32000FB865B /* Netscape.rcpx */; };
+		04029F752494D32100FB865B /* NewHorizons01.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029DA52494D32000FB865B /* NewHorizons01.rcpx */; };
+		04029F762494D32100FB865B /* NewHorizons02.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029DA62494D32000FB865B /* NewHorizons02.rcpx */; };
+		04029F772494D32100FB865B /* NewHorizons03.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029DA72494D32000FB865B /* NewHorizons03.rcpx */; };
+		04029F782494D32100FB865B /* NewHorizons04.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029DA82494D32000FB865B /* NewHorizons04.rcpx */; };
+		04029F792494D32100FB865B /* NewHorizons05.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029DA92494D32000FB865B /* NewHorizons05.rcpx */; };
+		04029F7A2494D32100FB865B /* NewHorizons06.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029DAA2494D32000FB865B /* NewHorizons06.rcpx */; };
+		04029F7B2494D32100FB865B /* NewHorizons07.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029DAB2494D32000FB865B /* NewHorizons07.rcpx */; };
+		04029F7C2494D32100FB865B /* NewHorizons08.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029DAC2494D32000FB865B /* NewHorizons08.rcpx */; };
+		04029F7D2494D32100FB865B /* NewHorizons09.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029DAD2494D32000FB865B /* NewHorizons09.rcpx */; };
+		04029F7E2494D32100FB865B /* NewHorizons10.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029DAE2494D32000FB865B /* NewHorizons10.rcpx */; };
+		04029F7F2494D32100FB865B /* NewHorizons11.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029DAF2494D32000FB865B /* NewHorizons11.rcpx */; };
+		04029F802494D32100FB865B /* NewHorizons12.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029DB02494D32000FB865B /* NewHorizons12.rcpx */; };
+		04029F812494D32100FB865B /* NewHorizons13.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029DB12494D32000FB865B /* NewHorizons13.rcpx */; };
+		04029F822494D32100FB865B /* NewHorizons14.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029DB22494D32000FB865B /* NewHorizons14.rcpx */; };
+		04029F832494D32100FB865B /* NewLeaf.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029DB32494D32000FB865B /* NewLeaf.rcpx */; };
+		04029F842494D32100FB865B /* NTSC~CurrierRec601NoSetup.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029DB42494D32000FB865B /* NTSC~CurrierRec601NoSetup.rcpx */; };
+		04029F852494D32100FB865B /* NTSC~CurrierRec601WithSetup.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029DB52494D32000FB865B /* NTSC~CurrierRec601WithSetup.rcpx */; };
+		04029F862494D32100FB865B /* NTSC~CurrierRGBNoSetup.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029DB62494D32000FB865B /* NTSC~CurrierRGBNoSetup.rcpx */; };
+		04029F872494D32100FB865B /* NTSC~CurrierRGBWithSetup.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029DB72494D32000FB865B /* NTSC~CurrierRGBWithSetup.rcpx */; };
+		04029F882494D32100FB865B /* NTSC~DVHandbook.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029DB82494D32000FB865B /* NTSC~DVHandbook.rcpx */; };
+		04029F892494D32100FB865B /* NTSC~GreatDV.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029DB92494D32000FB865B /* NTSC~GreatDV.rcpx */; };
+		04029F8A2494D32100FB865B /* NTSC~KreativeKorp.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029DBA2494D32000FB865B /* NTSC~KreativeKorp.rcpx */; };
+		04029F8B2494D32100FB865B /* NTSC~MediaCollege.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029DBB2494D32000FB865B /* NTSC~MediaCollege.rcpx */; };
+		04029F8C2494D32100FB865B /* NTSC~MicroImage.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029DBC2494D32000FB865B /* NTSC~MicroImage.rcpx */; };
+		04029F8D2494D32100FB865B /* NTSC~Munafo.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029DBD2494D32000FB865B /* NTSC~Munafo.rcpx */; };
+		04029F8E2494D32100FB865B /* NTSC~RGB.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029DBE2494D32000FB865B /* NTSC~RGB.rcpx */; };
+		04029F8F2494D32100FB865B /* NTSC~VideoUniversity.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029DBF2494D32000FB865B /* NTSC~VideoUniversity.rcpx */; };
+		04029F902494D32100FB865B /* NTSC~Wikipedia.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029DC02494D32000FB865B /* NTSC~Wikipedia.rcpx */; };
+		04029F912494D32100FB865B /* NTSC~Wilt.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029DC12494D32000FB865B /* NTSC~Wilt.rcpx */; };
+		04029F922494D32100FB865B /* Office.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029DC22494D32000FB865B /* Office.rcpx */; };
+		04029F932494D32100FB865B /* Office~Extended.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029DC32494D32000FB865B /* Office~Extended.rcpx */; };
+		04029F942494D32100FB865B /* Office~Highlighter.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029DC42494D32000FB865B /* Office~Highlighter.rcpx */; };
+		04029F952494D32100FB865B /* Office2008.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029DC52494D32000FB865B /* Office2008.rcpx */; };
+		04029FC72494D32100FB865B /* OpenColor.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029DF72494D32000FB865B /* OpenColor.rcpx */; };
+		04029FC82494D32100FB865B /* Palm4Bit.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029DF82494D32000FB865B /* Palm4Bit.rcpx */; };
+		04029FC92494D32100FB865B /* Palm8Bit.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029DF92494D32000FB865B /* Palm8Bit.rcpx */; };
+		04029FCA2494D32100FB865B /* PalmReorganized.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029DFA2494D32000FB865B /* PalmReorganized.rcpx */; };
+		04029FCB2494D32100FB865B /* Pebble.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029DFB2494D32000FB865B /* Pebble.rcpx */; };
+		04029FCC2494D32100FB865B /* Pebble~Sunny.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029DFC2494D32000FB865B /* Pebble~Sunny.rcpx */; };
+		04029FCD2494D32100FB865B /* Photoshop.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029DFD2494D32000FB865B /* Photoshop.rcpx */; };
+		04029FCE2494D32100FB865B /* PICO8.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029DFE2494D32000FB865B /* PICO8.rcpx */; };
+		04029FCF2494D32100FB865B /* PodPaint.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029DFF2494D32000FB865B /* PodPaint.rcpx */; };
+		04029FD02494D32100FB865B /* Psygnosia.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029E002494D32000FB865B /* Psygnosia.rcpx */; };
+		04029FD12494D32100FB865B /* QuickDraw.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029E012494D32000FB865B /* QuickDraw.rcpx */; };
+		04029FD22494D32100FB865B /* R~Alphabet1.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029E022494D32000FB865B /* R~Alphabet1.rcpx */; };
+		04029FD32494D32100FB865B /* R~Alphabet2.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029E032494D32000FB865B /* R~Alphabet2.rcpx */; };
+		04029FD42494D32100FB865B /* R~Cols25.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029E042494D32000FB865B /* R~Cols25.rcpx */; };
+		04029FD52494D32100FB865B /* R~Glasbey.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029E052494D32000FB865B /* R~Glasbey.rcpx */; };
+		04029FD62494D32100FB865B /* R~Kelly.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029E062494D32000FB865B /* R~Kelly.rcpx */; };
+		04029FD72494D32100FB865B /* R~Polychrome.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029E072494D32000FB865B /* R~Polychrome.rcpx */; };
+		04029FD82494D32100FB865B /* R~Stepped.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029E082494D32000FB865B /* R~Stepped.rcpx */; };
+		04029FD92494D32100FB865B /* R~Tol.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029E092494D32000FB865B /* R~Tol.rcpx */; };
+		04029FDA2494D32100FB865B /* R~Watlington.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029E0A2494D32000FB865B /* R~Watlington.rcpx */; };
+		04029FDB2494D32100FB865B /* R3G3B2.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029E0B2494D32000FB865B /* R3G3B2.rcpx */; };
+		04029FDC2494D32100FB865B /* Rayalaka.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029E0C2494D32000FB865B /* Rayalaka.rcpx */; };
+		04029FDD2494D32100FB865B /* Resplendence.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029E0D2494D32000FB865B /* Resplendence.rcpx */; };
+		04029FDE2494D32100FB865B /* Sabine4Bit.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029E0E2494D32000FB865B /* Sabine4Bit.rcpx */; };
+		04029FDF2494D32100FB865B /* SabineASCII.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029E0F2494D32000FB865B /* SabineASCII.rcpx */; };
+		04029FE02494D32100FB865B /* SabineReorganized.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029E102494D32000FB865B /* SabineReorganized.rcpx */; };
+		04029FE12494D32100FB865B /* SAMCoupe.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029E112494D32000FB865B /* SAMCoupe.rcpx */; };
+		04029FE22494D32100FB865B /* Sepia2Bit~BlackFirst.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029E122494D32000FB865B /* Sepia2Bit~BlackFirst.rcpx */; };
+		04029FE32494D32100FB865B /* Sepia2Bit~WhiteFirst.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029E132494D32000FB865B /* Sepia2Bit~WhiteFirst.rcpx */; };
+		04029FE42494D32100FB865B /* Sepia4Bit~BlackFirst.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029E142494D32000FB865B /* Sepia4Bit~BlackFirst.rcpx */; };
+		04029FE52494D32100FB865B /* Sepia4Bit~WhiteFirst.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029E152494D32000FB865B /* Sepia4Bit~WhiteFirst.rcpx */; };
+		04029FE62494D32100FB865B /* Sepia6Bit~BlackFirst.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029E162494D32000FB865B /* Sepia6Bit~BlackFirst.rcpx */; };
+		04029FE72494D32100FB865B /* Sepia6Bit~WhiteFirst.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029E172494D32000FB865B /* Sepia6Bit~WhiteFirst.rcpx */; };
+		04029FE82494D32100FB865B /* Sepia8Bit~BlackFirst.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029E182494D32000FB865B /* Sepia8Bit~BlackFirst.rcpx */; };
+		04029FE92494D32100FB865B /* Sepia8Bit~WhiteFirst.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029E192494D32000FB865B /* Sepia8Bit~WhiteFirst.rcpx */; };
+		04029FEA2494D32100FB865B /* SFSUTOSSpring2011.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029E1A2494D32000FB865B /* SFSUTOSSpring2011.rcpx */; };
+		04029FEB2494D32100FB865B /* ShareDraw16Colors.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029E1B2494D32000FB865B /* ShareDraw16Colors.rcpx */; };
+		04029FEC2494D32100FB865B /* ShareDraw256Colors.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029E1C2494D32000FB865B /* ShareDraw256Colors.rcpx */; };
+		04029FED2494D32100FB865B /* Solarized.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029E1D2494D32000FB865B /* Solarized.rcpx */; };
+		04029FEE2494D32100FB865B /* Spectrum.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029E1E2494D32000FB865B /* Spectrum.rcpx */; };
+		04029FEF2494D32100FB865B /* SuperFuture25.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029E1F2494D32000FB865B /* SuperFuture25.rcpx */; };
+		04029FF02494D32100FB865B /* SuperPaint.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029E202494D32000FB865B /* SuperPaint.rcpx */; };
+		04029FF12494D32100FB865B /* SuperPaint~BlueIce.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029E212494D32000FB865B /* SuperPaint~BlueIce.rcpx */; };
+		04029FF22494D32100FB865B /* SuperPaint~BrightRainbow.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029E222494D32000FB865B /* SuperPaint~BrightRainbow.rcpx */; };
+		04029FF32494D32100FB865B /* SuperPaint~Cocoa.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029E232494D32000FB865B /* SuperPaint~Cocoa.rcpx */; };
+		04029FF42494D32100FB865B /* SuperPaint~ComplementaryColors.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029E242494D32000FB865B /* SuperPaint~ComplementaryColors.rcpx */; };
+		04029FF52494D32100FB865B /* SuperPaint~Cosmetics.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029E252494D32000FB865B /* SuperPaint~Cosmetics.rcpx */; };
+		04029FF62494D32100FB865B /* SuperPaint~Ochres.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029E262494D32000FB865B /* SuperPaint~Ochres.rcpx */; };
+		04029FF72494D32100FB865B /* SuperPaint~PastelChalk.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029E272494D32000FB865B /* SuperPaint~PastelChalk.rcpx */; };
+		04029FF82494D32100FB865B /* SuperPaint~PastelPaint.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029E282494D32000FB865B /* SuperPaint~PastelPaint.rcpx */; };
+		04029FF92494D32100FB865B /* SuperPaint~RGB.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029E292494D32000FB865B /* SuperPaint~RGB.rcpx */; };
+		04029FFA2494D32100FB865B /* SuperPaint~Sand.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029E2A2494D32000FB865B /* SuperPaint~Sand.rcpx */; };
+		04029FFB2494D32100FB865B /* SuperPaint~Spectrum.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029E2B2494D32000FB865B /* SuperPaint~Spectrum.rcpx */; };
+		04029FFC2494D32100FB865B /* SuperPaint~Spectrum~Blues.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029E2C2494D32000FB865B /* SuperPaint~Spectrum~Blues.rcpx */; };
+		04029FFD2494D32100FB865B /* SuperPaint~Spectrum~Light.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029E2D2494D32000FB865B /* SuperPaint~Spectrum~Light.rcpx */; };
+		04029FFE2494D32100FB865B /* SuperPaint~SummerColors.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029E2E2494D32000FB865B /* SuperPaint~SummerColors.rcpx */; };
+		04029FFF2494D32100FB865B /* Tango.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029E2F2494D32000FB865B /* Tango.rcpx */; };
+		0402A0002494D32100FB865B /* Thomson.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029E302494D32000FB865B /* Thomson.rcpx */; };
+		0402A0012494D32100FB865B /* Tinkercad.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029E312494D32000FB865B /* Tinkercad.rcpx */; };
+		0402A0022494D32100FB865B /* Trubetskoy.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029E322494D32000FB865B /* Trubetskoy.rcpx */; };
+		0402A0032494D32100FB865B /* Vexillo.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029E332494D32000FB865B /* Vexillo.rcpx */; };
+		0402A0042494D32100FB865B /* VGA~Genuine.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029E342494D32000FB865B /* VGA~Genuine.rcpx */; };
+		0402A0052494D32100FB865B /* VGA~Imitation.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029E352494D32000FB865B /* VGA~Imitation.rcpx */; };
+		0402A0062494D32100FB865B /* VGA~WebSafe.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029E362494D32000FB865B /* VGA~WebSafe.rcpx */; };
+		0402A0072494D32100FB865B /* VGA~Windows.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029E372494D32000FB865B /* VGA~Windows.rcpx */; };
+		0402A0082494D32100FB865B /* VisiBone1.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029E382494D32000FB865B /* VisiBone1.rcpx */; };
+		0402A0092494D32100FB865B /* VisiBone2.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029E392494D32000FB865B /* VisiBone2.rcpx */; };
+		0402A00A2494D32100FB865B /* VisiBoneHexagonal1.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029E3A2494D32000FB865B /* VisiBoneHexagonal1.rcpx */; };
+		0402A00B2494D32100FB865B /* VisiBoneHexagonal2.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029E3B2494D32000FB865B /* VisiBoneHexagonal2.rcpx */; };
+		0402A00C2494D32100FB865B /* W3Schools.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029E3C2494D32000FB865B /* W3Schools.rcpx */; };
+		0402A00D2494D32100FB865B /* Wad.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029E3D2494D32000FB865B /* Wad.rcpx */; };
+		0402A00E2494D32100FB865B /* WebReallySafeColors.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029E3E2494D32000FB865B /* WebReallySafeColors.rcpx */; };
+		0402A00F2494D32100FB865B /* Windows4Bit.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029E3F2494D32000FB865B /* Windows4Bit.rcpx */; };
+		0402A0102494D32100FB865B /* Windows8Bit.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029E402494D32000FB865B /* Windows8Bit.rcpx */; };
+		0402A0112494D32100FB865B /* Windows8Bit~GraphicConverterNewer.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029E412494D32000FB865B /* Windows8Bit~GraphicConverterNewer.rcpx */; };
+		0402A0122494D32100FB865B /* Windows8Bit~GraphicConverterOlder.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029E422494D32000FB865B /* Windows8Bit~GraphicConverterOlder.rcpx */; };
+		0402A0132494D32100FB865B /* Windows8Bit~Photoshop.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029E432494D32000FB865B /* Windows8Bit~Photoshop.rcpx */; };
+		0402A0142494D32100FB865B /* WindowsXPIconColors.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029E442494D32000FB865B /* WindowsXPIconColors.rcpx */; };
+		0402A0152494D32100FB865B /* X11Complete.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029E452494D32000FB865B /* X11Complete.rcpx */; };
+		0402A0162494D32100FB865B /* X11Normalized.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029E462494D32000FB865B /* X11Normalized.rcpx */; };
+		0402A0172494D32100FB865B /* X11Simple.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029E472494D32000FB865B /* X11Simple.rcpx */; };
+		0402A0182494D32100FB865B /* XKCD0016.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029E482494D32000FB865B /* XKCD0016.rcpx */; };
+		0402A0192494D32100FB865B /* XKCD0064.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029E492494D32000FB865B /* XKCD0064.rcpx */; };
+		0402A01A2494D32100FB865B /* XKCD0256.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029E4A2494D32000FB865B /* XKCD0256.rcpx */; };
+		0402A01B2494D32100FB865B /* XKCD1000.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029E4B2494D32000FB865B /* XKCD1000.rcpx */; };
+		0402A01C2494D32100FB865B /* ZXSpectrum.rcpx in Resources */ = {isa = PBXBuildFile; fileRef = 04029E4C2494D32000FB865B /* ZXSpectrum.rcpx */; };
+		040F8051248F40A400BAB402 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 040F8050248F40A400BAB402 /* Cocoa.framework */; };
+		040F805B248F40A400BAB402 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 040F8059248F40A400BAB402 /* InfoPlist.strings */; };
+		040F8065248F437800BAB402 /* ColorSwatches.xib in Resources */ = {isa = PBXBuildFile; fileRef = 040F8064248F437800BAB402 /* ColorSwatches.xib */; };
+		041B5589249371AF00B13BDA /* ColorSwatches.m in Sources */ = {isa = PBXBuildFile; fileRef = 041B5588249371AF00B13BDA /* ColorSwatches.m */; };
+		0439F010248F6CDF00206652 /* RCPXColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 0439F00F248F6CDF00206652 /* RCPXColor.m */; };
+		0439F013248F72CE00206652 /* RCPXBorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 0439F012248F72CE00206652 /* RCPXBorder.m */; };
+		044CF8CC24909E7500B8779B /* RCPXShape.m in Sources */ = {isa = PBXBuildFile; fileRef = 044CF8CB24909E7500B8779B /* RCPXShape.m */; };
+		044CF8D32491B46C00B8779B /* RCPXLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 044CF8D22491B46C00B8779B /* RCPXLayout.m */; };
+		044CF8D62491B6AE00B8779B /* RCPXSwatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 044CF8D52491B6AE00B8779B /* RCPXSwatch.m */; };
+		044CF8D92491BEDA00B8779B /* RCPXLayoutOrSwatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 044CF8D82491BEDA00B8779B /* RCPXLayoutOrSwatch.m */; };
+		044CF8DF249256DF00B8779B /* RCPXUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 044CF8DE249256DF00B8779B /* RCPXUtilities.m */; };
+		044CF8E22492D24E00B8779B /* RCPXPalette.m in Sources */ = {isa = PBXBuildFile; fileRef = 044CF8E12492D24E00B8779B /* RCPXPalette.m */; };
+		044CF8E52492DE6C00B8779B /* RCPXParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 044CF8E42492DE6C00B8779B /* RCPXParser.m */; };
+		04E27D92248F47C3009EA332 /* RCPXView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E27D91248F47C3009EA332 /* RCPXView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04029C7D2494D32000FB865B /* 002CubicProcess.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = 002CubicProcess.rcpx; sourceTree = "<group>"; };
+		04029C7E2494D32000FB865B /* 003Cubic.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = 003Cubic.rcpx; sourceTree = "<group>"; };
+		04029C7F2494D32000FB865B /* 004Cubic.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = 004Cubic.rcpx; sourceTree = "<group>"; };
+		04029C802494D32000FB865B /* 005Cubic.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = 005Cubic.rcpx; sourceTree = "<group>"; };
+		04029C812494D32000FB865B /* 006CubicWebSafe.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = 006CubicWebSafe.rcpx; sourceTree = "<group>"; };
+		04029C852494D32000FB865B /* 102ConicProcess.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = 102ConicProcess.rcpx; sourceTree = "<group>"; };
+		04029C862494D32000FB865B /* 103Conic.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = 103Conic.rcpx; sourceTree = "<group>"; };
+		04029C872494D32000FB865B /* 104Conic.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = 104Conic.rcpx; sourceTree = "<group>"; };
+		04029C882494D32000FB865B /* 105Conic.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = 105Conic.rcpx; sourceTree = "<group>"; };
+		04029C892494D32000FB865B /* 106ConicWebSafe.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = 106ConicWebSafe.rcpx; sourceTree = "<group>"; };
+		04029C8D2494D32000FB865B /* A64.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = A64.rcpx; sourceTree = "<group>"; };
+		04029C8E2494D32000FB865B /* AAP16.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = AAP16.rcpx; sourceTree = "<group>"; };
+		04029C8F2494D32000FB865B /* AAP64.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = AAP64.rcpx; sourceTree = "<group>"; };
+		04029C902494D32000FB865B /* Acorn2Bit.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Acorn2Bit.rcpx; sourceTree = "<group>"; };
+		04029C912494D32000FB865B /* Acorn4Bit.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Acorn4Bit.rcpx; sourceTree = "<group>"; };
+		04029C922494D32000FB865B /* Acorn8Bit.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Acorn8Bit.rcpx; sourceTree = "<group>"; };
+		04029C932494D32000FB865B /* AcornReorganized.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = AcornReorganized.rcpx; sourceTree = "<group>"; };
+		04029C942494D32000FB865B /* AddColor.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = AddColor.rcpx; sourceTree = "<group>"; };
+		04029C952494D32000FB865B /* AndrewKensler16.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = AndrewKensler16.rcpx; sourceTree = "<group>"; };
+		04029C962494D32000FB865B /* AndrewKensler32.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = AndrewKensler32.rcpx; sourceTree = "<group>"; };
+		04029C972494D32000FB865B /* AndrewKensler54.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = AndrewKensler54.rcpx; sourceTree = "<group>"; };
+		04029C982494D32000FB865B /* ANSI4Bit~CMD.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "ANSI4Bit~CMD.rcpx"; sourceTree = "<group>"; };
+		04029C992494D32000FB865B /* ANSI4Bit~mIRC.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "ANSI4Bit~mIRC.rcpx"; sourceTree = "<group>"; };
+		04029C9A2494D32000FB865B /* ANSI4Bit~PuTTY.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "ANSI4Bit~PuTTY.rcpx"; sourceTree = "<group>"; };
+		04029C9B2494D32000FB865B /* ANSI4Bit~Terminal.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "ANSI4Bit~Terminal.rcpx"; sourceTree = "<group>"; };
+		04029C9C2494D32000FB865B /* ANSI4Bit~Ubuntu.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "ANSI4Bit~Ubuntu.rcpx"; sourceTree = "<group>"; };
+		04029C9D2494D32000FB865B /* ANSI4Bit~VGA.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "ANSI4Bit~VGA.rcpx"; sourceTree = "<group>"; };
+		04029C9E2494D32000FB865B /* ANSI4Bit~xterm.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "ANSI4Bit~xterm.rcpx"; sourceTree = "<group>"; };
+		04029C9F2494D32000FB865B /* ANSI8Bit~CMD.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "ANSI8Bit~CMD.rcpx"; sourceTree = "<group>"; };
+		04029CA02494D32000FB865B /* ANSI8Bit~mIRC.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "ANSI8Bit~mIRC.rcpx"; sourceTree = "<group>"; };
+		04029CA12494D32000FB865B /* ANSI8Bit~PuTTY.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "ANSI8Bit~PuTTY.rcpx"; sourceTree = "<group>"; };
+		04029CA22494D32000FB865B /* ANSI8Bit~Terminal.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "ANSI8Bit~Terminal.rcpx"; sourceTree = "<group>"; };
+		04029CA32494D32000FB865B /* ANSI8Bit~Ubuntu.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "ANSI8Bit~Ubuntu.rcpx"; sourceTree = "<group>"; };
+		04029CA42494D32000FB865B /* ANSI8Bit~VGA.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "ANSI8Bit~VGA.rcpx"; sourceTree = "<group>"; };
+		04029CA52494D32000FB865B /* ANSI8Bit~xterm.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "ANSI8Bit~xterm.rcpx"; sourceTree = "<group>"; };
+		04029CA62494D32000FB865B /* AppleIconColors.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = AppleIconColors.rcpx; sourceTree = "<group>"; };
+		04029CA72494D32000FB865B /* AppleII~ApplePC.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "AppleII~ApplePC.rcpx"; sourceTree = "<group>"; };
+		04029CA82494D32000FB865B /* AppleII~Bettencourt.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "AppleII~Bettencourt.rcpx"; sourceTree = "<group>"; };
+		04029CA92494D32000FB865B /* AppleII~Munafo.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "AppleII~Munafo.rcpx"; sourceTree = "<group>"; };
+		04029CAA2494D32000FB865B /* AppleII~Ticmanis~SMPTE1979.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "AppleII~Ticmanis~SMPTE1979.rcpx"; sourceTree = "<group>"; };
+		04029CAB2494D32000FB865B /* AppleII~Ticmanis~sRGB.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "AppleII~Ticmanis~sRGB.rcpx"; sourceTree = "<group>"; };
+		04029CAC2494D32000FB865B /* AppleII~Wikipedia.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "AppleII~Wikipedia.rcpx"; sourceTree = "<group>"; };
+		04029CAD2494D32000FB865B /* AppleWorks.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = AppleWorks.rcpx; sourceTree = "<group>"; };
+		04029CAE2494D32000FB865B /* AppleWorks~16Colors.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "AppleWorks~16Colors.rcpx"; sourceTree = "<group>"; };
+		04029CAF2494D32000FB865B /* AppleWorks~240Grays&16Colors.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "AppleWorks~240Grays&16Colors.rcpx"; sourceTree = "<group>"; };
+		04029CB02494D32000FB865B /* AppleWorks~BrightColors.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "AppleWorks~BrightColors.rcpx"; sourceTree = "<group>"; };
+		04029CB12494D32000FB865B /* AppleWorks~CyanToBlue.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "AppleWorks~CyanToBlue.rcpx"; sourceTree = "<group>"; };
+		04029CB22494D32000FB865B /* AppleWorks~EarthTones.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "AppleWorks~EarthTones.rcpx"; sourceTree = "<group>"; };
+		04029CB32494D32000FB865B /* AppleWorks~MidTones.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "AppleWorks~MidTones.rcpx"; sourceTree = "<group>"; };
+		04029CB42494D32000FB865B /* AppleWorks~PastelColors.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "AppleWorks~PastelColors.rcpx"; sourceTree = "<group>"; };
+		04029CB52494D32000FB865B /* AppleWorks~Presentation.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "AppleWorks~Presentation.rcpx"; sourceTree = "<group>"; };
+		04029CB62494D32000FB865B /* AppleWorks~RedToYellow.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "AppleWorks~RedToYellow.rcpx"; sourceTree = "<group>"; };
+		04029CB72494D32000FB865B /* AppleWorks~VioletToMagenta.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "AppleWorks~VioletToMagenta.rcpx"; sourceTree = "<group>"; };
+		04029CB82494D32000FB865B /* AppleWorks~VividColors.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "AppleWorks~VividColors.rcpx"; sourceTree = "<group>"; };
+		04029CB92494D32000FB865B /* AppleWorks~YellowGreen&GreenBlue.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "AppleWorks~YellowGreen&GreenBlue.rcpx"; sourceTree = "<group>"; };
+		04029CBA2494D32000FB865B /* Arne16.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Arne16.rcpx; sourceTree = "<group>"; };
+		04029CBB2494D32000FB865B /* Arne32.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Arne32.rcpx; sourceTree = "<group>"; };
+		04029CBC2494D32000FB865B /* ARQ04.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = ARQ04.rcpx; sourceTree = "<group>"; };
+		04029CBD2494D32000FB865B /* ARQ16.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = ARQ16.rcpx; sourceTree = "<group>"; };
+		04029CBE2494D32000FB865B /* AutoCAD.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = AutoCAD.rcpx; sourceTree = "<group>"; };
+		04029CFA2494D32000FB865B /* Black&White~BlackFirst.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Black&White~BlackFirst.rcpx"; sourceTree = "<group>"; };
+		04029CFB2494D32000FB865B /* Black&White~WhiteFirst.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Black&White~WhiteFirst.rcpx"; sourceTree = "<group>"; };
+		04029CFC2494D32000FB865B /* BlackBodyMC150.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = BlackBodyMC150.rcpx; sourceTree = "<group>"; };
+		04029CFD2494D32000FB865B /* BlackBodyMCContinuous.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = BlackBodyMCContinuous.rcpx; sourceTree = "<group>"; };
+		04029CFE2494D32000FB865B /* BlackBodyPS256.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = BlackBodyPS256.rcpx; sourceTree = "<group>"; };
+		04029CFF2494D32000FB865B /* BlackBodyPSContinuous.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = BlackBodyPSContinuous.rcpx; sourceTree = "<group>"; };
+		04029D002494D32000FB865B /* CGA~Genuine.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "CGA~Genuine.rcpx"; sourceTree = "<group>"; };
+		04029D012494D32000FB865B /* CGA~Imitation.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "CGA~Imitation.rcpx"; sourceTree = "<group>"; };
+		04029D022494D32000FB865B /* CGA~Windows.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "CGA~Windows.rcpx"; sourceTree = "<group>"; };
+		04029D032494D32000FB865B /* CGArne.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = CGArne.rcpx; sourceTree = "<group>"; };
+		04029D042494D32000FB865B /* CGArne~CGAOrder.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "CGArne~CGAOrder.rcpx"; sourceTree = "<group>"; };
+		04029D052494D32000FB865B /* Chip16.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Chip16.rcpx; sourceTree = "<group>"; };
+		04029D062494D32000FB865B /* ClarisWorks.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = ClarisWorks.rcpx; sourceTree = "<group>"; };
+		04029D072494D32000FB865B /* ColorIt~EarthTones.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "ColorIt~EarthTones.rcpx"; sourceTree = "<group>"; };
+		04029D082494D32000FB865B /* ColorIt~FleshTones.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "ColorIt~FleshTones.rcpx"; sourceTree = "<group>"; };
+		04029D092494D32000FB865B /* ColorIt~PastelHues.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "ColorIt~PastelHues.rcpx"; sourceTree = "<group>"; };
+		04029D0A2494D32000FB865B /* ColorIt~VividHues.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "ColorIt~VividHues.rcpx"; sourceTree = "<group>"; };
+		04029D0B2494D32000FB865B /* CommanderX16~4Bit.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "CommanderX16~4Bit.rcpx"; sourceTree = "<group>"; };
+		04029D0C2494D32000FB865B /* CommanderX16~8Bit.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "CommanderX16~8Bit.rcpx"; sourceTree = "<group>"; };
+		04029D0D2494D32000FB865B /* CommanderX16~8Bit~WebSafe.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "CommanderX16~8Bit~WebSafe.rcpx"; sourceTree = "<group>"; };
+		04029D0E2494D32000FB865B /* Commodore16.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Commodore16.rcpx; sourceTree = "<group>"; };
+		04029D0F2494D32000FB865B /* Commodore64~GraphicConverter.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Commodore64~GraphicConverter.rcpx"; sourceTree = "<group>"; };
+		04029D102494D32000FB865B /* Commodore64~Wikipedia.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Commodore64~Wikipedia.rcpx"; sourceTree = "<group>"; };
+		04029D112494D32000FB865B /* CommodoreVIC20~Wikipedia.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "CommodoreVIC20~Wikipedia.rcpx"; sourceTree = "<group>"; };
+		04029D122494D32000FB865B /* CopperTech.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = CopperTech.rcpx; sourceTree = "<group>"; };
+		04029D132494D32000FB865B /* CPCBoy.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = CPCBoy.rcpx; sourceTree = "<group>"; };
+		04029D142494D32000FB865B /* CSS.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = CSS.rcpx; sourceTree = "<group>"; };
+		04029D152494D32000FB865B /* CTIANTSC247Desaturated.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = CTIANTSC247Desaturated.rcpx; sourceTree = "<group>"; };
+		04029D162494D32000FB865B /* CTIANTSC247Saturated.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = CTIANTSC247Saturated.rcpx; sourceTree = "<group>"; };
+		04029D172494D32000FB865B /* CTIANTSC257Desaturated.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = CTIANTSC257Desaturated.rcpx; sourceTree = "<group>"; };
+		04029D182494D32000FB865B /* CTIANTSC257Saturated.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = CTIANTSC257Saturated.rcpx; sourceTree = "<group>"; };
+		04029D192494D32000FB865B /* CTIANTSC267Desaturated.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = CTIANTSC267Desaturated.rcpx; sourceTree = "<group>"; };
+		04029D1A2494D32000FB865B /* CTIANTSC267Saturated.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = CTIANTSC267Saturated.rcpx; sourceTree = "<group>"; };
+		04029D1B2494D32000FB865B /* CTIANTSC277Desaturated.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = CTIANTSC277Desaturated.rcpx; sourceTree = "<group>"; };
+		04029D1C2494D32000FB865B /* CTIANTSC277Saturated.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = CTIANTSC277Saturated.rcpx; sourceTree = "<group>"; };
+		04029D1D2494D32000FB865B /* CTIAPAL247Desaturated.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = CTIAPAL247Desaturated.rcpx; sourceTree = "<group>"; };
+		04029D1E2494D32000FB865B /* CTIAPAL247Saturated.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = CTIAPAL247Saturated.rcpx; sourceTree = "<group>"; };
+		04029D1F2494D32000FB865B /* CTIAPAL257Desaturated.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = CTIAPAL257Desaturated.rcpx; sourceTree = "<group>"; };
+		04029D202494D32000FB865B /* CTIAPAL257Saturated.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = CTIAPAL257Saturated.rcpx; sourceTree = "<group>"; };
+		04029D212494D32000FB865B /* CTIAPAL267Desaturated.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = CTIAPAL267Desaturated.rcpx; sourceTree = "<group>"; };
+		04029D222494D32000FB865B /* CTIAPAL267Saturated.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = CTIAPAL267Saturated.rcpx; sourceTree = "<group>"; };
+		04029D232494D32000FB865B /* CTIAPAL277Desaturated.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = CTIAPAL277Desaturated.rcpx; sourceTree = "<group>"; };
+		04029D242494D32000FB865B /* CTIAPAL277Saturated.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = CTIAPAL277Saturated.rcpx; sourceTree = "<group>"; };
+		04029D252494D32000FB865B /* CubeSides.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = CubeSides.rcpx; sourceTree = "<group>"; };
+		04029D262494D32000FB865B /* DawnBringer08.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = DawnBringer08.rcpx; sourceTree = "<group>"; };
+		04029D272494D32000FB865B /* DawnBringer16.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = DawnBringer16.rcpx; sourceTree = "<group>"; };
+		04029D282494D32000FB865B /* DawnBringer32.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = DawnBringer32.rcpx; sourceTree = "<group>"; };
+		04029D292494D32000FB865B /* DStudio.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = DStudio.rcpx; sourceTree = "<group>"; };
+		04029D2A2494D32000FB865B /* EGA.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = EGA.rcpx; sourceTree = "<group>"; };
+		04029D2B2494D32000FB865B /* EN04.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = EN04.rcpx; sourceTree = "<group>"; };
+		04029D2C2494D32000FB865B /* Endesga08.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Endesga08.rcpx; sourceTree = "<group>"; };
+		04029D2D2494D32000FB865B /* Endesga16.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Endesga16.rcpx; sourceTree = "<group>"; };
+		04029D2E2494D32000FB865B /* Endesga32.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Endesga32.rcpx; sourceTree = "<group>"; };
+		04029D2F2494D32000FB865B /* Endesga36.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Endesga36.rcpx; sourceTree = "<group>"; };
+		04029D302494D32000FB865B /* Endesga64.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Endesga64.rcpx; sourceTree = "<group>"; };
+		04029D312494D32000FB865B /* EndesgaSoft16.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = EndesgaSoft16.rcpx; sourceTree = "<group>"; };
+		04029D322494D32000FB865B /* ENOS16.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = ENOS16.rcpx; sourceTree = "<group>"; };
+		04029D332494D32000FB865B /* ErogeCopper.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = ErogeCopper.rcpx; sourceTree = "<group>"; };
+		04029D342494D32000FB865B /* FalseColorSpectrum.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = FalseColorSpectrum.rcpx; sourceTree = "<group>"; };
+		04029D352494D32000FB865B /* Famicube.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Famicube.rcpx; sourceTree = "<group>"; };
+		04029D362494D32000FB865B /* Felice.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Felice.rcpx; sourceTree = "<group>"; };
+		04029D372494D32000FB865B /* GIMP~Bears.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "GIMP~Bears.rcpx"; sourceTree = "<group>"; };
+		04029D382494D32000FB865B /* GIMP~Bgold.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "GIMP~Bgold.rcpx"; sourceTree = "<group>"; };
+		04029D392494D32000FB865B /* GIMP~Blues.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "GIMP~Blues.rcpx"; sourceTree = "<group>"; };
+		04029D3A2494D32000FB865B /* GIMP~Borders.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "GIMP~Borders.rcpx"; sourceTree = "<group>"; };
+		04029D3B2494D32000FB865B /* GIMP~Browns&Yellows.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "GIMP~Browns&Yellows.rcpx"; sourceTree = "<group>"; };
+		04029D3C2494D32000FB865B /* GIMP~Caramel.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "GIMP~Caramel.rcpx"; sourceTree = "<group>"; };
+		04029D3D2494D32000FB865B /* GIMP~Cascade.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "GIMP~Cascade.rcpx"; sourceTree = "<group>"; };
+		04029D3E2494D32000FB865B /* GIMP~China.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "GIMP~China.rcpx"; sourceTree = "<group>"; };
+		04029D3F2494D32000FB865B /* GIMP~Coldfire.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "GIMP~Coldfire.rcpx"; sourceTree = "<group>"; };
+		04029D402494D32000FB865B /* GIMP~CoolColors.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "GIMP~CoolColors.rcpx"; sourceTree = "<group>"; };
+		04029D412494D32000FB865B /* GIMP~Cranes.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "GIMP~Cranes.rcpx"; sourceTree = "<group>"; };
+		04029D422494D32000FB865B /* GIMP~DarkPastels.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "GIMP~DarkPastels.rcpx"; sourceTree = "<group>"; };
+		04029D432494D32000FB865B /* GIMP~Default.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "GIMP~Default.rcpx"; sourceTree = "<group>"; };
+		04029D442494D32000FB865B /* GIMP~Ega.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "GIMP~Ega.rcpx"; sourceTree = "<group>"; };
+		04029D452494D32000FB865B /* GIMP~Firecode.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "GIMP~Firecode.rcpx"; sourceTree = "<group>"; };
+		04029D462494D32000FB865B /* GIMP~Gold.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "GIMP~Gold.rcpx"; sourceTree = "<group>"; };
+		04029D472494D32000FB865B /* GIMP~Grayblue.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "GIMP~Grayblue.rcpx"; sourceTree = "<group>"; };
+		04029D482494D32000FB865B /* GIMP~Grays.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "GIMP~Grays.rcpx"; sourceTree = "<group>"; };
+		04029D492494D32000FB865B /* GIMP~GrayViolet.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "GIMP~GrayViolet.rcpx"; sourceTree = "<group>"; };
+		04029D4A2494D32000FB865B /* GIMP~Greens.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "GIMP~Greens.rcpx"; sourceTree = "<group>"; };
+		04029D4B2494D32000FB865B /* GIMP~Hilite.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "GIMP~Hilite.rcpx"; sourceTree = "<group>"; };
+		04029D4C2494D32000FB865B /* GIMP~Khaki.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "GIMP~Khaki.rcpx"; sourceTree = "<group>"; };
+		04029D4D2494D32000FB865B /* GIMP~Lights.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "GIMP~Lights.rcpx"; sourceTree = "<group>"; };
+		04029D4E2494D32000FB865B /* GIMP~Muted.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "GIMP~Muted.rcpx"; sourceTree = "<group>"; };
+		04029D4F2494D32000FB865B /* GIMP~NamedColors.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "GIMP~NamedColors.rcpx"; sourceTree = "<group>"; };
+		04029D502494D32000FB865B /* GIMP~News3.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "GIMP~News3.rcpx"; sourceTree = "<group>"; };
+		04029D512494D32000FB865B /* GIMP~Op2.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "GIMP~Op2.rcpx"; sourceTree = "<group>"; };
+		04029D522494D32000FB865B /* GIMP~Paintjet.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "GIMP~Paintjet.rcpx"; sourceTree = "<group>"; };
+		04029D532494D32000FB865B /* GIMP~Pastels.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "GIMP~Pastels.rcpx"; sourceTree = "<group>"; };
+		04029D542494D32000FB865B /* GIMP~Plasma.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "GIMP~Plasma.rcpx"; sourceTree = "<group>"; };
+		04029D552494D32000FB865B /* GIMP~Reds.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "GIMP~Reds.rcpx"; sourceTree = "<group>"; };
+		04029D562494D32000FB865B /* GIMP~Reds&Purples.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "GIMP~Reds&Purples.rcpx"; sourceTree = "<group>"; };
+		04029D572494D32000FB865B /* GIMP~Royal.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "GIMP~Royal.rcpx"; sourceTree = "<group>"; };
+		04029D582494D32000FB865B /* GIMP~Tango.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "GIMP~Tango.rcpx"; sourceTree = "<group>"; };
+		04029D592494D32000FB865B /* GIMP~Topographic.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "GIMP~Topographic.rcpx"; sourceTree = "<group>"; };
+		04029D5A2494D32000FB865B /* GIMP~Volcano.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "GIMP~Volcano.rcpx"; sourceTree = "<group>"; };
+		04029D5B2494D32000FB865B /* GIMP~WarmColors.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "GIMP~WarmColors.rcpx"; sourceTree = "<group>"; };
+		04029D5C2494D32000FB865B /* Gmail.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Gmail.rcpx; sourceTree = "<group>"; };
+		04029D5D2494D32000FB865B /* Gmail~Extended.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Gmail~Extended.rcpx"; sourceTree = "<group>"; };
+		04029D5E2494D32000FB865B /* GoogleCalendar~Newer.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "GoogleCalendar~Newer.rcpx"; sourceTree = "<group>"; };
+		04029D5F2494D32000FB865B /* GoogleCalendar~Older.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "GoogleCalendar~Older.rcpx"; sourceTree = "<group>"; };
+		04029D602494D32000FB865B /* GoogleDocs.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = GoogleDocs.rcpx; sourceTree = "<group>"; };
+		04029D612494D32000FB865B /* Grayscale2Bit~BlackFirst.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Grayscale2Bit~BlackFirst.rcpx"; sourceTree = "<group>"; };
+		04029D622494D32000FB865B /* Grayscale2Bit~WhiteFirst.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Grayscale2Bit~WhiteFirst.rcpx"; sourceTree = "<group>"; };
+		04029D632494D32000FB865B /* Grayscale4Bit~BlackFirst.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Grayscale4Bit~BlackFirst.rcpx"; sourceTree = "<group>"; };
+		04029D642494D32000FB865B /* Grayscale4Bit~WhiteFirst.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Grayscale4Bit~WhiteFirst.rcpx"; sourceTree = "<group>"; };
+		04029D652494D32000FB865B /* Grayscale6Bit~BlackFirst.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Grayscale6Bit~BlackFirst.rcpx"; sourceTree = "<group>"; };
+		04029D662494D32000FB865B /* Grayscale6Bit~WhiteFirst.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Grayscale6Bit~WhiteFirst.rcpx"; sourceTree = "<group>"; };
+		04029D672494D32000FB865B /* Grayscale8Bit~BlackFirst.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Grayscale8Bit~BlackFirst.rcpx"; sourceTree = "<group>"; };
+		04029D682494D32000FB865B /* Grayscale8Bit~WhiteFirst.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Grayscale8Bit~WhiteFirst.rcpx"; sourceTree = "<group>"; };
+		04029D692494D32000FB865B /* Grayscales.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Grayscales.rcpx; sourceTree = "<group>"; };
+		04029D6A2494D32000FB865B /* GTIANTSC.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = GTIANTSC.rcpx; sourceTree = "<group>"; };
+		04029D6B2494D32000FB865B /* GTIAPAL.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = GTIAPAL.rcpx; sourceTree = "<group>"; };
+		04029D6C2494D32000FB865B /* HEPT32.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = HEPT32.rcpx; sourceTree = "<group>"; };
+		04029D6D2494D32000FB865B /* HiMom.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = HiMom.rcpx; sourceTree = "<group>"; };
+		04029D6E2494D32000FB865B /* HTML.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = HTML.rcpx; sourceTree = "<group>"; };
+		04029D6F2494D32000FB865B /* Iconographer.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Iconographer.rcpx; sourceTree = "<group>"; };
+		04029D702494D32000FB865B /* ImageWriterII.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = ImageWriterII.rcpx; sourceTree = "<group>"; };
+		04029D712494D32000FB865B /* JavaDefaultIndexed.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = JavaDefaultIndexed.rcpx; sourceTree = "<group>"; };
+		04029D722494D32000FB865B /* JavaSwing.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = JavaSwing.rcpx; sourceTree = "<group>"; };
+		04029D732494D32000FB865B /* JMPJapaneseMachinePalette.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = JMPJapaneseMachinePalette.rcpx; sourceTree = "<group>"; };
+		04029D742494D32000FB865B /* KDE.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = KDE.rcpx; sourceTree = "<group>"; };
+		04029D752494D32000FB865B /* KidPix16Colors.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = KidPix16Colors.rcpx; sourceTree = "<group>"; };
+		04029D762494D32000FB865B /* KidPix36Colors.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = KidPix36Colors.rcpx; sourceTree = "<group>"; };
+		04029D772494D32000FB865B /* KidPixDisplay16.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = KidPixDisplay16.rcpx; sourceTree = "<group>"; };
+		04029D782494D32000FB865B /* KidPixImageWriterII.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = KidPixImageWriterII.rcpx; sourceTree = "<group>"; };
+		04029D792494D32000FB865B /* KidPixStudio.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = KidPixStudio.rcpx; sourceTree = "<group>"; };
+		04029D7A2494D32000FB865B /* MacOS2Bit.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = MacOS2Bit.rcpx; sourceTree = "<group>"; };
+		04029D7B2494D32000FB865B /* MacOS4Bit.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = MacOS4Bit.rcpx; sourceTree = "<group>"; };
+		04029D7C2494D32000FB865B /* MacOS4Bit~CGAOrder.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "MacOS4Bit~CGAOrder.rcpx"; sourceTree = "<group>"; };
+		04029D7D2494D32000FB865B /* MacOS8Bit.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = MacOS8Bit.rcpx; sourceTree = "<group>"; };
+		04029D7E2494D32000FB865B /* MacOSClassicCrayons.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = MacOSClassicCrayons.rcpx; sourceTree = "<group>"; };
+		04029D7F2494D32000FB865B /* MacOSXBasic.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = MacOSXBasic.rcpx; sourceTree = "<group>"; };
+		04029D802494D32000FB865B /* MacOSXCrayons.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = MacOSXCrayons.rcpx; sourceTree = "<group>"; };
+		04029D812494D32000FB865B /* MagicalMonsterKinds.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = MagicalMonsterKinds.rcpx; sourceTree = "<group>"; };
+		04029D822494D32000FB865B /* MarioPaint.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = MarioPaint.rcpx; sourceTree = "<group>"; };
+		04029D832494D32000FB865B /* MaterialDesign.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = MaterialDesign.rcpx; sourceTree = "<group>"; };
+		04029D842494D32000FB865B /* MaterialDesign~Raw.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "MaterialDesign~Raw.rcpx"; sourceTree = "<group>"; };
+		04029D852494D32000FB865B /* MikaCity~MCCE.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "MikaCity~MCCE.rcpx"; sourceTree = "<group>"; };
+		04029D862494D32000FB865B /* MonochromeP1.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = MonochromeP1.rcpx; sourceTree = "<group>"; };
+		04029D872494D32000FB865B /* MonochromeP1~2Bit.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "MonochromeP1~2Bit.rcpx"; sourceTree = "<group>"; };
+		04029D882494D32000FB865B /* MonochromeP1~4Bit.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "MonochromeP1~4Bit.rcpx"; sourceTree = "<group>"; };
+		04029D892494D32000FB865B /* MonochromeP1~6Bit.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "MonochromeP1~6Bit.rcpx"; sourceTree = "<group>"; };
+		04029D8A2494D32000FB865B /* MonochromeP1~8Bit.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "MonochromeP1~8Bit.rcpx"; sourceTree = "<group>"; };
+		04029D8B2494D32000FB865B /* MonochromeP2.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = MonochromeP2.rcpx; sourceTree = "<group>"; };
+		04029D8C2494D32000FB865B /* MonochromeP2~2Bit.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "MonochromeP2~2Bit.rcpx"; sourceTree = "<group>"; };
+		04029D8D2494D32000FB865B /* MonochromeP2~4Bit.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "MonochromeP2~4Bit.rcpx"; sourceTree = "<group>"; };
+		04029D8E2494D32000FB865B /* MonochromeP2~6Bit.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "MonochromeP2~6Bit.rcpx"; sourceTree = "<group>"; };
+		04029D8F2494D32000FB865B /* MonochromeP2~8Bit.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "MonochromeP2~8Bit.rcpx"; sourceTree = "<group>"; };
+		04029D902494D32000FB865B /* MonochromeP3.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = MonochromeP3.rcpx; sourceTree = "<group>"; };
+		04029D912494D32000FB865B /* MonochromeP3~2Bit.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "MonochromeP3~2Bit.rcpx"; sourceTree = "<group>"; };
+		04029D922494D32000FB865B /* MonochromeP3~4Bit.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "MonochromeP3~4Bit.rcpx"; sourceTree = "<group>"; };
+		04029D932494D32000FB865B /* MonochromeP3~6Bit.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "MonochromeP3~6Bit.rcpx"; sourceTree = "<group>"; };
+		04029D942494D32000FB865B /* MonochromeP3~8Bit.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "MonochromeP3~8Bit.rcpx"; sourceTree = "<group>"; };
+		04029D952494D32000FB865B /* MSPaint.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = MSPaint.rcpx; sourceTree = "<group>"; };
+		04029D962494D32000FB865B /* MSPaint~Extended.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "MSPaint~Extended.rcpx"; sourceTree = "<group>"; };
+		04029D972494D32000FB865B /* MSPaint~Vista.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "MSPaint~Vista.rcpx"; sourceTree = "<group>"; };
+		04029D982494D32000FB865B /* MSPaint~Windows7.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "MSPaint~Windows7.rcpx"; sourceTree = "<group>"; };
+		04029D992494D32000FB865B /* MSX.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = MSX.rcpx; sourceTree = "<group>"; };
+		04029D9A2494D32000FB865B /* MSX2.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = MSX2.rcpx; sourceTree = "<group>"; };
+		04029D9B2494D32000FB865B /* NES~Nesdev~2C02.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "NES~Nesdev~2C02.rcpx"; sourceTree = "<group>"; };
+		04029D9C2494D32000FB865B /* NES~Nesdev~2C03.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "NES~Nesdev~2C03.rcpx"; sourceTree = "<group>"; };
+		04029D9D2494D32000FB865B /* NES~Nesdev~2C04.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "NES~Nesdev~2C04.rcpx"; sourceTree = "<group>"; };
+		04029D9E2494D32000FB865B /* NES~Nesdev~RP2C04~0001.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "NES~Nesdev~RP2C04~0001.rcpx"; sourceTree = "<group>"; };
+		04029D9F2494D32000FB865B /* NES~Nesdev~RP2C04~0002.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "NES~Nesdev~RP2C04~0002.rcpx"; sourceTree = "<group>"; };
+		04029DA02494D32000FB865B /* NES~Nesdev~RP2C04~0003.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "NES~Nesdev~RP2C04~0003.rcpx"; sourceTree = "<group>"; };
+		04029DA12494D32000FB865B /* NES~Nesdev~RP2C04~0004.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "NES~Nesdev~RP2C04~0004.rcpx"; sourceTree = "<group>"; };
+		04029DA22494D32000FB865B /* NES~Tersigni.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "NES~Tersigni.rcpx"; sourceTree = "<group>"; };
+		04029DA32494D32000FB865B /* NES~Wikipedia.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "NES~Wikipedia.rcpx"; sourceTree = "<group>"; };
+		04029DA42494D32000FB865B /* Netscape.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Netscape.rcpx; sourceTree = "<group>"; };
+		04029DA52494D32000FB865B /* NewHorizons01.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = NewHorizons01.rcpx; sourceTree = "<group>"; };
+		04029DA62494D32000FB865B /* NewHorizons02.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = NewHorizons02.rcpx; sourceTree = "<group>"; };
+		04029DA72494D32000FB865B /* NewHorizons03.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = NewHorizons03.rcpx; sourceTree = "<group>"; };
+		04029DA82494D32000FB865B /* NewHorizons04.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = NewHorizons04.rcpx; sourceTree = "<group>"; };
+		04029DA92494D32000FB865B /* NewHorizons05.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = NewHorizons05.rcpx; sourceTree = "<group>"; };
+		04029DAA2494D32000FB865B /* NewHorizons06.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = NewHorizons06.rcpx; sourceTree = "<group>"; };
+		04029DAB2494D32000FB865B /* NewHorizons07.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = NewHorizons07.rcpx; sourceTree = "<group>"; };
+		04029DAC2494D32000FB865B /* NewHorizons08.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = NewHorizons08.rcpx; sourceTree = "<group>"; };
+		04029DAD2494D32000FB865B /* NewHorizons09.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = NewHorizons09.rcpx; sourceTree = "<group>"; };
+		04029DAE2494D32000FB865B /* NewHorizons10.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = NewHorizons10.rcpx; sourceTree = "<group>"; };
+		04029DAF2494D32000FB865B /* NewHorizons11.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = NewHorizons11.rcpx; sourceTree = "<group>"; };
+		04029DB02494D32000FB865B /* NewHorizons12.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = NewHorizons12.rcpx; sourceTree = "<group>"; };
+		04029DB12494D32000FB865B /* NewHorizons13.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = NewHorizons13.rcpx; sourceTree = "<group>"; };
+		04029DB22494D32000FB865B /* NewHorizons14.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = NewHorizons14.rcpx; sourceTree = "<group>"; };
+		04029DB32494D32000FB865B /* NewLeaf.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = NewLeaf.rcpx; sourceTree = "<group>"; };
+		04029DB42494D32000FB865B /* NTSC~CurrierRec601NoSetup.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "NTSC~CurrierRec601NoSetup.rcpx"; sourceTree = "<group>"; };
+		04029DB52494D32000FB865B /* NTSC~CurrierRec601WithSetup.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "NTSC~CurrierRec601WithSetup.rcpx"; sourceTree = "<group>"; };
+		04029DB62494D32000FB865B /* NTSC~CurrierRGBNoSetup.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "NTSC~CurrierRGBNoSetup.rcpx"; sourceTree = "<group>"; };
+		04029DB72494D32000FB865B /* NTSC~CurrierRGBWithSetup.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "NTSC~CurrierRGBWithSetup.rcpx"; sourceTree = "<group>"; };
+		04029DB82494D32000FB865B /* NTSC~DVHandbook.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "NTSC~DVHandbook.rcpx"; sourceTree = "<group>"; };
+		04029DB92494D32000FB865B /* NTSC~GreatDV.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "NTSC~GreatDV.rcpx"; sourceTree = "<group>"; };
+		04029DBA2494D32000FB865B /* NTSC~KreativeKorp.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "NTSC~KreativeKorp.rcpx"; sourceTree = "<group>"; };
+		04029DBB2494D32000FB865B /* NTSC~MediaCollege.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "NTSC~MediaCollege.rcpx"; sourceTree = "<group>"; };
+		04029DBC2494D32000FB865B /* NTSC~MicroImage.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "NTSC~MicroImage.rcpx"; sourceTree = "<group>"; };
+		04029DBD2494D32000FB865B /* NTSC~Munafo.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "NTSC~Munafo.rcpx"; sourceTree = "<group>"; };
+		04029DBE2494D32000FB865B /* NTSC~RGB.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "NTSC~RGB.rcpx"; sourceTree = "<group>"; };
+		04029DBF2494D32000FB865B /* NTSC~VideoUniversity.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "NTSC~VideoUniversity.rcpx"; sourceTree = "<group>"; };
+		04029DC02494D32000FB865B /* NTSC~Wikipedia.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "NTSC~Wikipedia.rcpx"; sourceTree = "<group>"; };
+		04029DC12494D32000FB865B /* NTSC~Wilt.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "NTSC~Wilt.rcpx"; sourceTree = "<group>"; };
+		04029DC22494D32000FB865B /* Office.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Office.rcpx; sourceTree = "<group>"; };
+		04029DC32494D32000FB865B /* Office~Extended.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Office~Extended.rcpx"; sourceTree = "<group>"; };
+		04029DC42494D32000FB865B /* Office~Highlighter.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Office~Highlighter.rcpx"; sourceTree = "<group>"; };
+		04029DC52494D32000FB865B /* Office2008.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Office2008.rcpx; sourceTree = "<group>"; };
+		04029DF72494D32000FB865B /* OpenColor.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = OpenColor.rcpx; sourceTree = "<group>"; };
+		04029DF82494D32000FB865B /* Palm4Bit.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Palm4Bit.rcpx; sourceTree = "<group>"; };
+		04029DF92494D32000FB865B /* Palm8Bit.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Palm8Bit.rcpx; sourceTree = "<group>"; };
+		04029DFA2494D32000FB865B /* PalmReorganized.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = PalmReorganized.rcpx; sourceTree = "<group>"; };
+		04029DFB2494D32000FB865B /* Pebble.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Pebble.rcpx; sourceTree = "<group>"; };
+		04029DFC2494D32000FB865B /* Pebble~Sunny.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Pebble~Sunny.rcpx"; sourceTree = "<group>"; };
+		04029DFD2494D32000FB865B /* Photoshop.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Photoshop.rcpx; sourceTree = "<group>"; };
+		04029DFE2494D32000FB865B /* PICO8.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = PICO8.rcpx; sourceTree = "<group>"; };
+		04029DFF2494D32000FB865B /* PodPaint.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = PodPaint.rcpx; sourceTree = "<group>"; };
+		04029E002494D32000FB865B /* Psygnosia.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Psygnosia.rcpx; sourceTree = "<group>"; };
+		04029E012494D32000FB865B /* QuickDraw.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = QuickDraw.rcpx; sourceTree = "<group>"; };
+		04029E022494D32000FB865B /* R~Alphabet1.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "R~Alphabet1.rcpx"; sourceTree = "<group>"; };
+		04029E032494D32000FB865B /* R~Alphabet2.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "R~Alphabet2.rcpx"; sourceTree = "<group>"; };
+		04029E042494D32000FB865B /* R~Cols25.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "R~Cols25.rcpx"; sourceTree = "<group>"; };
+		04029E052494D32000FB865B /* R~Glasbey.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "R~Glasbey.rcpx"; sourceTree = "<group>"; };
+		04029E062494D32000FB865B /* R~Kelly.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "R~Kelly.rcpx"; sourceTree = "<group>"; };
+		04029E072494D32000FB865B /* R~Polychrome.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "R~Polychrome.rcpx"; sourceTree = "<group>"; };
+		04029E082494D32000FB865B /* R~Stepped.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "R~Stepped.rcpx"; sourceTree = "<group>"; };
+		04029E092494D32000FB865B /* R~Tol.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "R~Tol.rcpx"; sourceTree = "<group>"; };
+		04029E0A2494D32000FB865B /* R~Watlington.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "R~Watlington.rcpx"; sourceTree = "<group>"; };
+		04029E0B2494D32000FB865B /* R3G3B2.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = R3G3B2.rcpx; sourceTree = "<group>"; };
+		04029E0C2494D32000FB865B /* Rayalaka.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Rayalaka.rcpx; sourceTree = "<group>"; };
+		04029E0D2494D32000FB865B /* Resplendence.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Resplendence.rcpx; sourceTree = "<group>"; };
+		04029E0E2494D32000FB865B /* Sabine4Bit.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Sabine4Bit.rcpx; sourceTree = "<group>"; };
+		04029E0F2494D32000FB865B /* SabineASCII.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = SabineASCII.rcpx; sourceTree = "<group>"; };
+		04029E102494D32000FB865B /* SabineReorganized.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = SabineReorganized.rcpx; sourceTree = "<group>"; };
+		04029E112494D32000FB865B /* SAMCoupe.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = SAMCoupe.rcpx; sourceTree = "<group>"; };
+		04029E122494D32000FB865B /* Sepia2Bit~BlackFirst.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Sepia2Bit~BlackFirst.rcpx"; sourceTree = "<group>"; };
+		04029E132494D32000FB865B /* Sepia2Bit~WhiteFirst.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Sepia2Bit~WhiteFirst.rcpx"; sourceTree = "<group>"; };
+		04029E142494D32000FB865B /* Sepia4Bit~BlackFirst.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Sepia4Bit~BlackFirst.rcpx"; sourceTree = "<group>"; };
+		04029E152494D32000FB865B /* Sepia4Bit~WhiteFirst.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Sepia4Bit~WhiteFirst.rcpx"; sourceTree = "<group>"; };
+		04029E162494D32000FB865B /* Sepia6Bit~BlackFirst.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Sepia6Bit~BlackFirst.rcpx"; sourceTree = "<group>"; };
+		04029E172494D32000FB865B /* Sepia6Bit~WhiteFirst.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Sepia6Bit~WhiteFirst.rcpx"; sourceTree = "<group>"; };
+		04029E182494D32000FB865B /* Sepia8Bit~BlackFirst.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Sepia8Bit~BlackFirst.rcpx"; sourceTree = "<group>"; };
+		04029E192494D32000FB865B /* Sepia8Bit~WhiteFirst.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Sepia8Bit~WhiteFirst.rcpx"; sourceTree = "<group>"; };
+		04029E1A2494D32000FB865B /* SFSUTOSSpring2011.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = SFSUTOSSpring2011.rcpx; sourceTree = "<group>"; };
+		04029E1B2494D32000FB865B /* ShareDraw16Colors.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = ShareDraw16Colors.rcpx; sourceTree = "<group>"; };
+		04029E1C2494D32000FB865B /* ShareDraw256Colors.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = ShareDraw256Colors.rcpx; sourceTree = "<group>"; };
+		04029E1D2494D32000FB865B /* Solarized.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Solarized.rcpx; sourceTree = "<group>"; };
+		04029E1E2494D32000FB865B /* Spectrum.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Spectrum.rcpx; sourceTree = "<group>"; };
+		04029E1F2494D32000FB865B /* SuperFuture25.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = SuperFuture25.rcpx; sourceTree = "<group>"; };
+		04029E202494D32000FB865B /* SuperPaint.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = SuperPaint.rcpx; sourceTree = "<group>"; };
+		04029E212494D32000FB865B /* SuperPaint~BlueIce.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "SuperPaint~BlueIce.rcpx"; sourceTree = "<group>"; };
+		04029E222494D32000FB865B /* SuperPaint~BrightRainbow.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "SuperPaint~BrightRainbow.rcpx"; sourceTree = "<group>"; };
+		04029E232494D32000FB865B /* SuperPaint~Cocoa.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "SuperPaint~Cocoa.rcpx"; sourceTree = "<group>"; };
+		04029E242494D32000FB865B /* SuperPaint~ComplementaryColors.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "SuperPaint~ComplementaryColors.rcpx"; sourceTree = "<group>"; };
+		04029E252494D32000FB865B /* SuperPaint~Cosmetics.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "SuperPaint~Cosmetics.rcpx"; sourceTree = "<group>"; };
+		04029E262494D32000FB865B /* SuperPaint~Ochres.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "SuperPaint~Ochres.rcpx"; sourceTree = "<group>"; };
+		04029E272494D32000FB865B /* SuperPaint~PastelChalk.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "SuperPaint~PastelChalk.rcpx"; sourceTree = "<group>"; };
+		04029E282494D32000FB865B /* SuperPaint~PastelPaint.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "SuperPaint~PastelPaint.rcpx"; sourceTree = "<group>"; };
+		04029E292494D32000FB865B /* SuperPaint~RGB.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "SuperPaint~RGB.rcpx"; sourceTree = "<group>"; };
+		04029E2A2494D32000FB865B /* SuperPaint~Sand.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "SuperPaint~Sand.rcpx"; sourceTree = "<group>"; };
+		04029E2B2494D32000FB865B /* SuperPaint~Spectrum.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "SuperPaint~Spectrum.rcpx"; sourceTree = "<group>"; };
+		04029E2C2494D32000FB865B /* SuperPaint~Spectrum~Blues.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "SuperPaint~Spectrum~Blues.rcpx"; sourceTree = "<group>"; };
+		04029E2D2494D32000FB865B /* SuperPaint~Spectrum~Light.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "SuperPaint~Spectrum~Light.rcpx"; sourceTree = "<group>"; };
+		04029E2E2494D32000FB865B /* SuperPaint~SummerColors.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "SuperPaint~SummerColors.rcpx"; sourceTree = "<group>"; };
+		04029E2F2494D32000FB865B /* Tango.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Tango.rcpx; sourceTree = "<group>"; };
+		04029E302494D32000FB865B /* Thomson.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Thomson.rcpx; sourceTree = "<group>"; };
+		04029E312494D32000FB865B /* Tinkercad.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Tinkercad.rcpx; sourceTree = "<group>"; };
+		04029E322494D32000FB865B /* Trubetskoy.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Trubetskoy.rcpx; sourceTree = "<group>"; };
+		04029E332494D32000FB865B /* Vexillo.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Vexillo.rcpx; sourceTree = "<group>"; };
+		04029E342494D32000FB865B /* VGA~Genuine.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "VGA~Genuine.rcpx"; sourceTree = "<group>"; };
+		04029E352494D32000FB865B /* VGA~Imitation.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "VGA~Imitation.rcpx"; sourceTree = "<group>"; };
+		04029E362494D32000FB865B /* VGA~WebSafe.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "VGA~WebSafe.rcpx"; sourceTree = "<group>"; };
+		04029E372494D32000FB865B /* VGA~Windows.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "VGA~Windows.rcpx"; sourceTree = "<group>"; };
+		04029E382494D32000FB865B /* VisiBone1.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = VisiBone1.rcpx; sourceTree = "<group>"; };
+		04029E392494D32000FB865B /* VisiBone2.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = VisiBone2.rcpx; sourceTree = "<group>"; };
+		04029E3A2494D32000FB865B /* VisiBoneHexagonal1.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = VisiBoneHexagonal1.rcpx; sourceTree = "<group>"; };
+		04029E3B2494D32000FB865B /* VisiBoneHexagonal2.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = VisiBoneHexagonal2.rcpx; sourceTree = "<group>"; };
+		04029E3C2494D32000FB865B /* W3Schools.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = W3Schools.rcpx; sourceTree = "<group>"; };
+		04029E3D2494D32000FB865B /* Wad.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Wad.rcpx; sourceTree = "<group>"; };
+		04029E3E2494D32000FB865B /* WebReallySafeColors.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = WebReallySafeColors.rcpx; sourceTree = "<group>"; };
+		04029E3F2494D32000FB865B /* Windows4Bit.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Windows4Bit.rcpx; sourceTree = "<group>"; };
+		04029E402494D32000FB865B /* Windows8Bit.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Windows8Bit.rcpx; sourceTree = "<group>"; };
+		04029E412494D32000FB865B /* Windows8Bit~GraphicConverterNewer.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Windows8Bit~GraphicConverterNewer.rcpx"; sourceTree = "<group>"; };
+		04029E422494D32000FB865B /* Windows8Bit~GraphicConverterOlder.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Windows8Bit~GraphicConverterOlder.rcpx"; sourceTree = "<group>"; };
+		04029E432494D32000FB865B /* Windows8Bit~Photoshop.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Windows8Bit~Photoshop.rcpx"; sourceTree = "<group>"; };
+		04029E442494D32000FB865B /* WindowsXPIconColors.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = WindowsXPIconColors.rcpx; sourceTree = "<group>"; };
+		04029E452494D32000FB865B /* X11Complete.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = X11Complete.rcpx; sourceTree = "<group>"; };
+		04029E462494D32000FB865B /* X11Normalized.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = X11Normalized.rcpx; sourceTree = "<group>"; };
+		04029E472494D32000FB865B /* X11Simple.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = X11Simple.rcpx; sourceTree = "<group>"; };
+		04029E482494D32000FB865B /* XKCD0016.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = XKCD0016.rcpx; sourceTree = "<group>"; };
+		04029E492494D32000FB865B /* XKCD0064.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = XKCD0064.rcpx; sourceTree = "<group>"; };
+		04029E4A2494D32000FB865B /* XKCD0256.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = XKCD0256.rcpx; sourceTree = "<group>"; };
+		04029E4B2494D32000FB865B /* XKCD1000.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = XKCD1000.rcpx; sourceTree = "<group>"; };
+		04029E4C2494D32000FB865B /* ZXSpectrum.rcpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = ZXSpectrum.rcpx; sourceTree = "<group>"; };
+		040F804D248F40A400BAB402 /* ColorSwatches.colorPicker */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorSwatches.colorPicker; sourceTree = BUILT_PRODUCTS_DIR; };
+		040F8050248F40A400BAB402 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		040F8053248F40A400BAB402 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		040F8054248F40A400BAB402 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		040F8055248F40A400BAB402 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		040F8058248F40A400BAB402 /* ColorSwatches-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ColorSwatches-Info.plist"; sourceTree = "<group>"; };
+		040F805A248F40A400BAB402 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		040F805C248F40A400BAB402 /* ColorSwatches-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ColorSwatches-Prefix.pch"; sourceTree = "<group>"; };
+		040F8064248F437800BAB402 /* ColorSwatches.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ColorSwatches.xib; sourceTree = "<group>"; };
+		041B5588249371AF00B13BDA /* ColorSwatches.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ColorSwatches.m; path = ColorSwatches/ColorSwatches.m; sourceTree = "<group>"; };
+		0439F00E248F6CDF00206652 /* RCPXColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCPXColor.h; sourceTree = "<group>"; };
+		0439F00F248F6CDF00206652 /* RCPXColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCPXColor.m; sourceTree = "<group>"; };
+		0439F011248F72CE00206652 /* RCPXBorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCPXBorder.h; sourceTree = "<group>"; };
+		0439F012248F72CE00206652 /* RCPXBorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCPXBorder.m; sourceTree = "<group>"; };
+		044CF8C6248F7F6D00B8779B /* RCPX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCPX.h; sourceTree = "<group>"; };
+		044CF8CA24909E7500B8779B /* RCPXShape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCPXShape.h; sourceTree = "<group>"; };
+		044CF8CB24909E7500B8779B /* RCPXShape.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCPXShape.m; sourceTree = "<group>"; };
+		044CF8D12491B46C00B8779B /* RCPXLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCPXLayout.h; sourceTree = "<group>"; };
+		044CF8D22491B46C00B8779B /* RCPXLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCPXLayout.m; sourceTree = "<group>"; };
+		044CF8D42491B6AE00B8779B /* RCPXSwatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCPXSwatch.h; sourceTree = "<group>"; };
+		044CF8D52491B6AE00B8779B /* RCPXSwatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCPXSwatch.m; sourceTree = "<group>"; };
+		044CF8D72491BEDA00B8779B /* RCPXLayoutOrSwatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCPXLayoutOrSwatch.h; sourceTree = "<group>"; };
+		044CF8D82491BEDA00B8779B /* RCPXLayoutOrSwatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCPXLayoutOrSwatch.m; sourceTree = "<group>"; };
+		044CF8DD249256DF00B8779B /* RCPXUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCPXUtilities.h; sourceTree = "<group>"; };
+		044CF8DE249256DF00B8779B /* RCPXUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCPXUtilities.m; sourceTree = "<group>"; };
+		044CF8E02492D24E00B8779B /* RCPXPalette.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCPXPalette.h; sourceTree = "<group>"; };
+		044CF8E12492D24E00B8779B /* RCPXPalette.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCPXPalette.m; sourceTree = "<group>"; };
+		044CF8E32492DE6C00B8779B /* RCPXParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCPXParser.h; sourceTree = "<group>"; };
+		044CF8E42492DE6C00B8779B /* RCPXParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCPXParser.m; sourceTree = "<group>"; };
+		04E27D8C248F4422009EA332 /* ColorSwatches.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ColorSwatches.h; path = ColorSwatches/ColorSwatches.h; sourceTree = "<group>"; };
+		04E27D90248F47C3009EA332 /* RCPXView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RCPXView.h; path = ColorSwatches/RCPXView.h; sourceTree = "<group>"; };
+		04E27D91248F47C3009EA332 /* RCPXView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RCPXView.m; path = ColorSwatches/RCPXView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		040F804A248F40A400BAB402 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				040F8051248F40A400BAB402 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		040F8042248F40A400BAB402 = {
+			isa = PBXGroup;
+			children = (
+				040F8064248F437800BAB402 /* ColorSwatches.xib */,
+				04E27D8C248F4422009EA332 /* ColorSwatches.h */,
+				041B5588249371AF00B13BDA /* ColorSwatches.m */,
+				04E27D90248F47C3009EA332 /* RCPXView.h */,
+				04E27D91248F47C3009EA332 /* RCPXView.m */,
+				0439F00D248F6C0500206652 /* RCPX */,
+				0439F002248F5BB300206652 /* Palettes */,
+				040F8056248F40A400BAB402 /* ColorSwatches */,
+				040F804F248F40A400BAB402 /* Frameworks */,
+				040F804E248F40A400BAB402 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		040F804E248F40A400BAB402 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				040F804D248F40A400BAB402 /* ColorSwatches.colorPicker */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		040F804F248F40A400BAB402 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				040F8050248F40A400BAB402 /* Cocoa.framework */,
+				040F8052248F40A400BAB402 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		040F8052248F40A400BAB402 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				040F8053248F40A400BAB402 /* AppKit.framework */,
+				040F8054248F40A400BAB402 /* CoreData.framework */,
+				040F8055248F40A400BAB402 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		040F8056248F40A400BAB402 /* ColorSwatches */ = {
+			isa = PBXGroup;
+			children = (
+				040F8057248F40A400BAB402 /* Supporting Files */,
+			);
+			path = ColorSwatches;
+			sourceTree = "<group>";
+		};
+		040F8057248F40A400BAB402 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				040F8058248F40A400BAB402 /* ColorSwatches-Info.plist */,
+				040F8059248F40A400BAB402 /* InfoPlist.strings */,
+				040F805C248F40A400BAB402 /* ColorSwatches-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0439F002248F5BB300206652 /* Palettes */ = {
+			isa = PBXGroup;
+			children = (
+				04029C7D2494D32000FB865B /* 002CubicProcess.rcpx */,
+				04029C7E2494D32000FB865B /* 003Cubic.rcpx */,
+				04029C7F2494D32000FB865B /* 004Cubic.rcpx */,
+				04029C802494D32000FB865B /* 005Cubic.rcpx */,
+				04029C812494D32000FB865B /* 006CubicWebSafe.rcpx */,
+				04029C852494D32000FB865B /* 102ConicProcess.rcpx */,
+				04029C862494D32000FB865B /* 103Conic.rcpx */,
+				04029C872494D32000FB865B /* 104Conic.rcpx */,
+				04029C882494D32000FB865B /* 105Conic.rcpx */,
+				04029C892494D32000FB865B /* 106ConicWebSafe.rcpx */,
+				04029C8D2494D32000FB865B /* A64.rcpx */,
+				04029C8E2494D32000FB865B /* AAP16.rcpx */,
+				04029C8F2494D32000FB865B /* AAP64.rcpx */,
+				04029C902494D32000FB865B /* Acorn2Bit.rcpx */,
+				04029C912494D32000FB865B /* Acorn4Bit.rcpx */,
+				04029C922494D32000FB865B /* Acorn8Bit.rcpx */,
+				04029C932494D32000FB865B /* AcornReorganized.rcpx */,
+				04029C942494D32000FB865B /* AddColor.rcpx */,
+				04029C952494D32000FB865B /* AndrewKensler16.rcpx */,
+				04029C962494D32000FB865B /* AndrewKensler32.rcpx */,
+				04029C972494D32000FB865B /* AndrewKensler54.rcpx */,
+				04029C982494D32000FB865B /* ANSI4Bit~CMD.rcpx */,
+				04029C992494D32000FB865B /* ANSI4Bit~mIRC.rcpx */,
+				04029C9A2494D32000FB865B /* ANSI4Bit~PuTTY.rcpx */,
+				04029C9B2494D32000FB865B /* ANSI4Bit~Terminal.rcpx */,
+				04029C9C2494D32000FB865B /* ANSI4Bit~Ubuntu.rcpx */,
+				04029C9D2494D32000FB865B /* ANSI4Bit~VGA.rcpx */,
+				04029C9E2494D32000FB865B /* ANSI4Bit~xterm.rcpx */,
+				04029C9F2494D32000FB865B /* ANSI8Bit~CMD.rcpx */,
+				04029CA02494D32000FB865B /* ANSI8Bit~mIRC.rcpx */,
+				04029CA12494D32000FB865B /* ANSI8Bit~PuTTY.rcpx */,
+				04029CA22494D32000FB865B /* ANSI8Bit~Terminal.rcpx */,
+				04029CA32494D32000FB865B /* ANSI8Bit~Ubuntu.rcpx */,
+				04029CA42494D32000FB865B /* ANSI8Bit~VGA.rcpx */,
+				04029CA52494D32000FB865B /* ANSI8Bit~xterm.rcpx */,
+				04029CA62494D32000FB865B /* AppleIconColors.rcpx */,
+				04029CA72494D32000FB865B /* AppleII~ApplePC.rcpx */,
+				04029CA82494D32000FB865B /* AppleII~Bettencourt.rcpx */,
+				04029CA92494D32000FB865B /* AppleII~Munafo.rcpx */,
+				04029CAA2494D32000FB865B /* AppleII~Ticmanis~SMPTE1979.rcpx */,
+				04029CAB2494D32000FB865B /* AppleII~Ticmanis~sRGB.rcpx */,
+				04029CAC2494D32000FB865B /* AppleII~Wikipedia.rcpx */,
+				04029CAD2494D32000FB865B /* AppleWorks.rcpx */,
+				04029CAE2494D32000FB865B /* AppleWorks~16Colors.rcpx */,
+				04029CAF2494D32000FB865B /* AppleWorks~240Grays&16Colors.rcpx */,
+				04029CB02494D32000FB865B /* AppleWorks~BrightColors.rcpx */,
+				04029CB12494D32000FB865B /* AppleWorks~CyanToBlue.rcpx */,
+				04029CB22494D32000FB865B /* AppleWorks~EarthTones.rcpx */,
+				04029CB32494D32000FB865B /* AppleWorks~MidTones.rcpx */,
+				04029CB42494D32000FB865B /* AppleWorks~PastelColors.rcpx */,
+				04029CB52494D32000FB865B /* AppleWorks~Presentation.rcpx */,
+				04029CB62494D32000FB865B /* AppleWorks~RedToYellow.rcpx */,
+				04029CB72494D32000FB865B /* AppleWorks~VioletToMagenta.rcpx */,
+				04029CB82494D32000FB865B /* AppleWorks~VividColors.rcpx */,
+				04029CB92494D32000FB865B /* AppleWorks~YellowGreen&GreenBlue.rcpx */,
+				04029CBA2494D32000FB865B /* Arne16.rcpx */,
+				04029CBB2494D32000FB865B /* Arne32.rcpx */,
+				04029CBC2494D32000FB865B /* ARQ04.rcpx */,
+				04029CBD2494D32000FB865B /* ARQ16.rcpx */,
+				04029CBE2494D32000FB865B /* AutoCAD.rcpx */,
+				04029CFA2494D32000FB865B /* Black&White~BlackFirst.rcpx */,
+				04029CFB2494D32000FB865B /* Black&White~WhiteFirst.rcpx */,
+				04029CFC2494D32000FB865B /* BlackBodyMC150.rcpx */,
+				04029CFD2494D32000FB865B /* BlackBodyMCContinuous.rcpx */,
+				04029CFE2494D32000FB865B /* BlackBodyPS256.rcpx */,
+				04029CFF2494D32000FB865B /* BlackBodyPSContinuous.rcpx */,
+				04029D002494D32000FB865B /* CGA~Genuine.rcpx */,
+				04029D012494D32000FB865B /* CGA~Imitation.rcpx */,
+				04029D022494D32000FB865B /* CGA~Windows.rcpx */,
+				04029D032494D32000FB865B /* CGArne.rcpx */,
+				04029D042494D32000FB865B /* CGArne~CGAOrder.rcpx */,
+				04029D052494D32000FB865B /* Chip16.rcpx */,
+				04029D062494D32000FB865B /* ClarisWorks.rcpx */,
+				04029D072494D32000FB865B /* ColorIt~EarthTones.rcpx */,
+				04029D082494D32000FB865B /* ColorIt~FleshTones.rcpx */,
+				04029D092494D32000FB865B /* ColorIt~PastelHues.rcpx */,
+				04029D0A2494D32000FB865B /* ColorIt~VividHues.rcpx */,
+				04029D0B2494D32000FB865B /* CommanderX16~4Bit.rcpx */,
+				04029D0C2494D32000FB865B /* CommanderX16~8Bit.rcpx */,
+				04029D0D2494D32000FB865B /* CommanderX16~8Bit~WebSafe.rcpx */,
+				04029D0E2494D32000FB865B /* Commodore16.rcpx */,
+				04029D0F2494D32000FB865B /* Commodore64~GraphicConverter.rcpx */,
+				04029D102494D32000FB865B /* Commodore64~Wikipedia.rcpx */,
+				04029D112494D32000FB865B /* CommodoreVIC20~Wikipedia.rcpx */,
+				04029D122494D32000FB865B /* CopperTech.rcpx */,
+				04029D132494D32000FB865B /* CPCBoy.rcpx */,
+				04029D142494D32000FB865B /* CSS.rcpx */,
+				04029D152494D32000FB865B /* CTIANTSC247Desaturated.rcpx */,
+				04029D162494D32000FB865B /* CTIANTSC247Saturated.rcpx */,
+				04029D172494D32000FB865B /* CTIANTSC257Desaturated.rcpx */,
+				04029D182494D32000FB865B /* CTIANTSC257Saturated.rcpx */,
+				04029D192494D32000FB865B /* CTIANTSC267Desaturated.rcpx */,
+				04029D1A2494D32000FB865B /* CTIANTSC267Saturated.rcpx */,
+				04029D1B2494D32000FB865B /* CTIANTSC277Desaturated.rcpx */,
+				04029D1C2494D32000FB865B /* CTIANTSC277Saturated.rcpx */,
+				04029D1D2494D32000FB865B /* CTIAPAL247Desaturated.rcpx */,
+				04029D1E2494D32000FB865B /* CTIAPAL247Saturated.rcpx */,
+				04029D1F2494D32000FB865B /* CTIAPAL257Desaturated.rcpx */,
+				04029D202494D32000FB865B /* CTIAPAL257Saturated.rcpx */,
+				04029D212494D32000FB865B /* CTIAPAL267Desaturated.rcpx */,
+				04029D222494D32000FB865B /* CTIAPAL267Saturated.rcpx */,
+				04029D232494D32000FB865B /* CTIAPAL277Desaturated.rcpx */,
+				04029D242494D32000FB865B /* CTIAPAL277Saturated.rcpx */,
+				04029D252494D32000FB865B /* CubeSides.rcpx */,
+				04029D262494D32000FB865B /* DawnBringer08.rcpx */,
+				04029D272494D32000FB865B /* DawnBringer16.rcpx */,
+				04029D282494D32000FB865B /* DawnBringer32.rcpx */,
+				04029D292494D32000FB865B /* DStudio.rcpx */,
+				04029D2A2494D32000FB865B /* EGA.rcpx */,
+				04029D2B2494D32000FB865B /* EN04.rcpx */,
+				04029D2C2494D32000FB865B /* Endesga08.rcpx */,
+				04029D2D2494D32000FB865B /* Endesga16.rcpx */,
+				04029D2E2494D32000FB865B /* Endesga32.rcpx */,
+				04029D2F2494D32000FB865B /* Endesga36.rcpx */,
+				04029D302494D32000FB865B /* Endesga64.rcpx */,
+				04029D312494D32000FB865B /* EndesgaSoft16.rcpx */,
+				04029D322494D32000FB865B /* ENOS16.rcpx */,
+				04029D332494D32000FB865B /* ErogeCopper.rcpx */,
+				04029D342494D32000FB865B /* FalseColorSpectrum.rcpx */,
+				04029D352494D32000FB865B /* Famicube.rcpx */,
+				04029D362494D32000FB865B /* Felice.rcpx */,
+				04029D372494D32000FB865B /* GIMP~Bears.rcpx */,
+				04029D382494D32000FB865B /* GIMP~Bgold.rcpx */,
+				04029D392494D32000FB865B /* GIMP~Blues.rcpx */,
+				04029D3A2494D32000FB865B /* GIMP~Borders.rcpx */,
+				04029D3B2494D32000FB865B /* GIMP~Browns&Yellows.rcpx */,
+				04029D3C2494D32000FB865B /* GIMP~Caramel.rcpx */,
+				04029D3D2494D32000FB865B /* GIMP~Cascade.rcpx */,
+				04029D3E2494D32000FB865B /* GIMP~China.rcpx */,
+				04029D3F2494D32000FB865B /* GIMP~Coldfire.rcpx */,
+				04029D402494D32000FB865B /* GIMP~CoolColors.rcpx */,
+				04029D412494D32000FB865B /* GIMP~Cranes.rcpx */,
+				04029D422494D32000FB865B /* GIMP~DarkPastels.rcpx */,
+				04029D432494D32000FB865B /* GIMP~Default.rcpx */,
+				04029D442494D32000FB865B /* GIMP~Ega.rcpx */,
+				04029D452494D32000FB865B /* GIMP~Firecode.rcpx */,
+				04029D462494D32000FB865B /* GIMP~Gold.rcpx */,
+				04029D472494D32000FB865B /* GIMP~Grayblue.rcpx */,
+				04029D482494D32000FB865B /* GIMP~Grays.rcpx */,
+				04029D492494D32000FB865B /* GIMP~GrayViolet.rcpx */,
+				04029D4A2494D32000FB865B /* GIMP~Greens.rcpx */,
+				04029D4B2494D32000FB865B /* GIMP~Hilite.rcpx */,
+				04029D4C2494D32000FB865B /* GIMP~Khaki.rcpx */,
+				04029D4D2494D32000FB865B /* GIMP~Lights.rcpx */,
+				04029D4E2494D32000FB865B /* GIMP~Muted.rcpx */,
+				04029D4F2494D32000FB865B /* GIMP~NamedColors.rcpx */,
+				04029D502494D32000FB865B /* GIMP~News3.rcpx */,
+				04029D512494D32000FB865B /* GIMP~Op2.rcpx */,
+				04029D522494D32000FB865B /* GIMP~Paintjet.rcpx */,
+				04029D532494D32000FB865B /* GIMP~Pastels.rcpx */,
+				04029D542494D32000FB865B /* GIMP~Plasma.rcpx */,
+				04029D552494D32000FB865B /* GIMP~Reds.rcpx */,
+				04029D562494D32000FB865B /* GIMP~Reds&Purples.rcpx */,
+				04029D572494D32000FB865B /* GIMP~Royal.rcpx */,
+				04029D582494D32000FB865B /* GIMP~Tango.rcpx */,
+				04029D592494D32000FB865B /* GIMP~Topographic.rcpx */,
+				04029D5A2494D32000FB865B /* GIMP~Volcano.rcpx */,
+				04029D5B2494D32000FB865B /* GIMP~WarmColors.rcpx */,
+				04029D5C2494D32000FB865B /* Gmail.rcpx */,
+				04029D5D2494D32000FB865B /* Gmail~Extended.rcpx */,
+				04029D5E2494D32000FB865B /* GoogleCalendar~Newer.rcpx */,
+				04029D5F2494D32000FB865B /* GoogleCalendar~Older.rcpx */,
+				04029D602494D32000FB865B /* GoogleDocs.rcpx */,
+				04029D612494D32000FB865B /* Grayscale2Bit~BlackFirst.rcpx */,
+				04029D622494D32000FB865B /* Grayscale2Bit~WhiteFirst.rcpx */,
+				04029D632494D32000FB865B /* Grayscale4Bit~BlackFirst.rcpx */,
+				04029D642494D32000FB865B /* Grayscale4Bit~WhiteFirst.rcpx */,
+				04029D652494D32000FB865B /* Grayscale6Bit~BlackFirst.rcpx */,
+				04029D662494D32000FB865B /* Grayscale6Bit~WhiteFirst.rcpx */,
+				04029D672494D32000FB865B /* Grayscale8Bit~BlackFirst.rcpx */,
+				04029D682494D32000FB865B /* Grayscale8Bit~WhiteFirst.rcpx */,
+				04029D692494D32000FB865B /* Grayscales.rcpx */,
+				04029D6A2494D32000FB865B /* GTIANTSC.rcpx */,
+				04029D6B2494D32000FB865B /* GTIAPAL.rcpx */,
+				04029D6C2494D32000FB865B /* HEPT32.rcpx */,
+				04029D6D2494D32000FB865B /* HiMom.rcpx */,
+				04029D6E2494D32000FB865B /* HTML.rcpx */,
+				04029D6F2494D32000FB865B /* Iconographer.rcpx */,
+				04029D702494D32000FB865B /* ImageWriterII.rcpx */,
+				04029D712494D32000FB865B /* JavaDefaultIndexed.rcpx */,
+				04029D722494D32000FB865B /* JavaSwing.rcpx */,
+				04029D732494D32000FB865B /* JMPJapaneseMachinePalette.rcpx */,
+				04029D742494D32000FB865B /* KDE.rcpx */,
+				04029D752494D32000FB865B /* KidPix16Colors.rcpx */,
+				04029D762494D32000FB865B /* KidPix36Colors.rcpx */,
+				04029D772494D32000FB865B /* KidPixDisplay16.rcpx */,
+				04029D782494D32000FB865B /* KidPixImageWriterII.rcpx */,
+				04029D792494D32000FB865B /* KidPixStudio.rcpx */,
+				04029D7A2494D32000FB865B /* MacOS2Bit.rcpx */,
+				04029D7B2494D32000FB865B /* MacOS4Bit.rcpx */,
+				04029D7C2494D32000FB865B /* MacOS4Bit~CGAOrder.rcpx */,
+				04029D7D2494D32000FB865B /* MacOS8Bit.rcpx */,
+				04029D7E2494D32000FB865B /* MacOSClassicCrayons.rcpx */,
+				04029D7F2494D32000FB865B /* MacOSXBasic.rcpx */,
+				04029D802494D32000FB865B /* MacOSXCrayons.rcpx */,
+				04029D812494D32000FB865B /* MagicalMonsterKinds.rcpx */,
+				04029D822494D32000FB865B /* MarioPaint.rcpx */,
+				04029D832494D32000FB865B /* MaterialDesign.rcpx */,
+				04029D842494D32000FB865B /* MaterialDesign~Raw.rcpx */,
+				04029D852494D32000FB865B /* MikaCity~MCCE.rcpx */,
+				04029D862494D32000FB865B /* MonochromeP1.rcpx */,
+				04029D872494D32000FB865B /* MonochromeP1~2Bit.rcpx */,
+				04029D882494D32000FB865B /* MonochromeP1~4Bit.rcpx */,
+				04029D892494D32000FB865B /* MonochromeP1~6Bit.rcpx */,
+				04029D8A2494D32000FB865B /* MonochromeP1~8Bit.rcpx */,
+				04029D8B2494D32000FB865B /* MonochromeP2.rcpx */,
+				04029D8C2494D32000FB865B /* MonochromeP2~2Bit.rcpx */,
+				04029D8D2494D32000FB865B /* MonochromeP2~4Bit.rcpx */,
+				04029D8E2494D32000FB865B /* MonochromeP2~6Bit.rcpx */,
+				04029D8F2494D32000FB865B /* MonochromeP2~8Bit.rcpx */,
+				04029D902494D32000FB865B /* MonochromeP3.rcpx */,
+				04029D912494D32000FB865B /* MonochromeP3~2Bit.rcpx */,
+				04029D922494D32000FB865B /* MonochromeP3~4Bit.rcpx */,
+				04029D932494D32000FB865B /* MonochromeP3~6Bit.rcpx */,
+				04029D942494D32000FB865B /* MonochromeP3~8Bit.rcpx */,
+				04029D952494D32000FB865B /* MSPaint.rcpx */,
+				04029D962494D32000FB865B /* MSPaint~Extended.rcpx */,
+				04029D972494D32000FB865B /* MSPaint~Vista.rcpx */,
+				04029D982494D32000FB865B /* MSPaint~Windows7.rcpx */,
+				04029D992494D32000FB865B /* MSX.rcpx */,
+				04029D9A2494D32000FB865B /* MSX2.rcpx */,
+				04029D9B2494D32000FB865B /* NES~Nesdev~2C02.rcpx */,
+				04029D9C2494D32000FB865B /* NES~Nesdev~2C03.rcpx */,
+				04029D9D2494D32000FB865B /* NES~Nesdev~2C04.rcpx */,
+				04029D9E2494D32000FB865B /* NES~Nesdev~RP2C04~0001.rcpx */,
+				04029D9F2494D32000FB865B /* NES~Nesdev~RP2C04~0002.rcpx */,
+				04029DA02494D32000FB865B /* NES~Nesdev~RP2C04~0003.rcpx */,
+				04029DA12494D32000FB865B /* NES~Nesdev~RP2C04~0004.rcpx */,
+				04029DA22494D32000FB865B /* NES~Tersigni.rcpx */,
+				04029DA32494D32000FB865B /* NES~Wikipedia.rcpx */,
+				04029DA42494D32000FB865B /* Netscape.rcpx */,
+				04029DA52494D32000FB865B /* NewHorizons01.rcpx */,
+				04029DA62494D32000FB865B /* NewHorizons02.rcpx */,
+				04029DA72494D32000FB865B /* NewHorizons03.rcpx */,
+				04029DA82494D32000FB865B /* NewHorizons04.rcpx */,
+				04029DA92494D32000FB865B /* NewHorizons05.rcpx */,
+				04029DAA2494D32000FB865B /* NewHorizons06.rcpx */,
+				04029DAB2494D32000FB865B /* NewHorizons07.rcpx */,
+				04029DAC2494D32000FB865B /* NewHorizons08.rcpx */,
+				04029DAD2494D32000FB865B /* NewHorizons09.rcpx */,
+				04029DAE2494D32000FB865B /* NewHorizons10.rcpx */,
+				04029DAF2494D32000FB865B /* NewHorizons11.rcpx */,
+				04029DB02494D32000FB865B /* NewHorizons12.rcpx */,
+				04029DB12494D32000FB865B /* NewHorizons13.rcpx */,
+				04029DB22494D32000FB865B /* NewHorizons14.rcpx */,
+				04029DB32494D32000FB865B /* NewLeaf.rcpx */,
+				04029DB42494D32000FB865B /* NTSC~CurrierRec601NoSetup.rcpx */,
+				04029DB52494D32000FB865B /* NTSC~CurrierRec601WithSetup.rcpx */,
+				04029DB62494D32000FB865B /* NTSC~CurrierRGBNoSetup.rcpx */,
+				04029DB72494D32000FB865B /* NTSC~CurrierRGBWithSetup.rcpx */,
+				04029DB82494D32000FB865B /* NTSC~DVHandbook.rcpx */,
+				04029DB92494D32000FB865B /* NTSC~GreatDV.rcpx */,
+				04029DBA2494D32000FB865B /* NTSC~KreativeKorp.rcpx */,
+				04029DBB2494D32000FB865B /* NTSC~MediaCollege.rcpx */,
+				04029DBC2494D32000FB865B /* NTSC~MicroImage.rcpx */,
+				04029DBD2494D32000FB865B /* NTSC~Munafo.rcpx */,
+				04029DBE2494D32000FB865B /* NTSC~RGB.rcpx */,
+				04029DBF2494D32000FB865B /* NTSC~VideoUniversity.rcpx */,
+				04029DC02494D32000FB865B /* NTSC~Wikipedia.rcpx */,
+				04029DC12494D32000FB865B /* NTSC~Wilt.rcpx */,
+				04029DC22494D32000FB865B /* Office.rcpx */,
+				04029DC32494D32000FB865B /* Office~Extended.rcpx */,
+				04029DC42494D32000FB865B /* Office~Highlighter.rcpx */,
+				04029DC52494D32000FB865B /* Office2008.rcpx */,
+				04029DF72494D32000FB865B /* OpenColor.rcpx */,
+				04029DF82494D32000FB865B /* Palm4Bit.rcpx */,
+				04029DF92494D32000FB865B /* Palm8Bit.rcpx */,
+				04029DFA2494D32000FB865B /* PalmReorganized.rcpx */,
+				04029DFB2494D32000FB865B /* Pebble.rcpx */,
+				04029DFC2494D32000FB865B /* Pebble~Sunny.rcpx */,
+				04029DFD2494D32000FB865B /* Photoshop.rcpx */,
+				04029DFE2494D32000FB865B /* PICO8.rcpx */,
+				04029DFF2494D32000FB865B /* PodPaint.rcpx */,
+				04029E002494D32000FB865B /* Psygnosia.rcpx */,
+				04029E012494D32000FB865B /* QuickDraw.rcpx */,
+				04029E022494D32000FB865B /* R~Alphabet1.rcpx */,
+				04029E032494D32000FB865B /* R~Alphabet2.rcpx */,
+				04029E042494D32000FB865B /* R~Cols25.rcpx */,
+				04029E052494D32000FB865B /* R~Glasbey.rcpx */,
+				04029E062494D32000FB865B /* R~Kelly.rcpx */,
+				04029E072494D32000FB865B /* R~Polychrome.rcpx */,
+				04029E082494D32000FB865B /* R~Stepped.rcpx */,
+				04029E092494D32000FB865B /* R~Tol.rcpx */,
+				04029E0A2494D32000FB865B /* R~Watlington.rcpx */,
+				04029E0B2494D32000FB865B /* R3G3B2.rcpx */,
+				04029E0C2494D32000FB865B /* Rayalaka.rcpx */,
+				04029E0D2494D32000FB865B /* Resplendence.rcpx */,
+				04029E0E2494D32000FB865B /* Sabine4Bit.rcpx */,
+				04029E0F2494D32000FB865B /* SabineASCII.rcpx */,
+				04029E102494D32000FB865B /* SabineReorganized.rcpx */,
+				04029E112494D32000FB865B /* SAMCoupe.rcpx */,
+				04029E122494D32000FB865B /* Sepia2Bit~BlackFirst.rcpx */,
+				04029E132494D32000FB865B /* Sepia2Bit~WhiteFirst.rcpx */,
+				04029E142494D32000FB865B /* Sepia4Bit~BlackFirst.rcpx */,
+				04029E152494D32000FB865B /* Sepia4Bit~WhiteFirst.rcpx */,
+				04029E162494D32000FB865B /* Sepia6Bit~BlackFirst.rcpx */,
+				04029E172494D32000FB865B /* Sepia6Bit~WhiteFirst.rcpx */,
+				04029E182494D32000FB865B /* Sepia8Bit~BlackFirst.rcpx */,
+				04029E192494D32000FB865B /* Sepia8Bit~WhiteFirst.rcpx */,
+				04029E1A2494D32000FB865B /* SFSUTOSSpring2011.rcpx */,
+				04029E1B2494D32000FB865B /* ShareDraw16Colors.rcpx */,
+				04029E1C2494D32000FB865B /* ShareDraw256Colors.rcpx */,
+				04029E1D2494D32000FB865B /* Solarized.rcpx */,
+				04029E1E2494D32000FB865B /* Spectrum.rcpx */,
+				04029E1F2494D32000FB865B /* SuperFuture25.rcpx */,
+				04029E202494D32000FB865B /* SuperPaint.rcpx */,
+				04029E212494D32000FB865B /* SuperPaint~BlueIce.rcpx */,
+				04029E222494D32000FB865B /* SuperPaint~BrightRainbow.rcpx */,
+				04029E232494D32000FB865B /* SuperPaint~Cocoa.rcpx */,
+				04029E242494D32000FB865B /* SuperPaint~ComplementaryColors.rcpx */,
+				04029E252494D32000FB865B /* SuperPaint~Cosmetics.rcpx */,
+				04029E262494D32000FB865B /* SuperPaint~Ochres.rcpx */,
+				04029E272494D32000FB865B /* SuperPaint~PastelChalk.rcpx */,
+				04029E282494D32000FB865B /* SuperPaint~PastelPaint.rcpx */,
+				04029E292494D32000FB865B /* SuperPaint~RGB.rcpx */,
+				04029E2A2494D32000FB865B /* SuperPaint~Sand.rcpx */,
+				04029E2B2494D32000FB865B /* SuperPaint~Spectrum.rcpx */,
+				04029E2C2494D32000FB865B /* SuperPaint~Spectrum~Blues.rcpx */,
+				04029E2D2494D32000FB865B /* SuperPaint~Spectrum~Light.rcpx */,
+				04029E2E2494D32000FB865B /* SuperPaint~SummerColors.rcpx */,
+				04029E2F2494D32000FB865B /* Tango.rcpx */,
+				04029E302494D32000FB865B /* Thomson.rcpx */,
+				04029E312494D32000FB865B /* Tinkercad.rcpx */,
+				04029E322494D32000FB865B /* Trubetskoy.rcpx */,
+				04029E332494D32000FB865B /* Vexillo.rcpx */,
+				04029E342494D32000FB865B /* VGA~Genuine.rcpx */,
+				04029E352494D32000FB865B /* VGA~Imitation.rcpx */,
+				04029E362494D32000FB865B /* VGA~WebSafe.rcpx */,
+				04029E372494D32000FB865B /* VGA~Windows.rcpx */,
+				04029E382494D32000FB865B /* VisiBone1.rcpx */,
+				04029E392494D32000FB865B /* VisiBone2.rcpx */,
+				04029E3A2494D32000FB865B /* VisiBoneHexagonal1.rcpx */,
+				04029E3B2494D32000FB865B /* VisiBoneHexagonal2.rcpx */,
+				04029E3C2494D32000FB865B /* W3Schools.rcpx */,
+				04029E3D2494D32000FB865B /* Wad.rcpx */,
+				04029E3E2494D32000FB865B /* WebReallySafeColors.rcpx */,
+				04029E3F2494D32000FB865B /* Windows4Bit.rcpx */,
+				04029E402494D32000FB865B /* Windows8Bit.rcpx */,
+				04029E412494D32000FB865B /* Windows8Bit~GraphicConverterNewer.rcpx */,
+				04029E422494D32000FB865B /* Windows8Bit~GraphicConverterOlder.rcpx */,
+				04029E432494D32000FB865B /* Windows8Bit~Photoshop.rcpx */,
+				04029E442494D32000FB865B /* WindowsXPIconColors.rcpx */,
+				04029E452494D32000FB865B /* X11Complete.rcpx */,
+				04029E462494D32000FB865B /* X11Normalized.rcpx */,
+				04029E472494D32000FB865B /* X11Simple.rcpx */,
+				04029E482494D32000FB865B /* XKCD0016.rcpx */,
+				04029E492494D32000FB865B /* XKCD0064.rcpx */,
+				04029E4A2494D32000FB865B /* XKCD0256.rcpx */,
+				04029E4B2494D32000FB865B /* XKCD1000.rcpx */,
+				04029E4C2494D32000FB865B /* ZXSpectrum.rcpx */,
+			);
+			path = Palettes;
+			sourceTree = "<group>";
+		};
+		0439F00D248F6C0500206652 /* RCPX */ = {
+			isa = PBXGroup;
+			children = (
+				044CF8C6248F7F6D00B8779B /* RCPX.h */,
+				0439F011248F72CE00206652 /* RCPXBorder.h */,
+				0439F012248F72CE00206652 /* RCPXBorder.m */,
+				0439F00E248F6CDF00206652 /* RCPXColor.h */,
+				0439F00F248F6CDF00206652 /* RCPXColor.m */,
+				044CF8D12491B46C00B8779B /* RCPXLayout.h */,
+				044CF8D22491B46C00B8779B /* RCPXLayout.m */,
+				044CF8D72491BEDA00B8779B /* RCPXLayoutOrSwatch.h */,
+				044CF8D82491BEDA00B8779B /* RCPXLayoutOrSwatch.m */,
+				044CF8E02492D24E00B8779B /* RCPXPalette.h */,
+				044CF8E12492D24E00B8779B /* RCPXPalette.m */,
+				044CF8E32492DE6C00B8779B /* RCPXParser.h */,
+				044CF8E42492DE6C00B8779B /* RCPXParser.m */,
+				044CF8CA24909E7500B8779B /* RCPXShape.h */,
+				044CF8CB24909E7500B8779B /* RCPXShape.m */,
+				044CF8D42491B6AE00B8779B /* RCPXSwatch.h */,
+				044CF8D52491B6AE00B8779B /* RCPXSwatch.m */,
+				044CF8DD249256DF00B8779B /* RCPXUtilities.h */,
+				044CF8DE249256DF00B8779B /* RCPXUtilities.m */,
+			);
+			path = RCPX;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		040F804C248F40A400BAB402 /* ColorSwatches */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 040F805F248F40A400BAB402 /* Build configuration list for PBXNativeTarget "ColorSwatches" */;
+			buildPhases = (
+				040F8049248F40A400BAB402 /* Sources */,
+				040F804A248F40A400BAB402 /* Frameworks */,
+				040F804B248F40A400BAB402 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ColorSwatches;
+			productName = ColorSwatches;
+			productReference = 040F804D248F40A400BAB402 /* ColorSwatches.colorPicker */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		040F8044248F40A400BAB402 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Kreative Korporation";
+			};
+			buildConfigurationList = 040F8047248F40A400BAB402 /* Build configuration list for PBXProject "ColorSwatches" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 040F8042248F40A400BAB402;
+			productRefGroup = 040F804E248F40A400BAB402 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				040F804C248F40A400BAB402 /* ColorSwatches */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		040F804B248F40A400BAB402 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				040F805B248F40A400BAB402 /* InfoPlist.strings in Resources */,
+				040F8065248F437800BAB402 /* ColorSwatches.xib in Resources */,
+				04029E4D2494D32100FB865B /* 002CubicProcess.rcpx in Resources */,
+				04029E4E2494D32100FB865B /* 003Cubic.rcpx in Resources */,
+				04029E4F2494D32100FB865B /* 004Cubic.rcpx in Resources */,
+				04029E502494D32100FB865B /* 005Cubic.rcpx in Resources */,
+				04029E512494D32100FB865B /* 006CubicWebSafe.rcpx in Resources */,
+				04029E552494D32100FB865B /* 102ConicProcess.rcpx in Resources */,
+				04029E562494D32100FB865B /* 103Conic.rcpx in Resources */,
+				04029E572494D32100FB865B /* 104Conic.rcpx in Resources */,
+				04029E582494D32100FB865B /* 105Conic.rcpx in Resources */,
+				04029E592494D32100FB865B /* 106ConicWebSafe.rcpx in Resources */,
+				04029E5D2494D32100FB865B /* A64.rcpx in Resources */,
+				04029E5E2494D32100FB865B /* AAP16.rcpx in Resources */,
+				04029E5F2494D32100FB865B /* AAP64.rcpx in Resources */,
+				04029E602494D32100FB865B /* Acorn2Bit.rcpx in Resources */,
+				04029E612494D32100FB865B /* Acorn4Bit.rcpx in Resources */,
+				04029E622494D32100FB865B /* Acorn8Bit.rcpx in Resources */,
+				04029E632494D32100FB865B /* AcornReorganized.rcpx in Resources */,
+				04029E642494D32100FB865B /* AddColor.rcpx in Resources */,
+				04029E652494D32100FB865B /* AndrewKensler16.rcpx in Resources */,
+				04029E662494D32100FB865B /* AndrewKensler32.rcpx in Resources */,
+				04029E672494D32100FB865B /* AndrewKensler54.rcpx in Resources */,
+				04029E682494D32100FB865B /* ANSI4Bit~CMD.rcpx in Resources */,
+				04029E692494D32100FB865B /* ANSI4Bit~mIRC.rcpx in Resources */,
+				04029E6A2494D32100FB865B /* ANSI4Bit~PuTTY.rcpx in Resources */,
+				04029E6B2494D32100FB865B /* ANSI4Bit~Terminal.rcpx in Resources */,
+				04029E6C2494D32100FB865B /* ANSI4Bit~Ubuntu.rcpx in Resources */,
+				04029E6D2494D32100FB865B /* ANSI4Bit~VGA.rcpx in Resources */,
+				04029E6E2494D32100FB865B /* ANSI4Bit~xterm.rcpx in Resources */,
+				04029E6F2494D32100FB865B /* ANSI8Bit~CMD.rcpx in Resources */,
+				04029E702494D32100FB865B /* ANSI8Bit~mIRC.rcpx in Resources */,
+				04029E712494D32100FB865B /* ANSI8Bit~PuTTY.rcpx in Resources */,
+				04029E722494D32100FB865B /* ANSI8Bit~Terminal.rcpx in Resources */,
+				04029E732494D32100FB865B /* ANSI8Bit~Ubuntu.rcpx in Resources */,
+				04029E742494D32100FB865B /* ANSI8Bit~VGA.rcpx in Resources */,
+				04029E752494D32100FB865B /* ANSI8Bit~xterm.rcpx in Resources */,
+				04029E762494D32100FB865B /* AppleIconColors.rcpx in Resources */,
+				04029E772494D32100FB865B /* AppleII~ApplePC.rcpx in Resources */,
+				04029E782494D32100FB865B /* AppleII~Bettencourt.rcpx in Resources */,
+				04029E792494D32100FB865B /* AppleII~Munafo.rcpx in Resources */,
+				04029E7A2494D32100FB865B /* AppleII~Ticmanis~SMPTE1979.rcpx in Resources */,
+				04029E7B2494D32100FB865B /* AppleII~Ticmanis~sRGB.rcpx in Resources */,
+				04029E7C2494D32100FB865B /* AppleII~Wikipedia.rcpx in Resources */,
+				04029E7D2494D32100FB865B /* AppleWorks.rcpx in Resources */,
+				04029E7E2494D32100FB865B /* AppleWorks~16Colors.rcpx in Resources */,
+				04029E7F2494D32100FB865B /* AppleWorks~240Grays&16Colors.rcpx in Resources */,
+				04029E802494D32100FB865B /* AppleWorks~BrightColors.rcpx in Resources */,
+				04029E812494D32100FB865B /* AppleWorks~CyanToBlue.rcpx in Resources */,
+				04029E822494D32100FB865B /* AppleWorks~EarthTones.rcpx in Resources */,
+				04029E832494D32100FB865B /* AppleWorks~MidTones.rcpx in Resources */,
+				04029E842494D32100FB865B /* AppleWorks~PastelColors.rcpx in Resources */,
+				04029E852494D32100FB865B /* AppleWorks~Presentation.rcpx in Resources */,
+				04029E862494D32100FB865B /* AppleWorks~RedToYellow.rcpx in Resources */,
+				04029E872494D32100FB865B /* AppleWorks~VioletToMagenta.rcpx in Resources */,
+				04029E882494D32100FB865B /* AppleWorks~VividColors.rcpx in Resources */,
+				04029E892494D32100FB865B /* AppleWorks~YellowGreen&GreenBlue.rcpx in Resources */,
+				04029E8A2494D32100FB865B /* Arne16.rcpx in Resources */,
+				04029E8B2494D32100FB865B /* Arne32.rcpx in Resources */,
+				04029E8C2494D32100FB865B /* ARQ04.rcpx in Resources */,
+				04029E8D2494D32100FB865B /* ARQ16.rcpx in Resources */,
+				04029E8E2494D32100FB865B /* AutoCAD.rcpx in Resources */,
+				04029ECA2494D32100FB865B /* Black&White~BlackFirst.rcpx in Resources */,
+				04029ECB2494D32100FB865B /* Black&White~WhiteFirst.rcpx in Resources */,
+				04029ECC2494D32100FB865B /* BlackBodyMC150.rcpx in Resources */,
+				04029ECD2494D32100FB865B /* BlackBodyMCContinuous.rcpx in Resources */,
+				04029ECE2494D32100FB865B /* BlackBodyPS256.rcpx in Resources */,
+				04029ECF2494D32100FB865B /* BlackBodyPSContinuous.rcpx in Resources */,
+				04029ED02494D32100FB865B /* CGA~Genuine.rcpx in Resources */,
+				04029ED12494D32100FB865B /* CGA~Imitation.rcpx in Resources */,
+				04029ED22494D32100FB865B /* CGA~Windows.rcpx in Resources */,
+				04029ED32494D32100FB865B /* CGArne.rcpx in Resources */,
+				04029ED42494D32100FB865B /* CGArne~CGAOrder.rcpx in Resources */,
+				04029ED52494D32100FB865B /* Chip16.rcpx in Resources */,
+				04029ED62494D32100FB865B /* ClarisWorks.rcpx in Resources */,
+				04029ED72494D32100FB865B /* ColorIt~EarthTones.rcpx in Resources */,
+				04029ED82494D32100FB865B /* ColorIt~FleshTones.rcpx in Resources */,
+				04029ED92494D32100FB865B /* ColorIt~PastelHues.rcpx in Resources */,
+				04029EDA2494D32100FB865B /* ColorIt~VividHues.rcpx in Resources */,
+				04029EDB2494D32100FB865B /* CommanderX16~4Bit.rcpx in Resources */,
+				04029EDC2494D32100FB865B /* CommanderX16~8Bit.rcpx in Resources */,
+				04029EDD2494D32100FB865B /* CommanderX16~8Bit~WebSafe.rcpx in Resources */,
+				04029EDE2494D32100FB865B /* Commodore16.rcpx in Resources */,
+				04029EDF2494D32100FB865B /* Commodore64~GraphicConverter.rcpx in Resources */,
+				04029EE02494D32100FB865B /* Commodore64~Wikipedia.rcpx in Resources */,
+				04029EE12494D32100FB865B /* CommodoreVIC20~Wikipedia.rcpx in Resources */,
+				04029EE22494D32100FB865B /* CopperTech.rcpx in Resources */,
+				04029EE32494D32100FB865B /* CPCBoy.rcpx in Resources */,
+				04029EE42494D32100FB865B /* CSS.rcpx in Resources */,
+				04029EE52494D32100FB865B /* CTIANTSC247Desaturated.rcpx in Resources */,
+				04029EE62494D32100FB865B /* CTIANTSC247Saturated.rcpx in Resources */,
+				04029EE72494D32100FB865B /* CTIANTSC257Desaturated.rcpx in Resources */,
+				04029EE82494D32100FB865B /* CTIANTSC257Saturated.rcpx in Resources */,
+				04029EE92494D32100FB865B /* CTIANTSC267Desaturated.rcpx in Resources */,
+				04029EEA2494D32100FB865B /* CTIANTSC267Saturated.rcpx in Resources */,
+				04029EEB2494D32100FB865B /* CTIANTSC277Desaturated.rcpx in Resources */,
+				04029EEC2494D32100FB865B /* CTIANTSC277Saturated.rcpx in Resources */,
+				04029EED2494D32100FB865B /* CTIAPAL247Desaturated.rcpx in Resources */,
+				04029EEE2494D32100FB865B /* CTIAPAL247Saturated.rcpx in Resources */,
+				04029EEF2494D32100FB865B /* CTIAPAL257Desaturated.rcpx in Resources */,
+				04029EF02494D32100FB865B /* CTIAPAL257Saturated.rcpx in Resources */,
+				04029EF12494D32100FB865B /* CTIAPAL267Desaturated.rcpx in Resources */,
+				04029EF22494D32100FB865B /* CTIAPAL267Saturated.rcpx in Resources */,
+				04029EF32494D32100FB865B /* CTIAPAL277Desaturated.rcpx in Resources */,
+				04029EF42494D32100FB865B /* CTIAPAL277Saturated.rcpx in Resources */,
+				04029EF52494D32100FB865B /* CubeSides.rcpx in Resources */,
+				04029EF62494D32100FB865B /* DawnBringer08.rcpx in Resources */,
+				04029EF72494D32100FB865B /* DawnBringer16.rcpx in Resources */,
+				04029EF82494D32100FB865B /* DawnBringer32.rcpx in Resources */,
+				04029EF92494D32100FB865B /* DStudio.rcpx in Resources */,
+				04029EFA2494D32100FB865B /* EGA.rcpx in Resources */,
+				04029EFB2494D32100FB865B /* EN04.rcpx in Resources */,
+				04029EFC2494D32100FB865B /* Endesga08.rcpx in Resources */,
+				04029EFD2494D32100FB865B /* Endesga16.rcpx in Resources */,
+				04029EFE2494D32100FB865B /* Endesga32.rcpx in Resources */,
+				04029EFF2494D32100FB865B /* Endesga36.rcpx in Resources */,
+				04029F002494D32100FB865B /* Endesga64.rcpx in Resources */,
+				04029F012494D32100FB865B /* EndesgaSoft16.rcpx in Resources */,
+				04029F022494D32100FB865B /* ENOS16.rcpx in Resources */,
+				04029F032494D32100FB865B /* ErogeCopper.rcpx in Resources */,
+				04029F042494D32100FB865B /* FalseColorSpectrum.rcpx in Resources */,
+				04029F052494D32100FB865B /* Famicube.rcpx in Resources */,
+				04029F062494D32100FB865B /* Felice.rcpx in Resources */,
+				04029F072494D32100FB865B /* GIMP~Bears.rcpx in Resources */,
+				04029F082494D32100FB865B /* GIMP~Bgold.rcpx in Resources */,
+				04029F092494D32100FB865B /* GIMP~Blues.rcpx in Resources */,
+				04029F0A2494D32100FB865B /* GIMP~Borders.rcpx in Resources */,
+				04029F0B2494D32100FB865B /* GIMP~Browns&Yellows.rcpx in Resources */,
+				04029F0C2494D32100FB865B /* GIMP~Caramel.rcpx in Resources */,
+				04029F0D2494D32100FB865B /* GIMP~Cascade.rcpx in Resources */,
+				04029F0E2494D32100FB865B /* GIMP~China.rcpx in Resources */,
+				04029F0F2494D32100FB865B /* GIMP~Coldfire.rcpx in Resources */,
+				04029F102494D32100FB865B /* GIMP~CoolColors.rcpx in Resources */,
+				04029F112494D32100FB865B /* GIMP~Cranes.rcpx in Resources */,
+				04029F122494D32100FB865B /* GIMP~DarkPastels.rcpx in Resources */,
+				04029F132494D32100FB865B /* GIMP~Default.rcpx in Resources */,
+				04029F142494D32100FB865B /* GIMP~Ega.rcpx in Resources */,
+				04029F152494D32100FB865B /* GIMP~Firecode.rcpx in Resources */,
+				04029F162494D32100FB865B /* GIMP~Gold.rcpx in Resources */,
+				04029F172494D32100FB865B /* GIMP~Grayblue.rcpx in Resources */,
+				04029F182494D32100FB865B /* GIMP~Grays.rcpx in Resources */,
+				04029F192494D32100FB865B /* GIMP~GrayViolet.rcpx in Resources */,
+				04029F1A2494D32100FB865B /* GIMP~Greens.rcpx in Resources */,
+				04029F1B2494D32100FB865B /* GIMP~Hilite.rcpx in Resources */,
+				04029F1C2494D32100FB865B /* GIMP~Khaki.rcpx in Resources */,
+				04029F1D2494D32100FB865B /* GIMP~Lights.rcpx in Resources */,
+				04029F1E2494D32100FB865B /* GIMP~Muted.rcpx in Resources */,
+				04029F1F2494D32100FB865B /* GIMP~NamedColors.rcpx in Resources */,
+				04029F202494D32100FB865B /* GIMP~News3.rcpx in Resources */,
+				04029F212494D32100FB865B /* GIMP~Op2.rcpx in Resources */,
+				04029F222494D32100FB865B /* GIMP~Paintjet.rcpx in Resources */,
+				04029F232494D32100FB865B /* GIMP~Pastels.rcpx in Resources */,
+				04029F242494D32100FB865B /* GIMP~Plasma.rcpx in Resources */,
+				04029F252494D32100FB865B /* GIMP~Reds.rcpx in Resources */,
+				04029F262494D32100FB865B /* GIMP~Reds&Purples.rcpx in Resources */,
+				04029F272494D32100FB865B /* GIMP~Royal.rcpx in Resources */,
+				04029F282494D32100FB865B /* GIMP~Tango.rcpx in Resources */,
+				04029F292494D32100FB865B /* GIMP~Topographic.rcpx in Resources */,
+				04029F2A2494D32100FB865B /* GIMP~Volcano.rcpx in Resources */,
+				04029F2B2494D32100FB865B /* GIMP~WarmColors.rcpx in Resources */,
+				04029F2C2494D32100FB865B /* Gmail.rcpx in Resources */,
+				04029F2D2494D32100FB865B /* Gmail~Extended.rcpx in Resources */,
+				04029F2E2494D32100FB865B /* GoogleCalendar~Newer.rcpx in Resources */,
+				04029F2F2494D32100FB865B /* GoogleCalendar~Older.rcpx in Resources */,
+				04029F302494D32100FB865B /* GoogleDocs.rcpx in Resources */,
+				04029F312494D32100FB865B /* Grayscale2Bit~BlackFirst.rcpx in Resources */,
+				04029F322494D32100FB865B /* Grayscale2Bit~WhiteFirst.rcpx in Resources */,
+				04029F332494D32100FB865B /* Grayscale4Bit~BlackFirst.rcpx in Resources */,
+				04029F342494D32100FB865B /* Grayscale4Bit~WhiteFirst.rcpx in Resources */,
+				04029F352494D32100FB865B /* Grayscale6Bit~BlackFirst.rcpx in Resources */,
+				04029F362494D32100FB865B /* Grayscale6Bit~WhiteFirst.rcpx in Resources */,
+				04029F372494D32100FB865B /* Grayscale8Bit~BlackFirst.rcpx in Resources */,
+				04029F382494D32100FB865B /* Grayscale8Bit~WhiteFirst.rcpx in Resources */,
+				04029F392494D32100FB865B /* Grayscales.rcpx in Resources */,
+				04029F3A2494D32100FB865B /* GTIANTSC.rcpx in Resources */,
+				04029F3B2494D32100FB865B /* GTIAPAL.rcpx in Resources */,
+				04029F3C2494D32100FB865B /* HEPT32.rcpx in Resources */,
+				04029F3D2494D32100FB865B /* HiMom.rcpx in Resources */,
+				04029F3E2494D32100FB865B /* HTML.rcpx in Resources */,
+				04029F3F2494D32100FB865B /* Iconographer.rcpx in Resources */,
+				04029F402494D32100FB865B /* ImageWriterII.rcpx in Resources */,
+				04029F412494D32100FB865B /* JavaDefaultIndexed.rcpx in Resources */,
+				04029F422494D32100FB865B /* JavaSwing.rcpx in Resources */,
+				04029F432494D32100FB865B /* JMPJapaneseMachinePalette.rcpx in Resources */,
+				04029F442494D32100FB865B /* KDE.rcpx in Resources */,
+				04029F452494D32100FB865B /* KidPix16Colors.rcpx in Resources */,
+				04029F462494D32100FB865B /* KidPix36Colors.rcpx in Resources */,
+				04029F472494D32100FB865B /* KidPixDisplay16.rcpx in Resources */,
+				04029F482494D32100FB865B /* KidPixImageWriterII.rcpx in Resources */,
+				04029F492494D32100FB865B /* KidPixStudio.rcpx in Resources */,
+				04029F4A2494D32100FB865B /* MacOS2Bit.rcpx in Resources */,
+				04029F4B2494D32100FB865B /* MacOS4Bit.rcpx in Resources */,
+				04029F4C2494D32100FB865B /* MacOS4Bit~CGAOrder.rcpx in Resources */,
+				04029F4D2494D32100FB865B /* MacOS8Bit.rcpx in Resources */,
+				04029F4E2494D32100FB865B /* MacOSClassicCrayons.rcpx in Resources */,
+				04029F4F2494D32100FB865B /* MacOSXBasic.rcpx in Resources */,
+				04029F502494D32100FB865B /* MacOSXCrayons.rcpx in Resources */,
+				04029F512494D32100FB865B /* MagicalMonsterKinds.rcpx in Resources */,
+				04029F522494D32100FB865B /* MarioPaint.rcpx in Resources */,
+				04029F532494D32100FB865B /* MaterialDesign.rcpx in Resources */,
+				04029F542494D32100FB865B /* MaterialDesign~Raw.rcpx in Resources */,
+				04029F552494D32100FB865B /* MikaCity~MCCE.rcpx in Resources */,
+				04029F562494D32100FB865B /* MonochromeP1.rcpx in Resources */,
+				04029F572494D32100FB865B /* MonochromeP1~2Bit.rcpx in Resources */,
+				04029F582494D32100FB865B /* MonochromeP1~4Bit.rcpx in Resources */,
+				04029F592494D32100FB865B /* MonochromeP1~6Bit.rcpx in Resources */,
+				04029F5A2494D32100FB865B /* MonochromeP1~8Bit.rcpx in Resources */,
+				04029F5B2494D32100FB865B /* MonochromeP2.rcpx in Resources */,
+				04029F5C2494D32100FB865B /* MonochromeP2~2Bit.rcpx in Resources */,
+				04029F5D2494D32100FB865B /* MonochromeP2~4Bit.rcpx in Resources */,
+				04029F5E2494D32100FB865B /* MonochromeP2~6Bit.rcpx in Resources */,
+				04029F5F2494D32100FB865B /* MonochromeP2~8Bit.rcpx in Resources */,
+				04029F602494D32100FB865B /* MonochromeP3.rcpx in Resources */,
+				04029F612494D32100FB865B /* MonochromeP3~2Bit.rcpx in Resources */,
+				04029F622494D32100FB865B /* MonochromeP3~4Bit.rcpx in Resources */,
+				04029F632494D32100FB865B /* MonochromeP3~6Bit.rcpx in Resources */,
+				04029F642494D32100FB865B /* MonochromeP3~8Bit.rcpx in Resources */,
+				04029F652494D32100FB865B /* MSPaint.rcpx in Resources */,
+				04029F662494D32100FB865B /* MSPaint~Extended.rcpx in Resources */,
+				04029F672494D32100FB865B /* MSPaint~Vista.rcpx in Resources */,
+				04029F682494D32100FB865B /* MSPaint~Windows7.rcpx in Resources */,
+				04029F692494D32100FB865B /* MSX.rcpx in Resources */,
+				04029F6A2494D32100FB865B /* MSX2.rcpx in Resources */,
+				04029F6B2494D32100FB865B /* NES~Nesdev~2C02.rcpx in Resources */,
+				04029F6C2494D32100FB865B /* NES~Nesdev~2C03.rcpx in Resources */,
+				04029F6D2494D32100FB865B /* NES~Nesdev~2C04.rcpx in Resources */,
+				04029F6E2494D32100FB865B /* NES~Nesdev~RP2C04~0001.rcpx in Resources */,
+				04029F6F2494D32100FB865B /* NES~Nesdev~RP2C04~0002.rcpx in Resources */,
+				04029F702494D32100FB865B /* NES~Nesdev~RP2C04~0003.rcpx in Resources */,
+				04029F712494D32100FB865B /* NES~Nesdev~RP2C04~0004.rcpx in Resources */,
+				04029F722494D32100FB865B /* NES~Tersigni.rcpx in Resources */,
+				04029F732494D32100FB865B /* NES~Wikipedia.rcpx in Resources */,
+				04029F742494D32100FB865B /* Netscape.rcpx in Resources */,
+				04029F752494D32100FB865B /* NewHorizons01.rcpx in Resources */,
+				04029F762494D32100FB865B /* NewHorizons02.rcpx in Resources */,
+				04029F772494D32100FB865B /* NewHorizons03.rcpx in Resources */,
+				04029F782494D32100FB865B /* NewHorizons04.rcpx in Resources */,
+				04029F792494D32100FB865B /* NewHorizons05.rcpx in Resources */,
+				04029F7A2494D32100FB865B /* NewHorizons06.rcpx in Resources */,
+				04029F7B2494D32100FB865B /* NewHorizons07.rcpx in Resources */,
+				04029F7C2494D32100FB865B /* NewHorizons08.rcpx in Resources */,
+				04029F7D2494D32100FB865B /* NewHorizons09.rcpx in Resources */,
+				04029F7E2494D32100FB865B /* NewHorizons10.rcpx in Resources */,
+				04029F7F2494D32100FB865B /* NewHorizons11.rcpx in Resources */,
+				04029F802494D32100FB865B /* NewHorizons12.rcpx in Resources */,
+				04029F812494D32100FB865B /* NewHorizons13.rcpx in Resources */,
+				04029F822494D32100FB865B /* NewHorizons14.rcpx in Resources */,
+				04029F832494D32100FB865B /* NewLeaf.rcpx in Resources */,
+				04029F842494D32100FB865B /* NTSC~CurrierRec601NoSetup.rcpx in Resources */,
+				04029F852494D32100FB865B /* NTSC~CurrierRec601WithSetup.rcpx in Resources */,
+				04029F862494D32100FB865B /* NTSC~CurrierRGBNoSetup.rcpx in Resources */,
+				04029F872494D32100FB865B /* NTSC~CurrierRGBWithSetup.rcpx in Resources */,
+				04029F882494D32100FB865B /* NTSC~DVHandbook.rcpx in Resources */,
+				04029F892494D32100FB865B /* NTSC~GreatDV.rcpx in Resources */,
+				04029F8A2494D32100FB865B /* NTSC~KreativeKorp.rcpx in Resources */,
+				04029F8B2494D32100FB865B /* NTSC~MediaCollege.rcpx in Resources */,
+				04029F8C2494D32100FB865B /* NTSC~MicroImage.rcpx in Resources */,
+				04029F8D2494D32100FB865B /* NTSC~Munafo.rcpx in Resources */,
+				04029F8E2494D32100FB865B /* NTSC~RGB.rcpx in Resources */,
+				04029F8F2494D32100FB865B /* NTSC~VideoUniversity.rcpx in Resources */,
+				04029F902494D32100FB865B /* NTSC~Wikipedia.rcpx in Resources */,
+				04029F912494D32100FB865B /* NTSC~Wilt.rcpx in Resources */,
+				04029F922494D32100FB865B /* Office.rcpx in Resources */,
+				04029F932494D32100FB865B /* Office~Extended.rcpx in Resources */,
+				04029F942494D32100FB865B /* Office~Highlighter.rcpx in Resources */,
+				04029F952494D32100FB865B /* Office2008.rcpx in Resources */,
+				04029FC72494D32100FB865B /* OpenColor.rcpx in Resources */,
+				04029FC82494D32100FB865B /* Palm4Bit.rcpx in Resources */,
+				04029FC92494D32100FB865B /* Palm8Bit.rcpx in Resources */,
+				04029FCA2494D32100FB865B /* PalmReorganized.rcpx in Resources */,
+				04029FCB2494D32100FB865B /* Pebble.rcpx in Resources */,
+				04029FCC2494D32100FB865B /* Pebble~Sunny.rcpx in Resources */,
+				04029FCD2494D32100FB865B /* Photoshop.rcpx in Resources */,
+				04029FCE2494D32100FB865B /* PICO8.rcpx in Resources */,
+				04029FCF2494D32100FB865B /* PodPaint.rcpx in Resources */,
+				04029FD02494D32100FB865B /* Psygnosia.rcpx in Resources */,
+				04029FD12494D32100FB865B /* QuickDraw.rcpx in Resources */,
+				04029FD22494D32100FB865B /* R~Alphabet1.rcpx in Resources */,
+				04029FD32494D32100FB865B /* R~Alphabet2.rcpx in Resources */,
+				04029FD42494D32100FB865B /* R~Cols25.rcpx in Resources */,
+				04029FD52494D32100FB865B /* R~Glasbey.rcpx in Resources */,
+				04029FD62494D32100FB865B /* R~Kelly.rcpx in Resources */,
+				04029FD72494D32100FB865B /* R~Polychrome.rcpx in Resources */,
+				04029FD82494D32100FB865B /* R~Stepped.rcpx in Resources */,
+				04029FD92494D32100FB865B /* R~Tol.rcpx in Resources */,
+				04029FDA2494D32100FB865B /* R~Watlington.rcpx in Resources */,
+				04029FDB2494D32100FB865B /* R3G3B2.rcpx in Resources */,
+				04029FDC2494D32100FB865B /* Rayalaka.rcpx in Resources */,
+				04029FDD2494D32100FB865B /* Resplendence.rcpx in Resources */,
+				04029FDE2494D32100FB865B /* Sabine4Bit.rcpx in Resources */,
+				04029FDF2494D32100FB865B /* SabineASCII.rcpx in Resources */,
+				04029FE02494D32100FB865B /* SabineReorganized.rcpx in Resources */,
+				04029FE12494D32100FB865B /* SAMCoupe.rcpx in Resources */,
+				04029FE22494D32100FB865B /* Sepia2Bit~BlackFirst.rcpx in Resources */,
+				04029FE32494D32100FB865B /* Sepia2Bit~WhiteFirst.rcpx in Resources */,
+				04029FE42494D32100FB865B /* Sepia4Bit~BlackFirst.rcpx in Resources */,
+				04029FE52494D32100FB865B /* Sepia4Bit~WhiteFirst.rcpx in Resources */,
+				04029FE62494D32100FB865B /* Sepia6Bit~BlackFirst.rcpx in Resources */,
+				04029FE72494D32100FB865B /* Sepia6Bit~WhiteFirst.rcpx in Resources */,
+				04029FE82494D32100FB865B /* Sepia8Bit~BlackFirst.rcpx in Resources */,
+				04029FE92494D32100FB865B /* Sepia8Bit~WhiteFirst.rcpx in Resources */,
+				04029FEA2494D32100FB865B /* SFSUTOSSpring2011.rcpx in Resources */,
+				04029FEB2494D32100FB865B /* ShareDraw16Colors.rcpx in Resources */,
+				04029FEC2494D32100FB865B /* ShareDraw256Colors.rcpx in Resources */,
+				04029FED2494D32100FB865B /* Solarized.rcpx in Resources */,
+				04029FEE2494D32100FB865B /* Spectrum.rcpx in Resources */,
+				04029FEF2494D32100FB865B /* SuperFuture25.rcpx in Resources */,
+				04029FF02494D32100FB865B /* SuperPaint.rcpx in Resources */,
+				04029FF12494D32100FB865B /* SuperPaint~BlueIce.rcpx in Resources */,
+				04029FF22494D32100FB865B /* SuperPaint~BrightRainbow.rcpx in Resources */,
+				04029FF32494D32100FB865B /* SuperPaint~Cocoa.rcpx in Resources */,
+				04029FF42494D32100FB865B /* SuperPaint~ComplementaryColors.rcpx in Resources */,
+				04029FF52494D32100FB865B /* SuperPaint~Cosmetics.rcpx in Resources */,
+				04029FF62494D32100FB865B /* SuperPaint~Ochres.rcpx in Resources */,
+				04029FF72494D32100FB865B /* SuperPaint~PastelChalk.rcpx in Resources */,
+				04029FF82494D32100FB865B /* SuperPaint~PastelPaint.rcpx in Resources */,
+				04029FF92494D32100FB865B /* SuperPaint~RGB.rcpx in Resources */,
+				04029FFA2494D32100FB865B /* SuperPaint~Sand.rcpx in Resources */,
+				04029FFB2494D32100FB865B /* SuperPaint~Spectrum.rcpx in Resources */,
+				04029FFC2494D32100FB865B /* SuperPaint~Spectrum~Blues.rcpx in Resources */,
+				04029FFD2494D32100FB865B /* SuperPaint~Spectrum~Light.rcpx in Resources */,
+				04029FFE2494D32100FB865B /* SuperPaint~SummerColors.rcpx in Resources */,
+				04029FFF2494D32100FB865B /* Tango.rcpx in Resources */,
+				0402A0002494D32100FB865B /* Thomson.rcpx in Resources */,
+				0402A0012494D32100FB865B /* Tinkercad.rcpx in Resources */,
+				0402A0022494D32100FB865B /* Trubetskoy.rcpx in Resources */,
+				0402A0032494D32100FB865B /* Vexillo.rcpx in Resources */,
+				0402A0042494D32100FB865B /* VGA~Genuine.rcpx in Resources */,
+				0402A0052494D32100FB865B /* VGA~Imitation.rcpx in Resources */,
+				0402A0062494D32100FB865B /* VGA~WebSafe.rcpx in Resources */,
+				0402A0072494D32100FB865B /* VGA~Windows.rcpx in Resources */,
+				0402A0082494D32100FB865B /* VisiBone1.rcpx in Resources */,
+				0402A0092494D32100FB865B /* VisiBone2.rcpx in Resources */,
+				0402A00A2494D32100FB865B /* VisiBoneHexagonal1.rcpx in Resources */,
+				0402A00B2494D32100FB865B /* VisiBoneHexagonal2.rcpx in Resources */,
+				0402A00C2494D32100FB865B /* W3Schools.rcpx in Resources */,
+				0402A00D2494D32100FB865B /* Wad.rcpx in Resources */,
+				0402A00E2494D32100FB865B /* WebReallySafeColors.rcpx in Resources */,
+				0402A00F2494D32100FB865B /* Windows4Bit.rcpx in Resources */,
+				0402A0102494D32100FB865B /* Windows8Bit.rcpx in Resources */,
+				0402A0112494D32100FB865B /* Windows8Bit~GraphicConverterNewer.rcpx in Resources */,
+				0402A0122494D32100FB865B /* Windows8Bit~GraphicConverterOlder.rcpx in Resources */,
+				0402A0132494D32100FB865B /* Windows8Bit~Photoshop.rcpx in Resources */,
+				0402A0142494D32100FB865B /* WindowsXPIconColors.rcpx in Resources */,
+				0402A0152494D32100FB865B /* X11Complete.rcpx in Resources */,
+				0402A0162494D32100FB865B /* X11Normalized.rcpx in Resources */,
+				0402A0172494D32100FB865B /* X11Simple.rcpx in Resources */,
+				0402A0182494D32100FB865B /* XKCD0016.rcpx in Resources */,
+				0402A0192494D32100FB865B /* XKCD0064.rcpx in Resources */,
+				0402A01A2494D32100FB865B /* XKCD0256.rcpx in Resources */,
+				0402A01B2494D32100FB865B /* XKCD1000.rcpx in Resources */,
+				0402A01C2494D32100FB865B /* ZXSpectrum.rcpx in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		040F8049248F40A400BAB402 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				041B5589249371AF00B13BDA /* ColorSwatches.m in Sources */,
+				04E27D92248F47C3009EA332 /* RCPXView.m in Sources */,
+				0439F013248F72CE00206652 /* RCPXBorder.m in Sources */,
+				0439F010248F6CDF00206652 /* RCPXColor.m in Sources */,
+				044CF8D32491B46C00B8779B /* RCPXLayout.m in Sources */,
+				044CF8D92491BEDA00B8779B /* RCPXLayoutOrSwatch.m in Sources */,
+				044CF8E22492D24E00B8779B /* RCPXPalette.m in Sources */,
+				044CF8E52492DE6C00B8779B /* RCPXParser.m in Sources */,
+				044CF8CC24909E7500B8779B /* RCPXShape.m in Sources */,
+				044CF8D62491B6AE00B8779B /* RCPXSwatch.m in Sources */,
+				044CF8DF249256DF00B8779B /* RCPXUtilities.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		040F8059248F40A400BAB402 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				040F805A248F40A400BAB402 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		040F805D248F40A400BAB402 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		040F805E248F40A400BAB402 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		040F8060248F40A400BAB402 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ColorSwatches/ColorSwatches-Prefix.pch";
+				INFOPLIST_FILE = "ColorSwatches/ColorSwatches-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/ColorPickers";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = colorPicker;
+			};
+			name = Debug;
+		};
+		040F8061248F40A400BAB402 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ColorSwatches/ColorSwatches-Prefix.pch";
+				INFOPLIST_FILE = "ColorSwatches/ColorSwatches-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/ColorPickers";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = colorPicker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		040F8047248F40A400BAB402 /* Build configuration list for PBXProject "ColorSwatches" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				040F805D248F40A400BAB402 /* Debug */,
+				040F805E248F40A400BAB402 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		040F805F248F40A400BAB402 /* Build configuration list for PBXNativeTarget "ColorSwatches" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				040F8060248F40A400BAB402 /* Debug */,
+				040F8061248F40A400BAB402 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 040F8044248F40A400BAB402 /* Project object */;
+}
